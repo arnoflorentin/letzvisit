@@ -175,6 +175,7 @@
             border-bottom: 3px solid #667eea;
             text-align: center;
             letter-spacing: 5px;
+            scroll-margin-top: 20px;
         }
         
         footer {
@@ -230,7 +231,6 @@
         </div>
         
         <div class="alphabet-nav" id="alphabetNav">
-            <!-- Alphabet navigation will be generated dynamically -->
         </div>
         
         <div class="stats">
@@ -4762,7 +4762,7 @@
     </div>
     
     <script>
-        // Generate alphabet navigation
+        // Générer la navigation alphabétique
         const alphabetNav = document.getElementById('alphabetNav');
         const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Z'];
         letters.forEach(letter => {
@@ -4772,11 +4772,11 @@
             alphabetNav.appendChild(link);
         });
         
-        // Update total count
+        // Mettre à jour le compteur
         const totalEntries = document.querySelectorAll('.entry').length;
         document.getElementById('totalCount').textContent = totalEntries;
         
-        // Search functionality
+        // Fonction de recherche
         function searchEntries() {
             const input = document.getElementById('searchInput');
             const filter = input.value.toLowerCase();
@@ -4794,14 +4794,14 @@
             }
         }
         
-        // Smooth scroll for alphabet links
+        // Défilement INSTANTANÉ (sans smooth)
         document.querySelectorAll('.alphabet-nav a').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const targetId = this.getAttribute('href').substring(1);
                 const targetElement = document.getElementById(targetId);
                 if (targetElement) {
-                    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    targetElement.scrollIntoView({ behavior: 'auto', block: 'start' });
                 }
             });
         });
