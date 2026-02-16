@@ -1,0 +1,43 @@
+ACROLITH
+FR : Acrolithe — Statue antique dont les parties visibles (tête, mains, pieds) sont en pierre tandis que le corps était réalisé en bois ou en matériau léger. Cette technique permettait de réduire les coûts tout en conservant une apparence monumentale. Les acrolithes étaient fréquents dans les grands sanctuaires grecs.
+RU : Акролит — античная статуя, у которой видимые части (голова, руки, ноги) выполнены из камня, а остальное тело изготовлено из дерева или лёгких материалов. Такая техника позволяла удешевить производство, сохраняя монументальный вид.
+
+ACROPOLIS LIMESTONE
+FR : Calcaire de l’Acropole — Pierre locale jaunâtre utilisée dans les premières constructions d’Athènes avant l’emploi massif du marbre pentélique. On la retrouve dans les structures archaïques du site.
+RU : Известняк Акрополя — местный желтоватый камень, использовавшийся в ранних постройках Афин до широкого применения пентелийского мрамора.
+
+AEGIS
+FR : Égide — Bouclier sacré d’Athéna et de Zeus, souvent représenté décoré de la tête de Méduse. Il symbolise la protection divine et la puissance invincible.
+RU : Эгида — священный щит Афины и Зевса, часто изображаемый с головой Медузы. Символизирует божественную защиту и непобедимость.
+
+ALABASTRON
+FR : Alabastre — Petit récipient allongé destiné à contenir des parfums ou huiles précieuses. Très fréquent dans les contextes funéraires et les scènes de toilette.
+RU : Алабастрон — небольшой вытянутый сосуд для хранения ароматических масел и благовоний. Часто встречается в погребениях.
+
+ALTAR
+FR : Autel — Structure en pierre utilisée pour les sacrifices et les libations dans les sanctuaires grecs. Il constituait le centre du culte, souvent placé devant le temple.
+RU : Алтарь — каменное сооружение для жертвоприношений и возлияний в древнегреческих святилищах.
+
+AMAZON
+FR : Amazone — Femme guerrière mythologique vivant en dehors du monde grec. Les scènes d’amazonomachie symbolisent souvent la lutte entre civilisation et barbarie.
+RU : Амазонка — мифическая женщина-воин, жившая вне греческого мира. Сцены амазономахии символизируют борьбу цивилизации с варварством.
+
+AMAZONOMACHY
+FR : Amazonomachie — Combat mythologique entre Grecs et Amazones, thème très fréquent dans la sculpture et la céramique grecques.
+RU : Амазономахия — мифическая битва греков с амазонками, популярный сюжет в греческом искусстве.
+
+AMPHORA
+FR : Amphore — Grand vase à deux anses verticales utilisé pour le transport et le stockage du vin, de l’huile ou des céréales. Son fond pointu facilitait son rangement dans les navires.
+RU : Амфора — большой сосуд с двумя ручками, использовавшийся для хранения и перевозки вина, масла и зерна.
+
+ANTA
+FR : Ante — Prolongement latéral d’un mur formant un pilier à l’entrée d’un temple. Les colonnes placées entre les antes constituent une façade dite « in antis ».
+RU : Анта — выступ стены древнегреческого храма, образующий подобие пилона у входа.
+
+ANTIS FACADE
+FR : Façade in antis — Type de façade de temple où deux colonnes sont placées entre les prolongements latéraux des murs.
+RU : Фасад «в антах» — тип фасада, где колонны расположены между выступами боковых стен.
+
+APOTROPAIC
+FR : Apotropaïque — Terme désignant un objet ou symbole destiné à repousser les forces maléfiques, comme les yeux peints sur les vases.
+RU : Апотропейный — предназначенный для защиты от злых сил.
