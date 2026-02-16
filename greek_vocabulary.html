@@ -199,6 +199,39 @@
             font-size: 1.5em;
         }
         
+        /* Bouton retour en haut */
+        .scroll-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 1000;
+            border: none;
+        }
+        
+        .scroll-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .scroll-to-top:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+        }
+        
         @media (max-width: 768px) {
             header h1 {
                 font-size: 1.8em;
@@ -4761,6 +4794,11 @@
         </footer>
     </div>
     
+    <!-- Bouton retour en haut -->
+    <button class="scroll-to-top" id="scrollToTop" title="Retour en haut">
+        ↑
+    </button>
+    
     <script>
         // Générer la navigation alphabétique
         const alphabetNav = document.getElementById('alphabetNav');
@@ -4804,6 +4842,23 @@
                     targetElement.scrollIntoView({ behavior: 'auto', block: 'start' });
                 }
             });
+        });
+        
+        // Bouton retour en haut
+        const scrollToTopBtn = document.getElementById('scrollToTop');
+        
+        // Afficher/masquer le bouton selon le scroll
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                scrollToTopBtn.classList.add('visible');
+            } else {
+                scrollToTopBtn.classList.remove('visible');
+            }
+        });
+        
+        // Clic sur le bouton - retour instantané en haut
+        scrollToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'auto' });
         });
     </script>
 </body>
