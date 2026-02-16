@@ -22,6 +22,14 @@ RU : ИЗВЕСТНЯК
 Осадочная порода, состоящая в основном из карбоната кальция, широко использовавшаяся в древнегреческой архитектуре и скульптуре благодаря своей доступности и лёгкости обработки.
 
 
+ACROTERION
+
+FR : ACROTÈRE
+Ornement décoratif placé au sommet et aux angles du fronton d'un temple grec, souvent sous forme de palmettes, de figures sculptées ou de motifs floraux. Servait à adoucir visuellement les angles aigus du toit.
+RU : АКРОТЕРИЙ
+Декоративный орнамент, размещённый на вершине и углах фронтона греческого храма, часто в форме пальметт, скульптурных фигур или цветочных мотивов. Служил для визуального смягчения острых углов крыши.
+
+
 AEGIS
 
 FR : ÉGIDE
@@ -426,6 +434,14 @@ RU : КОНТРАПОСТ
 Скульптурная поза, при которой вес тела приходится на одну ногу, создавая естественный изгиб бедра и поворот тела. Главное новшество классической греческой скульптуры, придающее динамизм и натурализм фигурам.
 
 
+CORINTHIAN ORDER
+
+FR : ORDRE CORINTHIEN
+Le plus orné des trois ordres architecturaux grecs classiques, caractérisé par des colonnes élancées avec des chapiteaux décorés de feuilles d'acanthe sculptées. Développé plus tardivement que les ordres dorique et ionique, utilisé surtout à l'époque hellénistique.
+RU : КОРИНФСКИЙ ОРДЕР
+Самый орнаментированный из трёх классических греческих архитектурных ордеров, характеризующийся стройными колоннами с капителями, украшенными резными листьями аканта. Разработан позже дорического и ионического ордеров, использовался главным образом в эллинистическую эпоху.
+
+
 CORNICE
 
 FR : CORNICHE
@@ -550,6 +566,14 @@ RU : ОБЖИГ
 Процесс нагрева глины до высокой температуры в печи для превращения её в прочную керамику. Греческая керамика использовала трёхфазный обжиг для создания чернофигурных и краснофигурных декоров.
 
 
+FIBULA
+
+FR : FIBULE
+Broche ou agrafe métallique utilisée pour attacher les vêtements, fonctionnant comme une épingle de sûreté antique. Élément important de la parure grecque, souvent en bronze, argent ou or, parfois richement décorée.
+RU : ФИБУЛА
+Металлическая брошь или застёжка, использовавшаяся для скрепления одежды, функционирующая как античная булавка. Важный элемент греческого украшения, часто из бронзы, серебра или золота, иногда богато украшенная.
+
+
 FRIEZE
 
 FR : FRISE
@@ -596,6 +620,16 @@ FR : GRIFFON
 Créature mythologique avec le corps d'un lion et la tête et les ailes d'un aigle. Dans l'art grec, les griffons étaient des gardiens de trésors et symboles de pouvoir, fréquemment représentés dans la sculpture et la céramique orientalisante.
 RU : ГРИФОН
 Мифологическое существо с телом льва и головой и крыльями орла. В греческом искусстве грифоны были стражами сокровищ и символами власти, часто изображаемыми в скульптуре и ориентализирующей керамике.
+
+
+HADES
+
+FR : HADÈS
+Dieu grec des Enfers et des morts, souverain du monde souterrain. Fils de Cronos et de Rhéa, frère de Zeus et de Poséidon, époux de Perséphone. Rarement représenté dans l'art en raison de la crainte associée à la mort.
+Attributs : Sceptre, corne d'abondance, casque d'invisibilité, trône, Cerbère (chien à trois têtes)
+RU : АИД
+Греческий бог подземного мира и мёртвых, властелин подземного царства. Сын Кроноса и Реи, брат Зевса и Посейдона, супруг Персефоны. Редко изображался в искусстве из-за страха, связанного со смертью.
+Атрибуты : Скипетр, рог изобилия, шлем-невидимка, трон, Цербер (трёхголовый пёс)
 
 
 HEPHAESTUS
@@ -766,6 +800,14 @@ RU : ВОЗЛИЯНИЕ
 Ритуальное подношение жидкости (вина, масла, молока, мёда), выливаемой на землю или на алтарь в честь богов или мёртвых. Центральный религиозный акт в греческом культе, совершаемый при жертвоприношениях, банкетах и церемониях.
 
 
+LION
+
+FR : LION
+Animal fréquemment représenté dans l'art grec comme symbole de force, de pouvoir et de royauté. Apparaît dans la sculpture architecturale, les sceaux, les monnaies et les mythes (lion de Némée tué par Héraclès).
+RU : ЛЕВ
+Животное, часто изображаемое в греческом искусстве как символ силы, власти и царственности. Встречается в архитектурной скульптуре, печатях, монетах и мифах (немейский лев, убитый Гераклом).
+
+
 LOOM
 
 FR : MÉTIER À TISSER
@@ -822,6 +864,14 @@ RU : МИНОТАВР
 Мифологическое существо, наполовину человек, наполовину бык, сын Пасифаи и божественного быка, заключённый в критском лабиринте. Убитый Тесеем, Минотавр символизировал дикость, укрощённую цивилизованным героизмом.
 
 
+MIRROR
+
+FR : MIROIR
+Miroir en bronze poli, objet de toilette féminine courant dans la Grèce antique. Souvent avec un manche décoré de figures sculptées, retrouvé dans les tombes féminines et représentant un élément important de la parure et de la beauté.
+RU : ЗЕРКАЛО
+Полированное бронзовое зеркало, распространённый предмет женского туалета в Древней Греции. Часто с ручкой, украшенной резными фигурами, обнаруживается в женских гробницах и представляет важный элемент украшения и красоты.
+
+
 MORTAR
 
 FR : MORTIER
@@ -846,12 +896,30 @@ RU : НЕКРОПОЛЬ
 Буквально "город мёртвых", большая погребальная зона или кладбище, расположенное за стенами греческого города. Мог содержать различные типы гробниц: простые захоронения, камерные гробницы, курганы и погребальные памятники.
 
 
+NIKE
+
+FR : NIKÈ
+Déesse grecque de la victoire, souvent représentée avec des ailes, portant une couronne de laurier ou une palme. Fréquemment associée à Athéna (Athéna Nikè) et sculptée dans des scènes commémorant les victoires militaires ou athlétiques.
+Attributs : Ailes, couronne de laurier, palme, trompette
+RU : НИКА
+Греческая богиня победы, часто изображаемая с крыльями, несущая лавровый венок или пальмовую ветвь. Часто ассоциируется с Афиной (Афина Ника) и изображается в сценах, увековечивающих военные или атлетические победы.
+Атрибуты : Крылья, лавровый венок, пальмовая ветвь, труба
+
+
 ODEON
 
 FR : ODÉON
 Bâtiment public couvert destiné aux performances musicales, aux récitals de poésie et aux compétitions oratoires. Structure architecturale grecque avec une acoustique soigneusement conçue, plus petit et plus intime qu'un théâtre.
 RU : ОДЕОН
 Крытое общественное здание, предназначенное для музыкальных представлений, чтения поэзии и ораторских состязаний. Греческое архитектурное сооружение с тщательно спроектированной акустикой, меньше и интимнее театра.
+
+
+ODYSSEUS
+
+FR : ULYSSE (ODYSSEUS)
+Héros légendaire grec, roi d'Ithaque, protagoniste de l'Odyssée d'Homère. Célèbre pour son intelligence, sa ruse et ses dix années d'errance après la guerre de Troie. Figure majeure de l'art et de la littérature grecques.
+RU : ОДИССЕЙ (УЛИСС)
+Легендарный греческий герой, царь Итаки, главный герой "Одиссеи" Гомера. Знаменит своим умом, хитростью и десятью годами скитаний после Троянской войны. Важная фигура в греческом искусстве и литературе.
 
 
 OINOCHOE
@@ -870,12 +938,30 @@ RU : ОЛЬПА
 Высокий и стройный винный кувшин с овоидным телом, цилиндрической шейкой и одной ручкой, без выраженного носика. Использовался для наливания вина, был популярен в архаический и классический периоды.
 
 
+OPISTHODOMOS
+
+FR : OPISTHODOME
+Chambre ou portique arrière d'un temple grec, symétrique au pronaos (vestibule avant), situé à l'opposé de l'entrée principale. Servait souvent de trésor pour conserver les offrandes votives et les objets précieux du temple.
+RU : ОПИСТОДОМ
+Задняя комната или портик греческого храма, симметричный пронаосу (переднему вестибюлю), расположенный напротив главного входа. Часто служил сокровищницей для хранения вотивных подношений и драгоценных предметов храма.
+
+
 PALMETTE
 
 FR : PALMETTE
 Motif décoratif stylisé représentant une feuille de palmier ou une fleur en éventail, très courant dans l'art et l'architecture grecs. Utilisé dans les frises, les bordures de vases, les chapiteaux et l'ornementation architecturale.
 RU : ПАЛЬМЕТТА
 Стилизованный декоративный мотив, представляющий пальмовый лист или веерообразный цветок, очень распространённый в греческом искусстве и архитектуре. Использовался во фризах, бордюрах сосудов, капителях и архитектурном орнаменте.
+
+
+PAN
+
+FR : PAN
+Dieu grec de la nature sauvage, des bergers, des troupeaux et de la musique pastorale. Mi-homme mi-bouc avec des cornes, des jambes de bouc et jouant de la flûte de Pan (syrinx), il habitait les montagnes et les forêts d'Arcadie.
+Attributs : Flûte de Pan (syrinx), bâton de berger, jambes et cornes de bouc, couronne de pin
+RU : ПАН
+Греческий бог дикой природы, пастухов, стад и пасторальной музыки. Получеловек-полукозёл с рогами, козлиными ногами и играющий на флейте Пана (сиринкс), он обитал в горах и лесах Аркадии.
+Атрибуты : Флейта Пана (сиринкс), пастуший посох, козлиные ноги и рога, сосновый венок
 
 
 PANATHENAIC
@@ -942,6 +1028,34 @@ RU : ПЕРИСТИЛЬ
 Непрерывная колоннада, окружающая здание или внутренний двор. В греческой архитектуре обозначает совокупность периферийных колонн периптерального храма или портики, окружающие двор.
 
 
+PERSEPHONE
+
+FR : PERSÉPHONE
+Déesse grecque des Enfers et du printemps, fille de Déméter et épouse d'Hadès. Son enlèvement par Hadès et son retour saisonnier à la surface expliquaient le cycle des saisons. Figure centrale des mystères d'Éleusis.
+Attributs : Grenade, torche, couronne, sceptre, gerbe de blé
+RU : ПЕРСЕФОНА
+Греческая богиня подземного мира и весны, дочь Деметры и супруга Аида. Её похищение Аидом и сезонное возвращение на поверхность объясняли цикл времён года. Центральная фигура Элевсинских мистерий.
+Атрибуты : Гранат, факел, корона, скипетр, сноп пшеницы
+
+
+PERSEUS
+
+FR : PERSÉE
+Héros grec, fils de Zeus et de Danaé, célèbre pour avoir tué la Gorgone Méduse et sauvé Andromède d'un monstre marin. Fondateur de Mycènes, il était fréquemment représenté dans l'art tenant la tête de Méduse.
+RU : ПЕРСЕЙ
+Греческий герой, сын Зевса и Данаи, знаменитый убийством Горгоны Медузы и спасением Андромеды от морского чудовища. Основатель Микен, часто изображался в искусстве, держащим голову Медузы.
+
+
+POSEIDON
+
+FR : POSÉIDON
+Dieu grec de la mer, des océans, des tremblements de terre et des chevaux. Frère de Zeus et d'Hadès, l'un des douze Olympiens, il régnait sur les eaux et était vénéré particulièrement dans les cités maritimes.
+Attributs : Trident, char tiré par des hippocampes, dauphin, cheval, taureau
+RU : ПОСЕЙДОН
+Греческий бог моря, океанов, землетрясений и лошадей. Брат Зевса и Аида, один из двенадцати олимпийцев, он правил водами и особенно почитался в морских городах.
+Атрибуты : Трезубец, колесница, запряжённая гиппокампами, дельфин, лошадь, бык
+
+
 PHIALE
 
 FR : PHIALE
@@ -980,6 +1094,14 @@ FR : RHYTON
 Vase à boire en forme de corne ou sculpté en forme d'animal, avec une ouverture au sommet pour remplir et un trou au fond pour verser. Utilisé dans les rituels et les banquets, souvent richement décoré.
 RU : РИТОН
 Сосуд для питья в форме рога или вырезанный в форме животного, с отверстием наверху для наполнения и отверстием внизу для наливания. Использовался в ритуалах и на банкетах, часто богато украшенный.
+
+
+RED-FIGURE
+
+FR : FIGURES ROUGES
+Technique de décoration céramique grecque où les figures sont laissées en rouge (couleur naturelle de l'argile) sur fond noir, avec les détails peints au pinceau. Succède à la technique à figures noires vers 530 av. J.-C., permettant plus de naturalisme.
+RU : КРАСНОФИГУРНАЯ
+Техника декорирования греческой керамики, при которой фигуры оставляются красными (естественный цвет глины) на чёрном фоне, с деталями, нарисованными кистью. Сменяет чернофигурную технику около 530 г. до н.э., обеспечивая больше натурализма.
 
 
 ROSETTE
@@ -1022,6 +1144,14 @@ RU : ПРЯСЛИЦЕ
 Весовой диск, помещаемый на веретено для поддержания вращения при ручном прядении шерсти или льна. Распространённая археологическая находка, часто из глины или камня, обнаруживаемая в домашних контекстах и женских гробницах.
 
 
+SPHINX
+
+FR : SPHINX
+Créature mythologique avec un corps de lion, des ailes d'oiseau et une tête humaine (généralement féminine dans l'art grec). Gardienne redoutable posant des énigmes, notamment le sphinx de Thèbes vaincu par Œdipe.
+RU : СФИНКС
+Мифологическое существо с телом льва, крыльями птицы и человеческой головой (обычно женской в греческом искусстве). Грозный страж, загадывающий загадки, особенно фиванский сфинкс, побеждённый Эдипом.
+
+
 STAMNOS
 
 FR : STAMNOS
@@ -1054,6 +1184,14 @@ RU : СТОЯ
 Крытый портик с колоннадой, вытянутое общественное здание с крышей, поддерживаемой колоннами вдоль одной или нескольких сторон. Использовалась как место торговли, социальных встреч и философского обучения на греческой агоре.
 
 
+STRIGIL
+
+FR : STRIGILE
+Instrument en bronze ou en fer en forme de faucille utilisé par les athlètes grecs pour racler l'huile, la sueur et la poussière de leur peau après l'exercice. Objet caractéristique de la culture athlétique grecque, souvent retrouvé dans les tombes.
+RU : СТРИГИЛЬ
+Инструмент из бронзы или железа в форме серпа, использовавшийся греческими атлетами для соскабливания масла, пота и пыли с кожи после упражнений. Характерный предмет греческой атлетической культуры, часто обнаруживаемый в гробницах.
+
+
 STYLOBATE
 
 FR : STYLOBATE
@@ -1076,6 +1214,14 @@ FR : TOMBE À THOLOS
 Tombe monumentale à chambre circulaire avec une voûte en encorbellement (fausse coupole), caractéristique de l'architecture funéraire mycénienne. Le "Trésor d'Atrée" à Mycènes est l'exemple le plus célèbre.
 RU : ТОЛОСНАЯ ГРОБНИЦА
 Монументальная гробница с круглой камерой и ложносводчатым перекрытием (ложным куполом), характерная для микенской погребальной архитектуры. "Сокровищница Атрея" в Микенах является самым знаменитым примером.
+
+
+THESEUS
+
+FR : THÉSÉE
+Héros mythique d'Athènes, fils d'Égée, célèbre pour avoir tué le Minotaure dans le labyrinthe de Crète avec l'aide d'Ariane. Roi légendaire d'Athènes, considéré comme le fondateur de la démocratie athénienne et héros national.
+RU : ТЕСЕЙ
+Мифический герой Афин, сын Эгея, знаменитый убийством Минотавра в критском лабиринте с помощью Ариадны. Легендарный царь Афин, считался основателем афинской демократии и национальным героем.
 
 
 THYRSUS
@@ -1152,3 +1298,13 @@ FR : XOANON
 Statue de culte archaïque primitive en bois, souvent de forme simple et stylisée, représentant une divinité. Considérée comme particulièrement sacrée en raison de son ancienneté, parfois réputée être tombée du ciel (diopétès).
 RU : КСОАНОН
 Примитивная архаическая культовая статуя из дерева, часто простой и стилизованной формы, представляющая божество. Считалась особенно священной из-за своей древности, иногда считалось, что упала с неба (диопетес).
+
+
+ZEUS
+
+FR : ZEUS
+Roi des dieux et dieu du ciel, de la foudre et du tonnerre dans la mythologie grecque. Souverain de l'Olympe, père de nombreux dieux et héros, il était la divinité suprême du panthéon grec et symbole de l'ordre et de la justice.
+Attributs : Foudre, aigle, sceptre, couronne de chêne, trône
+RU : ЗЕВС
+Царь богов и бог неба, молнии и грома в греческой мифологии. Правитель Олимпа, отец многих богов и героев, он был верховным божеством греческого пантеона и символом порядка и справедливости.
+Атрибуты : Молния, орёл, скипетр, дубовый венок, трон
