@@ -1,43 +1,1154 @@
 ACROLITH
-FR : Acrolithe — Statue antique dont les parties visibles (tête, mains, pieds) sont en pierre tandis que le corps était réalisé en bois ou en matériau léger. Cette technique permettait de réduire les coûts tout en conservant une apparence monumentale. Les acrolithes étaient fréquents dans les grands sanctuaires grecs.
-RU : Акролит — античная статуя, у которой видимые части (голова, руки, ноги) выполнены из камня, а остальное тело изготовлено из дерева или лёгких материалов. Такая техника позволяла удешевить производство, сохраняя монументальный вид.
 
-ACROPOLIS LIMESTONE
-FR : Calcaire de l’Acropole — Pierre locale jaunâtre utilisée dans les premières constructions d’Athènes avant l’emploi massif du marbre pentélique. On la retrouve dans les structures archaïques du site.
-RU : Известняк Акрополя — местный желтоватый камень, использовавшийся в ранних постройках Афин до широкого применения пентелийского мрамора.
+FR : ACROLITHE
+Statue antique dont seules les parties visibles (tête, mains, pieds) sont sculptées en marbre ou en pierre, tandis que le corps est fait de bois ou de matériaux moins nobles, souvent recouvert de draperies.
+RU : АКРОЛИТ
+Античная статуя, у которой только видимые части (голова, руки, ноги) вырезаны из мрамора или камня, в то время как тело сделано из дерева или менее благородных материалов, часто покрытых драпировками.
+
+
+ACROPOLIS
+
+FR : ACROPOLE
+Partie élevée et fortifiée d'une cité grecque antique, servant de centre religieux et défensif. L'Acropole d'Athènes est la plus célèbre, abritant le Parthénon et d'autres temples majeurs.
+RU : АКРОПОЛЬ
+Возвышенная и укреплённая часть древнегреческого города, служившая религиозным и оборонительным центром. Афинский Акрополь является самым известным, на нём находятся Парфенон и другие важные храмы.
+
+
+LIMESTONE
+
+FR : CALCAIRE
+Roche sédimentaire composée principalement de carbonate de calcium, couramment utilisée dans l'architecture et la sculpture grecques antiques en raison de sa disponibilité et de sa facilité de taille.
+RU : ИЗВЕСТНЯК
+Осадочная порода, состоящая в основном из карбоната кальция, широко использовавшаяся в древнегреческой архитектуре и скульптуре благодаря своей доступности и лёгкости обработки.
+
 
 AEGIS
-FR : Égide — Bouclier sacré d’Athéna et de Zeus, souvent représenté décoré de la tête de Méduse. Il symbolise la protection divine et la puissance invincible.
-RU : Эгида — священный щит Афины и Зевса, часто изображаемый с головой Медузы. Символизирует божественную защиту и непобедимость.
+
+FR : ÉGIDE
+Bouclier ou cuirasse magique portée par Zeus et Athéna dans la mythologie grecque, souvent représentée avec la tête de Méduse (Gorgone) au centre. Symbole de protection divine et de pouvoir.
+Attributs : Tête de Méduse, écailles, serpents, bordure de franges
+RU : ЭГИДА
+Магический щит или нагрудник, который носили Зевс и Афина в греческой мифологии, часто изображаемый с головой Медузы (Горгоны) в центре. Символ божественной защиты и власти.
+Атрибуты : Голова Медузы, чешуя, змеи, бахрома по краям
+
 
 ALABASTRON
-FR : Alabastre — Petit récipient allongé destiné à contenir des parfums ou huiles précieuses. Très fréquent dans les contextes funéraires et les scènes de toilette.
-RU : Алабастрон — небольшой вытянутый сосуд для хранения ароматических масел и благовоний. Часто встречается в погребениях.
+
+FR : ALABASTRE
+Petit vase allongé et étroit en forme de poire, généralement sans anse ou avec de petites anses, utilisé pour contenir des huiles parfumées, des onguents et des cosmétiques dans la Grèce antique.
+RU : АЛАБАСТР
+Маленький удлинённый и узкий сосуд грушевидной формы, обычно без ручек или с маленькими ручками, использовавшийся для хранения ароматических масел, мазей и косметики в Древней Греции.
+
 
 ALTAR
-FR : Autel — Structure en pierre utilisée pour les sacrifices et les libations dans les sanctuaires grecs. Il constituait le centre du culte, souvent placé devant le temple.
-RU : Алтарь — каменное сооружение для жертвоприношений и возлияний в древнегреческих святилищах.
+
+FR : AUTEL
+Structure sacrée, généralement en pierre, où l'on effectuait des sacrifices et des offrandes aux dieux dans les sanctuaires et temples grecs. Pouvait être de différentes tailles, des petits autels domestiques aux grands autels monumentaux.
+RU : АЛТАРЬ
+Священное сооружение, обычно каменное, где совершались жертвоприношения и подношения богам в греческих святилищах и храмах. Мог быть разных размеров, от небольших домашних алтарей до больших монументальных.
+
 
 AMAZON
-FR : Amazone — Femme guerrière mythologique vivant en dehors du monde grec. Les scènes d’amazonomachie symbolisent souvent la lutte entre civilisation et barbarie.
-RU : Амазонка — мифическая женщина-воин, жившая вне греческого мира. Сцены амазономахии символизируют борьбу цивилизации с варварством.
+
+FR : AMAZONE
+Guerrière mythique appartenant à une tribu de femmes combattantes, souvent représentée dans l'art grec combattant des héros grecs. Les Amazones étaient réputées pour leur courage et leurs compétences au combat.
+RU : АМАЗОНКА
+Мифическая воительница, принадлежащая к племени женщин-воинов, часто изображаемая в греческом искусстве в битве с греческими героями. Амазонки славились своей храбростью и боевыми навыками.
+
 
 AMAZONOMACHY
-FR : Amazonomachie — Combat mythologique entre Grecs et Amazones, thème très fréquent dans la sculpture et la céramique grecques.
-RU : Амазономахия — мифическая битва греков с амазонками, популярный сюжет в греческом искусстве.
+
+FR : AMAZONOMACHIE
+Combat entre Grecs et Amazones, thème populaire dans l'art et la sculpture grecs antiques. Symbolisait la victoire de la civilisation grecque sur le chaos et la barbarie.
+RU : АМАЗОНОМАХИЯ
+Битва между греками и амазонками, популярная тема в древнегреческом искусстве и скульптуре. Символизировала победу греческой цивилизации над хаосом и варварством.
+
 
 AMPHORA
-FR : Amphore — Grand vase à deux anses verticales utilisé pour le transport et le stockage du vin, de l’huile ou des céréales. Son fond pointu facilitait son rangement dans les navires.
-RU : Амфора — большой сосуд с двумя ручками, использовавшийся для хранения и перевозки вина, масла и зерна.
+
+FR : AMPHORE
+Grand vase à deux anses verticales et corps ovoïde, utilisé pour le stockage et le transport de liquides comme le vin, l'huile ou l'eau. L'une des formes de vases grecs les plus courantes et reconnaissables.
+RU : АМФОРА
+Большой сосуд с двумя вертикальными ручками и овоидным телом, использовавшийся для хранения и транспортировки жидкостей, таких как вино, масло или вода. Одна из самых распространённых и узнаваемых форм греческих сосудов.
+
+
+AMPHOROID VESSEL
+
+FR : VASE AMPHOROÏDE
+Vase dont la forme rappelle celle d'une amphore mais qui peut avoir des variations dans les proportions, les anses ou la fonction. Terme utilisé pour décrire des récipients s'inspirant de la forme classique de l'amphore.
+RU : АМФОРОВИДНЫЙ СОСУД
+Сосуд, форма которого напоминает амфору, но может иметь вариации в пропорциях, ручках или функции. Термин используется для описания сосудов, вдохновлённых классической формой амфоры.
+
 
 ANTA
-FR : Ante — Prolongement latéral d’un mur formant un pilier à l’entrée d’un temple. Les colonnes placées entre les antes constituent une façade dite « in antis ».
-RU : Анта — выступ стены древнегреческого храма, образующий подобие пилона у входа.
+
+FR : ANTE
+Pilier rectangulaire saillant terminant les murs latéraux d'un temple grec, formant les extrémités du mur de la cella. Souvent utilisé pour supporter l'entablement dans les temples in antis.
+RU : АНТА
+Прямоугольный выступающий столб, завершающий боковые стены греческого храма, образующий концы стены целлы. Часто использовался для поддержки антаблемента в храмах in antis.
+
+
+ANTAE
+
+FR : ANTES
+Pluriel d'anta. Piliers rectangulaires qui terminent les murs latéraux d'un temple et encadrent l'entrée, caractéristiques de l'architecture des temples grecs in antis.
+RU : АНТЫ
+Множественное число от анта. Прямоугольные столбы, завершающие боковые стены храма и обрамляющие вход, характерные для архитектуры греческих храмов in antis.
+
 
 ANTIS FACADE
-FR : Façade in antis — Type de façade de temple où deux colonnes sont placées entre les prolongements latéraux des murs.
-RU : Фасад «в антах» — тип фасада, где колонны расположены между выступами боковых стен.
+
+FR : FAÇADE IN ANTIS
+Type de façade de temple grec où deux colonnes sont placées entre les antes (piliers terminant les murs latéraux). Configuration architecturale simple et ancienne des temples grecs.
+RU : ФАСАД IN ANTIS
+Тип фасада греческого храма, где две колонны размещены между антами (столбами, завершающими боковые стены). Простая и древняя архитектурная конфигурация греческих храмов.
+
+
+APOLLO
+
+FR : APOLLON
+Dieu grec de la lumière, du soleil, de la musique, de la poésie, de la prophétie, de la médecine et des arts. Fils de Zeus et de Léto, frère jumeau d'Artémis, l'une des divinités olympiennes les plus importantes.
+Attributs : Lyre, arc et flèches, couronne de laurier, char solaire, trépied
+RU : АПОЛЛОН
+Греческий бог света, солнца, музыки, поэзии, пророчества, медицины и искусств. Сын Зевса и Лето, брат-близнец Артемиды, одно из важнейших олимпийских божеств.
+Атрибуты : Лира, лук и стрелы, лавровый венок, солнечная колесница, треножник
+
+
+APHRODITE
+
+FR : APHRODITE
+Déesse grecque de l'amour, de la beauté, de la séduction et de la fertilité. Née de l'écume de la mer selon le mythe, elle était l'une des douze divinités olympiennes les plus vénérées.
+Attributs : Colombe, rose, coquillage, miroir, ceinture magique, pomme dorée
+RU : АФРОДИТА
+Греческая богиня любви, красоты, соблазнения и плодородия. Согласно мифу, родилась из морской пены, была одним из двенадцати наиболее почитаемых олимпийских божеств.
+Атрибуты : Голубь, роза, раковина, зеркало, волшебный пояс, золотое яблоко
+
 
 APOTROPAIC
-FR : Apotropaïque — Terme désignant un objet ou symbole destiné à repousser les forces maléfiques, comme les yeux peints sur les vases.
-RU : Апотропейный — предназначенный для защиты от злых сил.
+
+FR : APOTROPAÏQUE
+Objet, symbole ou rituel destiné à repousser le mal, le mauvais œil ou les influences négatives. Dans l'art grec, inclut des motifs comme les yeux, les masques de Gorgone ou les phallus protecteurs.
+RU : АПОТРОПЕИЧЕСКИЙ
+Предмет, символ или ритуал, предназначенный для отражения зла, дурного глаза или негативных влияний. В греческом искусстве включает мотивы, такие как глаза, маски Горгоны или защитные фаллосы.
+
+
+ARES
+
+FR : ARÈS
+Dieu grec de la guerre, de la violence et du carnage. Fils de Zeus et d'Héra, il représentait l'aspect brutal et destructeur de la guerre, contrairement à Athéna qui incarnait la stratégie militaire.
+Attributs : Casque, bouclier, lance, épée, armure, char tiré par des chevaux
+RU : АРЕС
+Греческий бог войны, насилия и резни. Сын Зевса и Геры, он представлял жестокий и разрушительный аспект войны, в отличие от Афины, воплощавшей военную стратегию.
+Атрибуты : Шлем, щит, копьё, меч, доспехи, колесница, запряжённая лошадьми
+
+
+ARCHITRAVE
+
+FR : ARCHITRAVE
+Poutre principale horizontale reposant directement sur les chapiteaux des colonnes dans l'architecture grecque classique. C'est l'élément inférieur de l'entablement, supportant la frise et la corniche.
+RU : АРХИТРАВ
+Главная горизонтальная балка, опирающаяся непосредственно на капители колонн в классической греческой архитектуре. Это нижний элемент антаблемента, поддерживающий фриз и карниз.
+
+
+ARCHAIC SMILE
+
+FR : SOURIRE ARCHAÏQUE
+Expression faciale caractéristique de la sculpture grecque archaïque (VIe siècle av. J.-C.), consistant en un léger sourire stylisé donnant une apparence de vie aux statues. Précède le naturalisme de la période classique.
+RU : АРХАИЧЕСКАЯ УЛЫБКА
+Характерное выражение лица в греческой архаической скульптуре (VI век до н.э.), состоящее из лёгкой стилизованной улыбки, придающей статуям видимость жизни. Предшествует натурализму классического периода.
+
+
+ARTEMIS
+
+FR : ARTÉMIS
+Déesse grecque de la chasse, de la nature sauvage, de la lune et protectrice des jeunes filles. Fille de Zeus et de Léto, sœur jumelle d'Apollon, elle était vénérée comme une divinité vierge et indépendante.
+Attributs : Arc et flèches, carquois, croissant de lune, biche, chiens de chasse
+RU : АРТЕМИДА
+Греческая богиня охоты, дикой природы, луны и покровительница молодых девушек. Дочь Зевса и Лето, сестра-близнец Аполлона, почиталась как девственное и независимое божество.
+Атрибуты : Лук и стрелы, колчан, полумесяц, лань, охотничьи собаки
+
+
+ARYBALLOS
+
+FR : ARYBALLE
+Petit vase globulaire ou sphérique avec une ouverture étroite et une seule anse, utilisé par les athlètes grecs pour transporter de l'huile d'olive utilisée pour les massages et l'hygiène corporelle après l'exercice.
+RU : АРИБАЛЛ
+Маленький шаровидный или сферический сосуд с узким горлышком и одной ручкой, использовавшийся греческими атлетами для переноса оливкового масла, применявшегося для массажа и гигиены тела после упражнений.
+
+
+ASKOS
+
+FR : ASKOS
+Vase à huile de forme asymétrique avec un corps bas et arrondi, une anse en arc et un bec verseur incliné. Utilisé pour verser de petites quantités d'huile, souvent dans des contextes domestiques ou rituels.
+RU : АСКОС
+Сосуд для масла асимметричной формы с низким округлым телом, дугообразной ручкой и наклонным носиком. Использовался для наливания небольших количеств масла, часто в домашних или ритуальных контекстах.
+
+
+ASTRAGALOI
+
+FR : ASTRAGALES
+Osselets provenant des articulations de chevilles d'animaux (moutons ou chèvres), utilisés comme dés ou pièces de jeu dans la Grèce antique. Également utilisés dans la divination et retrouvés comme offrandes votives.
+RU : АСТРАГАЛЫ
+Косточки из суставов лодыжек животных (овец или коз), использовавшиеся как кости или игровые фишки в Древней Греции. Также использовались в гадании и обнаруживаются как вотивные подношения.
+
+
+ATHENA
+
+FR : ATHÉNA
+Déesse grecque de la sagesse, de la stratégie militaire, des arts et de l'artisanat. Protectrice d'Athènes, née tout armée du crâne de Zeus, elle était l'une des divinités olympiennes les plus respectées.
+Attributs : Casque, bouclier (égide) avec tête de Méduse, lance, chouette, olivier
+RU : АФИНА
+Греческая богиня мудрости, военной стратегии, искусств и ремёсел. Покровительница Афин, рождённая в полном вооружении из головы Зевса, она была одним из самых уважаемых олимпийских божеств.
+Атрибуты : Шлем, щит (эгида) с головой Медузы, копьё, сова, оливковое дерево
+
+
+BASE
+
+FR : BASE
+Partie inférieure d'une colonne ou d'une statue qui repose sur le sol ou sur une plateforme. Dans l'architecture grecque, la base peut être simple ou décorée de moulures complexes selon l'ordre architectural.
+RU : БАЗА
+Нижняя часть колонны или статуи, которая опирается на землю или платформу. В греческой архитектуре база может быть простой или украшенной сложными молдингами в зависимости от архитектурного ордера.
+
+
+BEADS
+
+FR : PERLES
+Petits objets percés utilisés pour créer des bijoux, des ornements vestimentaires ou des objets décoratifs. Dans la Grèce antique, fabriquées en verre, pierre, os, argile ou métaux précieux.
+RU : БУСИНЫ
+Маленькие просверлённые предметы, использовавшиеся для создания украшений, орнаментов на одежде или декоративных объектов. В Древней Греции изготавливались из стекла, камня, кости, глины или драгоценных металлов.
+
+
+BELL KRATER
+
+FR : CRATÈRE EN CLOCHE
+Type de cratère (vase à mélanger le vin et l'eau) dont la forme évoque une cloche inversée, avec un corps arrondi et évasé, des anses horizontales et un pied bas. Populaire dans la céramique grecque classique.
+RU : КОЛОКОЛОВИДНЫЙ КРАТЕР
+Тип кратера (сосуда для смешивания вина и воды), форма которого напоминает перевёрнутый колокол, с округлым и расширяющимся телом, горизонтальными ручками и низкой ножкой. Популярен в классической греческой керамике.
+
+
+BLACK GLAZE
+
+FR : VERNIS NOIR
+Enduit céramique noir brillant obtenu par cuisson en trois phases, utilisé pour décorer ou couvrir entièrement les vases grecs. Technique caractéristique de la poterie attique, créant un contraste avec l'argile rouge.
+RU : ЧЁРНЫЙ ЛАК
+Блестящее чёрное керамическое покрытие, получаемое путём трёхфазного обжига, использовавшееся для украшения или полного покрытия греческих сосудов. Характерная техника аттической керамики, создающая контраст с красной глиной.
+
+
+BLACK-FIGURE
+
+FR : FIGURES NOIRES
+Technique de décoration céramique grecque où les figures sont peintes en noir sur fond d'argile rouge, avec des détails incisés. Dominante du VIIe au Ve siècle av. J.-C., avant d'être remplacée par la technique à figures rouges.
+RU : ЧЕРНОФИГУРНАЯ
+Техника декорирования греческой керамики, при которой фигуры окрашиваются чёрным цветом на фоне красной глины, с гравированными деталями. Доминировала с VII по V век до н.э., прежде чем быть заменённой краснофигурной техникой.
+
+
+BOEOTIAN
+
+FR : BÉOTIEN
+Relatif à la Béotie, région de Grèce centrale dont la capitale était Thèbes. L'art et la céramique béotiens ont des caractéristiques distinctives, notamment des figurines en terre cuite et des styles de vases particuliers.
+RU : БЕОТИЙСКИЙ
+Относящийся к Беотии, региону центральной Греции, столицей которого были Фивы. Беотийское искусство и керамика имеют отличительные характеристики, включая терракотовые статуэтки и особые стили сосудов.
+
+
+BOTHROS
+
+FR : BOTHROS
+Fosse rituelle creusée dans le sol d'un sanctuaire grec, utilisée pour les offrandes aux divinités chthoniennes (souterraines) ou aux morts. Les objets déposés incluaient de la nourriture, du vin, des animaux sacrifiés et des objets votifs.
+RU : БОТРОС
+Ритуальная яма, вырытая в полу греческого святилища, использовавшаяся для подношений хтоническим (подземным) божествам или мёртвым. Помещённые предметы включали еду, вино, жертвенных животных и вотивные предметы.
+
+
+BRONZE
+
+FR : BRONZE
+Alliage de cuivre et d'étain largement utilisé dans la Grèce antique pour créer des statues, des armes, des armures, des vases et des objets utilitaires. Le bronze grec était réputé pour sa qualité et sa durabilité.
+RU : БРОНЗА
+Сплав меди и олова, широко использовавшийся в Древней Греции для создания статуй, оружия, доспехов, сосудов и утилитарных предметов. Греческая бронза славилась своим качеством и долговечностью.
+
+
+BUCRANIUM
+
+FR : BUCRANE
+Ornement architectural représentant un crâne de bœuf, souvent utilisé dans les frises doriques alternant avec des guirlandes. Symbolise le sacrifice et est dérivé de la pratique de suspendre les crânes d'animaux sacrifiés.
+RU : БУКРАНИЙ
+Архитектурный орнамент, представляющий череп быка, часто используемый в дорических фризах, чередуясь с гирляндами. Символизирует жертвоприношение и происходит от практики подвешивания черепов жертвенных животных.
+
+
+BUST
+
+FR : BUSTE
+Sculpture représentant la tête, le cou et la partie supérieure de la poitrine d'une personne. Dans l'art grec, les bustes pouvaient représenter des divinités, des héros, des personnages historiques ou des portraits funéraires.
+RU : БЮСТ
+Скульптура, представляющая голову, шею и верхнюю часть груди человека. В греческом искусстве бюсты могли изображать божеств, героев, исторических личностей или погребальные портреты.
+
+
+CALYX KRATER
+
+FR : CRATÈRE EN CALICE
+Type de cratère (vase à mélanger) dont la forme rappelle un calice de fleur, avec un corps profond en forme de coupe, des anses verticales élégantes et un pied haut. Utilisé lors des symposiums pour mélanger le vin et l'eau.
+RU : КАЛИКСОВИДНЫЙ КРАТЕР
+Тип кратера (сосуда для смешивания), форма которого напоминает чашечку цветка, с глубоким чашевидным телом, элегантными вертикальными ручками и высокой ножкой. Использовался на симпосиях для смешивания вина и воды.
+
+
+CAPITAL
+
+FR : CHAPITEAU
+Élément architectural couronnant le sommet d'une colonne, servant de transition entre le fût et l'entablement. Les trois ordres grecs (dorique, ionique, corinthien) se distinguent par leur style de chapiteau caractéristique.
+RU : КАПИТЕЛЬ
+Архитектурный элемент, венчающий верхнюю часть колонны, служащий переходом между стволом и антаблементом. Три греческих ордера (дорический, ионический, коринфский) различаются характерным стилем капители.
+
+
+CARYATID
+
+FR : CARIATIDE
+Colonne sculptée en forme de figure féminine drapée, servant de support architectural. Les plus célèbres sont celles de l'Érechthéion sur l'Acropole d'Athènes, remplaçant les colonnes traditionnelles.
+RU : КАРИАТИДА
+Колонна, вырезанная в форме задрапированной женской фигуры, служащая архитектурной опорой. Самые знаменитые находятся в Эрехтейоне на Афинском Акрополе, заменяя традиционные колонны.
+
+
+CELLA
+
+FR : CELLA (NAOS)
+Chambre intérieure principale d'un temple grec, espace sacré où était placée la statue de culte de la divinité. Accessible uniquement aux prêtres, elle constituait le cœur spirituel du temple.
+RU : ЦЕЛЛА (НАОС)
+Главная внутренняя комната греческого храма, священное пространство, где размещалась культовая статуя божества. Доступная только жрецам, она составляла духовное сердце храма.
+
+
+CENTAUR
+
+FR : CENTAURE
+Créature mythologique mi-homme mi-cheval, avec le torse, les bras et la tête humains sur un corps de cheval. Les centaures symbolisaient souvent la dualité entre civilisation et nature sauvage dans la mythologie grecque.
+RU : КЕНТАВР
+Мифологическое существо, наполовину человек, наполовину лошадь, с человеческим торсом, руками и головой на теле лошади. Кентавры часто символизировали двойственность между цивилизацией и дикой природой в греческой мифологии.
+
+
+CENTAURMACHY
+
+FR : CENTAUROMACHIE
+Combat entre les Lapithes (peuple thessalien) et les Centaures, thème mythologique populaire dans l'art grec. Symbolisait la victoire de la civilisation sur la barbarie, représentant le triomphe de l'ordre sur le chaos.
+RU : КЕНТАВРОМАХИЯ
+Битва между лапифами (фессалийским народом) и кентаврами, популярная мифологическая тема в греческом искусстве. Символизировала победу цивилизации над варварством, представляя триумф порядка над хаосом.
+
+
+CENOTAPH
+
+FR : CÉNOTAPHE
+Monument funéraire érigé en l'honneur d'une personne dont le corps est enterré ailleurs ou n'a pas été retrouvé. Dans la Grèce antique, utilisé pour commémorer les morts en mer ou les héros tombés loin de chez eux.
+RU : КЕНОТАФ
+Погребальный памятник, воздвигнутый в честь человека, чьё тело похоронено в другом месте или не было найдено. В Древней Греции использовался для поминовения погибших в море или героев, павших вдали от дома.
+
+
+CHALK
+
+FR : CRAIE
+Roche calcaire tendre, blanche ou grise, utilisée dans l'antiquité pour le dessin, l'écriture et comme matériau de construction. Également utilisée comme pigment blanc dans la peinture et la décoration.
+RU : МЕЛ
+Мягкая известняковая порода, белая или серая, использовавшаяся в античности для рисования, письма и как строительный материал. Также использовалась как белый пигмент в живописи и декорировании.
+
+
+CHITON
+
+FR : CHITON
+Vêtement de base grec, tunique simple en lin ou laine, portée par les hommes et les femmes. Consistait en un rectangle de tissu fixé aux épaules et ceinturé à la taille, de longueur variable selon le sexe et le statut.
+RU : ХИТОН
+Базовая греческая одежда, простая туника из льна или шерсти, которую носили мужчины и женщины. Состояла из прямоугольного куска ткани, закреплённого на плечах и подпоясанного на талии, различной длины в зависимости от пола и статуса.
+
+
+CHORAGIC
+
+FR : CHORAGIQUE
+Relatif au chorège, citoyen riche qui finançait la formation et l'équipement d'un chœur pour les festivals dramatiques et musicaux dans la Grèce antique. Les monuments choragiques commémoraient ces victoires dans les compétitions théâtrales.
+RU : ХОРАГИЧЕСКИЙ
+Относящийся к хорегу, богатому гражданину, финансировавшему обучение и экипировку хора для драматических и музыкальных фестивалей в Древней Греции. Хорагические памятники увековечивали эти победы в театральных состязаниях.
+
+
+CHRYSLEPHANTINE
+
+FR : CHRYSÉLÉPHANTINE
+Technique sculpturale luxueuse combinant l'or (chrysos) et l'ivoire (elephas) pour créer des statues monumentales. Les exemples les plus célèbres sont la statue d'Athéna Parthénos et le Zeus d'Olympie par Phidias.
+RU : ХРИСОЭЛЕФАНТИННАЯ
+Роскошная техника скульптуры, сочетающая золото (chrysos) и слоновую кость (elephas) для создания монументальных статуй. Самые знаменитые примеры - статуя Афины Парфенос и Зевс Олимпийский работы Фидия.
+
+
+CIPPUS
+
+FR : CIPPE
+Petite stèle ou pilier funéraire de forme rectangulaire ou cylindrique, souvent inscrit avec le nom du défunt. Utilisé comme marqueur de tombe dans les nécropoles grecques et romaines.
+RU : ЦИЛП
+Небольшая стела или погребальный столб прямоугольной или цилиндрической формы, часто с надписью имени покойного. Использовался как могильный знак в греческих и римских некрополях.
+
+
+CLAY
+
+FR : ARGILE
+Matériau naturel malléable composé de minéraux finement divisés, fondamental dans la production de céramique grecque. L'argile attique rouge était particulièrement prisée pour sa qualité et sa couleur après cuisson.
+RU : ГЛИНА
+Природный пластичный материал, состоящий из мелко раздроблённых минералов, фундаментальный в производстве греческой керамики. Аттическая красная глина была особенно ценной за своё качество и цвет после обжига.
+
+
+COIN
+
+FR : MONNAIE
+Pièce de métal frappée utilisée comme moyen d'échange. Les monnaies grecques antiques étaient souvent décorées d'images de divinités, de héros, de symboles civiques et portaient des inscriptions identifiant la cité émettrice.
+RU : МОНЕТА
+Отчеканенная металлическая деталь, использовавшаяся как средство обмена. Древнегреческие монеты часто украшались изображениями божеств, героев, гражданских символов и несли надписи, идентифицирующие город-эмитент.
+
+
+COLUMN
+
+FR : COLONNE
+Élément architectural vertical cylindrique servant de support structural dans les temples et bâtiments grecs. Composée d'une base (selon l'ordre), d'un fût cannelé et d'un chapiteau, elle est centrale dans l'architecture classique.
+RU : КОЛОННА
+Вертикальный цилиндрический архитектурный элемент, служащий структурной опорой в греческих храмах и зданиях. Состоящая из базы (в зависимости от ордера), каннелированного ствола и капители, она центральна в классической архитектуре.
+
+
+CONSERVATION
+
+FR : CONSERVATION
+Ensemble des pratiques et techniques visant à préserver, protéger et restaurer les objets et monuments archéologiques. Inclut la stabilisation, le nettoyage, la consolidation et la documentation des artefacts grecs antiques.
+RU : КОНСЕРВАЦИЯ
+Комплекс практик и техник, направленных на сохранение, защиту и реставрацию археологических объектов и памятников. Включает стабилизацию, очистку, укрепление и документирование древнегреческих артефактов.
+
+
+CONTEXT
+
+FR : CONTEXTE
+Environnement archéologique dans lequel un objet est découvert, incluant sa position, ses associations avec d'autres objets et sa stratigraphie. Le contexte est crucial pour interpréter la fonction, la datation et la signification d'un artefact.
+RU : КОНТЕКСТ
+Археологическое окружение, в котором обнаружен объект, включая его положение, связи с другими объектами и стратиграфию. Контекст имеет решающее значение для интерпретации функции, датировки и значения артефакта.
+
+
+CONTRAPPOSTO
+
+FR : CONTRAPPOSTO
+Posture sculptural où le poids du corps repose sur une jambe, créant un déhanchement naturel et une torsion du corps. Innovation majeure de la sculpture grecque classique apportant dynamisme et naturalisme aux figures.
+RU : КОНТРАПОСТ
+Скульптурная поза, при которой вес тела приходится на одну ногу, создавая естественный изгиб бедра и поворот тела. Главное новшество классической греческой скульптуры, придающее динамизм и натурализм фигурам.
+
+
+CORNICE
+
+FR : CORNICHE
+Élément architectural supérieur de l'entablement, couronnant la frise et formant la saillie horizontale du toit. Dans l'architecture grecque, elle protège les murs des intempéries et complète visuellement l'édifice.
+RU : КАРНИЗ
+Верхний архитектурный элемент антаблемента, венчающий фриз и образующий горизонтальный выступ крыши. В греческой архитектуре защищает стены от непогоды и визуально завершает здание.
+
+
+CRATER
+
+FR : CRATÈRE
+Grand vase à large ouverture utilisé lors des banquets grecs (symposiums) pour mélanger le vin avec de l'eau. Différentes formes existaient : cratère en cloche, en calice, en colonne et en volutes.
+RU : КРАТЕР
+Большой сосуд с широким горлом, использовавшийся на греческих банкетах (симпосиях) для смешивания вина с водой. Существовали различные формы: колоколовидный, каликсовидный, колонный и волютный кратеры.
+
+
+CREPIDOMA
+
+FR : CRÉPIDOME
+Soubassement à degrés d'un temple grec, généralement composé de trois marches (degrés). La marche supérieure, appelée stylobate, porte les colonnes du temple.
+RU : КРЕПИДОМА
+Ступенчатое основание греческого храма, обычно состоящее из трёх ступеней (уровней). Верхняя ступень, называемая стилобат, несёт колонны храма.
+
+
+CULT STATUE
+
+FR : STATUE DE CULTE
+Statue monumentale d'une divinité placée dans la cella d'un temple, objet principal de vénération religieuse. Généralement richement décorée, parfois chryséléphantine, elle représentait la présence physique du dieu dans son sanctuaire.
+RU : КУЛЬТОВАЯ СТАТУЯ
+Монументальная статуя божества, размещённая в целле храма, главный объект религиозного почитания. Обычно богато украшенная, иногда хрисоэлефантинная, она представляла физическое присутствие бога в его святилище.
+
+
+DEMETER
+
+FR : DÉMÉTER
+Déesse grecque de l'agriculture, des moissons, de la fertilité et des cycles naturels. Mère de Perséphone, son mythe expliquait le changement des saisons et elle était au centre des mystères d'Éleusis.
+Attributs : Épis de blé, gerbe, torche, couronne de blé, serpent, cochon
+RU : ДЕМЕТРА
+Греческая богиня земледелия, урожая, плодородия и природных циклов. Мать Персефоны, её миф объяснял смену времён года, и она была в центре Элевсинских мистерий.
+Атрибуты : Колосья пшеницы, сноп, факел, венок из пшеницы, змея, свинья
+
+
+DIONYSUS
+
+FR : DIONYSOS
+Dieu grec du vin, de l'ivresse, de la végétation, du théâtre et de l'extase religieuse. Fils de Zeus et de Sémélé, il était associé aux rites mystiques et aux festivals dramatiques, notamment les Dionysies à Athènes.
+Attributs : Thyrse (bâton couronné de lierre et de pomme de pin), vigne, coupe à vin, panthère, cortège de satyres et ménades
+RU : ДИОНИС
+Греческий бог вина, опьянения, растительности, театра и религиозного экстаза. Сын Зевса и Семелы, он ассоциировался с мистическими ритуалами и драматическими фестивалями, особенно Дионисиями в Афинах.
+Атрибуты : Тирс (жезл, увенчанный плющом и сосновой шишкой), виноградная лоза, винная чаша, пантера, свита сатиров и менад
+
+
+DINOS
+
+FR : DINOS
+Grand vase sphérique sans anses ni pied, utilisé pour mélanger le vin et l'eau lors des banquets. Placé sur un support séparé, il était souvent richement décoré de scènes mythologiques ou de motifs géométriques.
+RU : ДИНОС
+Большой сферический сосуд без ручек и ножки, использовавшийся для смешивания вина и воды на банкетах. Размещённый на отдельной подставке, он часто был богато украшен мифологическими сценами или геометрическими мотивами.
+
+
+DISTAFF
+
+FR : QUENOUILLE
+Bâton servant à maintenir les fibres (laine, lin) lors du filage manuel. Attribut féminin important dans la Grèce antique, symbolisant le travail domestique et la vertu des femmes, souvent représenté dans l'art et les tombes féminines.
+RU : ПРЯЛКА
+Палка, служащая для удержания волокон (шерсти, льна) при ручном прядении. Важный женский атрибут в Древней Греции, символизирующий домашнюю работу и женскую добродетель, часто изображаемый в искусстве и женских гробницах.
+
+
+DORIC ORDER
+
+FR : ORDRE DORIQUE
+Le plus ancien et le plus simple des trois ordres architecturaux grecs classiques, caractérisé par des colonnes robustes sans base, cannelées, avec des chapiteaux simples et un entablement comprenant des triglyphes et métopes.
+RU : ДОРИЧЕСКИЙ ОРДЕР
+Самый древний и простой из трёх классических греческих архитектурных ордеров, характеризующийся крепкими колоннами без базы, каннелированными, с простыми капителями и антаблементом, включающим триглифы и метопы.
+
+
+DRAPERY
+
+FR : DRAPÉ
+Représentation des plis et des chutes du tissu dans la sculpture et la peinture grecques. L'évolution du traitement du drapé montre la progression vers le naturalisme, atteignant sa perfection à l'époque classique et hellénistique.
+RU : ДРАПИРОВКА
+Изображение складок и падения ткани в греческой скульптуре и живописи. Эволюция трактовки драпировки показывает прогресс к натурализму, достигая совершенства в классическую и эллинистическую эпохи.
+
+
+DROMOS
+
+FR : DROMOS
+Couloir d'accès ou passage couvert menant à l'entrée d'une tombe à chambre ou d'un tombeau monumental. Caractéristique des tombes mycéniennes à tholos et de certaines tombes macédoniennes monumentales.
+RU : ДРОМОС
+Коридор доступа или крытый проход, ведущий ко входу в камерную гробницу или монументальную усыпальницу. Характерная черта микенских толосных гробниц и некоторых монументальных македонских гробниц.
+
+
+ENTABLATURE
+
+FR : ENTABLEMENT
+Ensemble architectural horizontal reposant sur les colonnes, composé de trois parties principales : l'architrave (en bas), la frise (au milieu) et la corniche (en haut). Structure fondamentale de l'architecture classique grecque.
+RU : АНТАБЛЕМЕНТ
+Горизонтальная архитектурная конструкция, опирающаяся на колонны, состоящая из трёх основных частей: архитрава (внизу), фриза (посередине) и карниза (вверху). Фундаментальная структура классической греческой архитектуры.
+
+
+EUTHYNTERIA
+
+FR : EUTHYNTÉRIE
+Assise de nivellement supérieure de la fondation d'un temple grec, sur laquelle repose le crépidome (soubassement à degrés). Couche de transition entre les fondations et la structure visible du temple.
+RU : ЕВФИНТЕРИЯ
+Верхний выравнивающий слой фундамента греческого храма, на котором покоится крепидома (ступенчатое основание). Переходный слой между фундаментом и видимой структурой храма.
+
+
+FABRIC
+
+FR : PÂTE CÉRAMIQUE
+Composition matérielle d'un objet en céramique, incluant le type d'argile, les inclusions minérales et la texture. L'analyse de la pâte permet d'identifier l'origine géographique et la période de fabrication d'un vase.
+RU : КЕРАМИЧЕСКАЯ МАССА
+Материальный состав керамического объекта, включая тип глины, минеральные включения и текстуру. Анализ массы позволяет определить географическое происхождение и период изготовления сосуда.
+
+
+FIRING
+
+FR : CUISSON
+Processus de chauffage de l'argile à haute température dans un four pour la transformer en céramique durable. La céramique grecque utilisait une cuisson en trois phases pour créer les décors à figures noires et rouges.
+RU : ОБЖИГ
+Процесс нагрева глины до высокой температуры в печи для превращения её в прочную керамику. Греческая керамика использовала трёхфазный обжиг для создания чернофигурных и краснофигурных декоров.
+
+
+FRIEZE
+
+FR : FRISE
+Bande horizontale décorative située entre l'architrave et la corniche dans l'entablement. Dans l'ordre dorique, alternance de triglyphes et métopes ; dans l'ordre ionique, bande continue souvent sculptée de scènes narratives.
+RU : ФРИЗ
+Горизонтальная декоративная полоса, расположенная между архитравом и карнизом в антаблементе. В дорическом ордере чередование триглифов и метоп; в ионическом ордере непрерывная полоса, часто украшенная повествовательными сценами.
+
+
+GIGANTOMACHY
+
+FR : GIGANTOMACHIE
+Combat mythologique entre les dieux de l'Olympe et les Géants, fils de Gaïa (la Terre). Thème artistique majeur symbolisant la victoire de l'ordre cosmique sur les forces du chaos, fréquent dans la sculpture et la céramique.
+RU : ГИГАНТОМАХИЯ
+Мифологическая битва между богами Олимпа и Гигантами, сыновьями Геи (Земли). Важная художественная тема, символизирующая победу космического порядка над силами хаоса, часто встречающаяся в скульптуре и керамике.
+
+
+GIRDLE
+
+FR : CEINTURE
+Bande de tissu ou de cuir portée autour de la taille pour maintenir les vêtements. Dans l'art grec, élément important du costume féminin, parfois associé à des pouvoirs magiques comme la ceinture d'Aphrodite.
+RU : ПОЯС
+Полоса ткани или кожи, носимая вокруг талии для поддержки одежды. В греческом искусстве важный элемент женского костюма, иногда связанный с магическими силами, как пояс Афродиты.
+
+
+GORGON
+
+FR : GORGONE
+Créature monstrueuse féminine de la mythologie grecque avec des serpents pour cheveux, dont le regard transformait en pierre. Méduse était la plus célèbre des trois Gorgones. Image apotropaïque puissante dans l'art grec.
+RU : ГОРГОНА
+Женское чудовищное существо греческой мифологии со змеями вместо волос, чей взгляд превращал в камень. Медуза была самой известной из трёх Горгон. Мощный апотропеический образ в греческом искусстве.
+
+
+GRAVE GOODS
+
+FR : MOBILIER FUNÉRAIRE
+Objets déposés dans une tombe avec le défunt, incluant vases, bijoux, armes, figurines et offrandes alimentaires. Reflètent le statut social, les croyances religieuses et les pratiques funéraires de la Grèce antique.
+RU : ПОГРЕБАЛЬНЫЙ ИНВЕНТАРЬ
+Предметы, помещённые в могилу с покойным, включая сосуды, украшения, оружие, статуэтки и пищевые подношения. Отражают социальный статус, религиозные верования и погребальные практики Древней Греции.
+
+
+GRIFFIN
+
+FR : GRIFFON
+Créature mythologique avec le corps d'un lion et la tête et les ailes d'un aigle. Dans l'art grec, les griffons étaient des gardiens de trésors et symboles de pouvoir, fréquemment représentés dans la sculpture et la céramique orientalisante.
+RU : ГРИФОН
+Мифологическое существо с телом льва и головой и крыльями орла. В греческом искусстве грифоны были стражами сокровищ и символами власти, часто изображаемыми в скульптуре и ориентализирующей керамике.
+
+
+HEPHAESTUS
+
+FR : HÉPHAÏSTOS
+Dieu grec du feu, de la forge, de la métallurgie et de l'artisanat. Fils de Zeus et d'Héra, forgeron des dieux, il créait les armes divines et les objets merveilleux. Représenté comme boiteux mais ingénieux.
+Attributs : Marteau, enclume, tenailles, bonnet conique, forge, travail des métaux
+RU : ГЕФЕСТ
+Греческий бог огня, кузнечного дела, металлургии и ремесла. Сын Зевса и Геры, кузнец богов, создававший божественное оружие и чудесные предметы. Изображался хромым, но изобретательным.
+Атрибуты : Молот, наковальня, щипцы, коническая шапка, кузница, работа с металлами
+
+
+HERA
+
+FR : HÉRA
+Déesse grecque du mariage, de la famille et reine des dieux, épouse et sœur de Zeus. Protectrice des femmes mariées et de la fécondité légitime, elle était l'une des douze Olympiens et possédait des sanctuaires majeurs.
+Attributs : Diadème, sceptre, paon, grenade, coucou, voile nuptial
+RU : ГЕРА
+Греческая богиня брака, семьи и царица богов, жена и сестра Зевса. Покровительница замужних женщин и законной плодовитости, она была одним из двенадцати олимпийцев и обладала важными святилищами.
+Атрибуты : Диадема, скипетр, павлин, гранат, кукушка, свадебная вуаль
+
+
+HERACLES
+
+FR : HÉRACLÈS
+Plus grand héros de la mythologie grecque, fils de Zeus et d'Alcmène, célèbre pour ses douze travaux. Symbolisant la force, le courage et la persévérance, il était vénéré comme un héros divinisé et protecteur.
+Attributs : Massue, peau de lion némée, arc et flèches, pommes d'or des Hespérides
+RU : ГЕРАКЛ
+Величайший герой греческой мифологии, сын Зевса и Алкмены, знаменитый своими двенадцатью подвигами. Символизирующий силу, храбрость и упорство, он почитался как обожествлённый герой и защитник.
+Атрибуты : Палица, шкура немейского льва, лук и стрелы, золотые яблоки Гесперид
+
+
+HERMES
+
+FR : HERMÈS
+Dieu grec des voyageurs, du commerce, des messagers, de la communication et guide des âmes vers les Enfers. Fils de Zeus et de Maïa, il était rapide, rusé et servait d'intermédiaire entre les dieux et les mortels.
+Attributs : Caducée, pétase (chapeau ailé), sandales ailées, bourse, tortue
+RU : ГЕРМЕС
+Греческий бог путешественников, торговли, посланников, коммуникации и проводник душ в Аид. Сын Зевса и Майи, он был быстрым, хитрым и служил посредником между богами и смертными.
+Атрибуты : Кадуцей, петас (крылатая шляпа), крылатые сандалии, кошелёк, черепаха
+
+
+HYDRIA
+
+FR : HYDRIE
+Vase à eau à trois anses : deux horizontales pour le porter et une verticale pour verser. Utilisé principalement par les femmes pour transporter l'eau des fontaines publiques, souvent décoré de scènes de la vie quotidienne.
+RU : ГИДРИЯ
+Сосуд для воды с тремя ручками: двумя горизонтальными для переноски и одной вертикальной для наливания. Использовался в основном женщинами для транспортировки воды из общественных фонтанов, часто украшался сценами повседневной жизни.
+
+
+IONIC ORDER
+
+FR : ORDRE IONIQUE
+L'un des trois ordres architecturaux grecs classiques, caractérisé par des colonnes élancées avec des bases moulurées, des fûts cannelés et des chapiteaux ornés de volutes en spirale. Plus décoratif que l'ordre dorique.
+RU : ИОНИЧЕСКИЙ ОРДЕР
+Один из трёх классических греческих архитектурных ордеров, характеризующийся стройными колоннами с молдированными базами, каннелированными стволами и капителями, украшенными спиральными волютами. Более декоративен, чем дорический ордер.
+
+
+JUG
+
+FR : CRUCHE
+Récipient à liquides avec une anse et un bec verseur, utilisé pour verser de l'eau, du vin ou de l'huile. Les cruches grecques variaient en taille et en forme selon leur fonction domestique ou rituelle.
+RU : КУВШИН
+Сосуд для жидкостей с ручкой и носиком, использовавшийся для наливания воды, вина или масла. Греческие кувшины различались по размеру и форме в зависимости от их домашней или ритуальной функции.
+
+
+JUGLET
+
+FR : GOURDE / PETIT FLACON
+Petit récipient à liquides, souvent utilisé pour contenir des huiles parfumées ou des onguents. De forme miniature, il était portable et pouvait être porté suspendu ou dans une bourse.
+RU : ФЛАКОНЧИК
+Небольшой сосуд для жидкостей, часто использовавшийся для хранения ароматических масел или мазей. Миниатюрной формы, он был портативным и мог носиться подвешенным или в кошельке.
+
+
+KANTHAROS
+
+FR : CANTHARE
+Coupe à boire profonde avec deux anses verticales hautes et un pied, associée particulièrement à Dionysos et utilisée lors des symposiums. Sa forme distinctive en faisait un symbole du culte dionysiaque.
+RU : КАНФАР
+Глубокая чаша для питья с двумя высокими вертикальными ручками и ножкой, особенно ассоциируемая с Дионисом и использовавшаяся на симпосиях. Её характерная форма делала её символом дионисийского культа.
+
+
+KILN
+
+FR : FOUR À CÉRAMIQUE
+Structure de cuisson utilisée pour transformer l'argile en céramique par application de chaleur intense. Les fours grecs permettaient un contrôle précis de la température et de l'atmosphère pour créer les décors à figures noires et rouges.
+RU : КЕРАМИЧЕСКАЯ ПЕЧЬ
+Обжиговая конструкция, использовавшаяся для превращения глины в керамику путём применения интенсивного тепла. Греческие печи позволяли точно контролировать температуру и атмосферу для создания чернофигурных и краснофигурных декоров.
+
+
+KNUCKLEBONE
+
+FR : OSSELET
+Os du jarret d'animaux (moutons, chèvres) utilisé comme dé ou pièce de jeu dans l'Antiquité grecque. Également utilisé dans la divination et retrouvé dans les tombes comme offrande ou jouet d'enfant.
+RU : БАБКА (ИГРАЛЬНАЯ КОСТЬ)
+Кость сустава животных (овец, коз), использовавшаяся как кубик или игровая фишка в греческой античности. Также использовалась в гадании и обнаруживается в гробницах как подношение или детская игрушка.
+
+
+KORE
+
+FR : KORÈ
+Statue de jeune femme debout, vêtue, typique de la période archaïque grecque (VIe siècle av. J.-C.). Caractérisée par un sourire archaïque, des draperies élaborées et une posture frontale rigide.
+RU : КОРА
+Статуя стоящей молодой женщины, одетой, типичная для греческого архаического периода (VI век до н.э.). Характеризуется архаической улыбкой, сложными драпировками и жёсткой фронтальной позой.
+
+
+KOUROS
+
+FR : KOUROS
+Statue de jeune homme nu debout, typique de la période archaïque grecque. Représentait un idéal de beauté masculine athlétique, souvent utilisée comme offrande votive ou marqueur de tombe, précurseur de la sculpture classique.
+RU : КУРОС
+Статуя стоящего обнажённого молодого мужчины, типичная для греческого архаического периода. Представляла идеал мужской атлетической красоты, часто использовалась как вотивное подношение или надгробный знак, предшественник классической скульптуры.
+
+
+KYLIX
+
+FR : KYLIX
+Coupe à boire peu profonde et large avec deux anses horizontales et un pied haut, utilisée lors des symposiums. L'intérieur était souvent décoré d'une scène circulaire (tondo) révélée progressivement en buvant.
+RU : КИЛИК
+Неглубокая и широкая чаша для питья с двумя горизонтальными ручками и высокой ножкой, использовавшаяся на симпосиях. Внутренняя часть часто украшалась круглой сценой (тондо), постепенно открывавшейся при питье.
+
+
+LABOURS OF HERACLES
+
+FR : TRAVAUX D'HÉRACLÈS
+Série de douze exploits héroïques accomplis par Héraclès pour expier ses crimes. Thème artistique majeur incluant : le lion de Némée, l'hydre de Lerne, la biche de Cérynie, le sanglier d'Érymanthe, et bien d'autres.
+RU : ПОДВИГИ ГЕРАКЛА
+Серия из двенадцати героических свершений, совершённых Гераклом для искупления своих преступлений. Важная художественная тема, включающая: немейского льва, лернейскую гидру, керинейскую лань, эриманфского вепря и многие другие.
+
+
+LAGYNOS
+
+FR : LAGYNOS
+Type de cruche à vin élancée avec un long col étroit, un corps ovoïde, une anse et parfois un bec tréflé. Populaire à l'époque hellénistique, souvent utilisée pour servir le vin lors des banquets.
+RU : ЛАГИНОС
+Тип стройного винного кувшина с длинной узкой шейкой, овоидным телом, ручкой и иногда трилистниковым носиком. Популярен в эллинистическую эпоху, часто использовался для подачи вина на банкетах.
+
+
+LADLE
+
+FR : LOUCHE
+Ustensile à long manche avec une coupe creuse, utilisé pour puiser et servir des liquides, particulièrement dans les cratères lors des symposiums. Permettait de transférer le vin mélangé dans les coupes individuelles.
+RU : ЧЕРПАК
+Утварь с длинной ручкой и глубокой чашей, использовавшаяся для зачерпывания и подачи жидкостей, особенно из кратеров на симпосиях. Позволяла переливать смешанное вино в индивидуальные чаши.
+
+
+LEKANIS
+
+FR : LÉKANIS
+Récipient bas et large avec un couvercle et deux anses horizontales, utilisé pour contenir des cosmétiques, des bijoux ou des accessoires de toilette féminine. Souvent décoré de scènes liées aux femmes et au mariage.
+RU : ЛЕКАНИДА
+Низкий и широкий сосуд с крышкой и двумя горизонтальными ручками, использовавшийся для хранения косметики, украшений или женских туалетных принадлежностей. Часто украшался сценами, связанными с женщинами и браком.
+
+
+LEKYTHOS
+
+FR : LÉCYTHE
+Vase à huile allongé avec un corps cylindrique étroit, un col fin, une seule anse et un pied. Utilisé pour contenir de l'huile parfumée, particulièrement dans les contextes funéraires où il servait d'offrande.
+RU : ЛЕКИФ
+Удлинённый сосуд для масла с узким цилиндрическим телом, тонкой шейкой, одной ручкой и ножкой. Использовался для хранения ароматического масла, особенно в погребальных контекстах в качестве подношения.
+
+
+LIBATION
+
+FR : LIBATION
+Offrande rituelle de liquide (vin, huile, lait, miel) versée au sol ou sur un autel en l'honneur des dieux ou des morts. Acte religieux central dans le culte grec, accompli lors de sacrifices, banquets et cérémonies.
+RU : ВОЗЛИЯНИЕ
+Ритуальное подношение жидкости (вина, масла, молока, мёда), выливаемой на землю или на алтарь в честь богов или мёртвых. Центральный религиозный акт в греческом культе, совершаемый при жертвоприношениях, банкетах и церемониях.
+
+
+LOOM
+
+FR : MÉTIER À TISSER
+Dispositif utilisé pour tisser les fils en tissu, fondamental dans la production textile domestique grecque. Le tissage était une activité féminine importante, symbolisant la vertu et le rôle domestique des femmes.
+RU : ТКАЦКИЙ СТАНОК
+Устройство, использовавшееся для плетения нитей в ткань, фундаментальное в греческом домашнем текстильном производстве. Ткачество было важной женской деятельностью, символизирующей добродетель и домашнюю роль женщин.
+
+
+LOOM WEIGHTS
+
+FR : POIDS DE MÉTIER
+Poids en argile ou en pierre attachés aux fils de chaîne d'un métier à tisser vertical pour les maintenir tendus. Objets archéologiques courants, souvent retrouvés dans les contextes domestiques et les tombes féminines.
+RU : ГРУЗИЛА ДЛЯ ТКАЦКОГО СТАНКА
+Грузы из глины или камня, прикреплённые к нитям основы вертикального ткацкого станка для поддержания их натяжения. Распространённые археологические находки, часто обнаруживаемые в домашних контекстах и женских гробницах.
+
+
+LOUTROPHOROS
+
+FR : LOUTROPHORE
+Grand vase élancé à long col et deux anses verticales, utilisé pour transporter l'eau du bain nuptial. Également placé sur les tombes de personnes décédées non mariées, symbolisant le mariage qu'elles n'ont pas connu.
+RU : ЛУТРОФОР
+Большой стройный сосуд с длинной шейкой и двумя вертикальными ручками, использовавшийся для транспортировки воды для свадебной ванны. Также помещался на могилы незамужних умерших, символизируя брак, который они не познали.
+
+
+MEDUSA
+
+FR : MÉDUSE
+La plus célèbre des trois Gorgones, seule mortelle parmi elles, dont le regard pétrifiant transformait en pierre. Tuée par Persée, sa tête coupée devint un puissant symbole apotropaïque utilisé sur les boucliers et l'architecture.
+RU : МЕДУЗА
+Самая известная из трёх Горгон, единственная смертная среди них, чей окаменяющий взгляд превращал в камень. Убитая Персеем, её отрубленная голова стала мощным апотропеическим символом, используемым на щитах и в архитектуре.
+
+
+MENORAH
+
+FR : MÉNORAH
+Chandelier à sept branches, symbole sacré du judaïsme, parfois trouvé dans des contextes archéologiques grecs et romains en raison de la présence de communautés juives. Représente la lumière divine et l'alliance.
+RU : МЕНОРА
+Семисвечник, священный символ иудаизма, иногда обнаруживаемый в греческих и римских археологических контекстах из-за присутствия еврейских общин. Представляет божественный свет и завет.
+
+
+METOPE
+
+FR : MÉTOPE
+Panneau rectangulaire, souvent sculpté, alternant avec les triglyphes dans la frise de l'ordre dorique. Les métopes étaient décorées de scènes mythologiques en relief, comme sur le Parthénon (centauromachie, gigantomachie, guerre de Troie).
+RU : МЕТОПА
+Прямоугольная панель, часто скульптурная, чередующаяся с триглифами в фризе дорического ордера. Метопы украшались мифологическими сценами в рельефе, как на Парфеноне (кентавромахия, гигантомахия, Троянская война).
+
+
+MINOTAUR
+
+FR : MINOTAURE
+Créature mythologique mi-homme mi-taureau, fils de Pasiphaé et d'un taureau divin, enfermé dans le labyrinthe de Crète. Tué par Thésée, le Minotaure symbolisait la sauvagerie domptée par l'héroïsme civilisé.
+RU : МИНОТАВР
+Мифологическое существо, наполовину человек, наполовину бык, сын Пасифаи и божественного быка, заключённый в критском лабиринте. Убитый Тесеем, Минотавр символизировал дикость, укрощённую цивилизованным героизмом.
+
+
+MORTAR
+
+FR : MORTIER
+Récipient robuste avec une surface intérieure rugueuse, utilisé avec un pilon pour broyer, moudre ou mélanger des ingrédients alimentaires, des herbes médicinales ou des pigments. Outil essentiel dans la cuisine et l'artisanat grecs.
+RU : СТУПКА
+Прочный сосуд с шероховатой внутренней поверхностью, использовавшийся с пестиком для измельчения, помола или смешивания пищевых ингредиентов, лекарственных трав или пигментов. Важный инструмент в греческой кухне и ремесле.
+
+
+NAOS
+
+FR : NAOS
+Terme grec pour la cella, la chambre intérieure principale d'un temple où était placée la statue de culte. Espace sacré accessible uniquement aux prêtres, cœur spirituel du sanctuaire.
+RU : НАОС
+Греческий термин для целлы, главной внутренней комнаты храма, где размещалась культовая статуя. Священное пространство, доступное только жрецам, духовное сердце святилища.
+
+
+NECROPOLIS
+
+FR : NÉCROPOLE
+Littéralement "ville des morts", grande zone funéraire ou cimetière situé à l'extérieur des murs d'une cité grecque. Pouvait contenir divers types de tombes : inhumations simples, tombes à chambre, tumuli et monuments funéraires.
+RU : НЕКРОПОЛЬ
+Буквально "город мёртвых", большая погребальная зона или кладбище, расположенное за стенами греческого города. Мог содержать различные типы гробниц: простые захоронения, камерные гробницы, курганы и погребальные памятники.
+
+
+ODEON
+
+FR : ODÉON
+Bâtiment public couvert destiné aux performances musicales, aux récitals de poésie et aux compétitions oratoires. Structure architecturale grecque avec une acoustique soigneusement conçue, plus petit et plus intime qu'un théâtre.
+RU : ОДЕОН
+Крытое общественное здание, предназначенное для музыкальных представлений, чтения поэзии и ораторских состязаний. Греческое архитектурное сооружение с тщательно спроектированной акустикой, меньше и интимнее театра.
+
+
+OINOCHOE
+
+FR : ŒNOCHOÉ
+Cruche à vin avec une embouchure trilobée (en trèfle), un corps arrondi et une seule anse, utilisée pour verser le vin lors des symposiums. L'une des formes de vases grecs les plus courantes et fonctionnelles.
+RU : ОЙНОХОЯ
+Винный кувшин с трёхлопастным (трилистниковым) горлышком, округлым телом и одной ручкой, использовавшийся для наливания вина на симпосиях. Одна из самых распространённых и функциональных форм греческих сосудов.
+
+
+OLPE
+
+FR : OLPÈ
+Cruche à vin haute et élancée avec un corps ovoïde, un col cylindrique et une seule anse, sans bec prononcé. Utilisée pour verser du vin, elle était populaire dans les périodes archaïque et classique.
+RU : ОЛЬПА
+Высокий и стройный винный кувшин с овоидным телом, цилиндрической шейкой и одной ручкой, без выраженного носика. Использовался для наливания вина, был популярен в архаический и классический периоды.
+
+
+PALMETTE
+
+FR : PALMETTE
+Motif décoratif stylisé représentant une feuille de palmier ou une fleur en éventail, très courant dans l'art et l'architecture grecs. Utilisé dans les frises, les bordures de vases, les chapiteaux et l'ornementation architecturale.
+RU : ПАЛЬМЕТТА
+Стилизованный декоративный мотив, представляющий пальмовый лист или веерообразный цветок, очень распространённый в греческом искусстве и архитектуре. Использовался во фризах, бордюрах сосудов, капителях и архитектурном орнаменте.
+
+
+PANATHENAIC
+
+FR : PANATHÉNAÏQUE
+Relatif aux Panathénées, festival religieux majeur d'Athènes en l'honneur d'Athéna. Les amphores panathénaïques remplies d'huile d'olive étaient données comme prix aux vainqueurs des compétitions athlétiques et équestres.
+RU : ПАНАФИНЕЙСКИЙ
+Относящийся к Панафинеям, главному религиозному фестивалю Афин в честь Афины. Панафинейские амфоры, наполненные оливковым маслом, вручались в качестве призов победителям атлетических и конных состязаний.
+
+
+PATERA
+
+FR : PATÈRE
+Coupe ou plat peu profond sans anses, utilisé pour les libations rituelles lors des sacrifices et des cérémonies religieuses. Associé aux pratiques cultuelles et souvent représenté dans les scènes de sacrifice sur les vases et reliefs.
+RU : ПАТЕРА
+Неглубокая чаша или тарелка без ручек, использовавшаяся для ритуальных возлияний при жертвоприношениях и религиозных церемониях. Ассоциируется с культовыми практиками и часто изображается в сценах жертвоприношений на сосудах и рельефах.
+
+
+PEDIMENT
+
+FR : FRONTON
+Élément architectural triangulaire couronnant la façade d'un temple grec, formé par les pentes du toit. L'espace du tympan était souvent rempli de sculptures monumentales représentant des scènes mythologiques.
+RU : ФРОНТОН
+Треугольный архитектурный элемент, венчающий фасад греческого храма, образованный скатами крыши. Пространство тимпана часто заполнялось монументальными скульптурами, представляющими мифологические сцены.
+
+
+PELIKE
+
+FR : PÉLIKÉ
+Type d'amphore avec un corps large et piriforme, des anses attachées près du col et un pied bas. Utilisée pour le stockage et le service du vin, elle était populaire dans la céramique attique à figures rouges.
+RU : ПЕЛИКА
+Тип амфоры с широким грушевидным телом, ручками, прикреплёнными у шейки, и низкой ножкой. Использовалась для хранения и подачи вина, была популярна в аттической краснофигурной керамике.
+
+
+PERIBOLOS
+
+FR : PÉRIBOLOS
+Mur d'enceinte ou clôture entourant un sanctuaire, un temple ou un espace sacré. Délimitait l'espace sacré du profane et pouvait être simple ou monumental avec des portiques et des portes d'entrée.
+RU : ПЕРИБОЛОС
+Ограждающая стена или забор, окружающий святилище, храм или священное пространство. Разграничивал священное от профанного и мог быть простым или монументальным с портиками и входными воротами.
+
+
+PERIPATOS
+
+FR : PÉRIPATOS
+Chemin de promenade ou colonnade couverte entourant un bâtiment ou un sanctuaire. Également associé à l'école philosophique d'Aristote, dont les disciples se promenaient en discutant (d'où le nom de philosophie péripatéticienne).
+RU : ПЕРИПАТ
+Прогулочная дорожка или крытая колоннада, окружающая здание или святилище. Также ассоциируется с философской школой Аристотеля, ученики которой прогуливались, обсуждая идеи (отсюда название перипатетической философии).
+
+
+PERISTASIS
+
+FR : PÉRISTASIS
+Colonnade entourant la cella d'un temple grec, formant le péristyle. Ensemble des colonnes périphériques qui caractérise les temples périptères, créant un déambulatoire couvert autour du naos.
+RU : ПЕРИСТАСИС
+Колоннада, окружающая целлу греческого храма, образующая перистиль. Совокупность периферийных колонн, характеризующих периптеральные храмы, создающая крытую галерею вокруг наоса.
+
+
+PERISTYLE
+
+FR : PÉRISTYLE
+Colonnade continue entourant un bâtiment ou une cour intérieure. Dans l'architecture grecque, désigne l'ensemble des colonnes périphériques d'un temple périptère ou les portiques entourant une cour.
+RU : ПЕРИСТИЛЬ
+Непрерывная колоннада, окружающая здание или внутренний двор. В греческой архитектуре обозначает совокупность периферийных колонн периптерального храма или портики, окружающие двор.
+
+
+PHIALE
+
+FR : PHIALE
+Coupe peu profonde sans anses ni pied, souvent avec une dépression centrale (omphalos), utilisée pour les libations rituelles. Fréquemment représentée dans les mains de divinités et de fidèles accomplissant des rites religieux.
+RU : ФИАЛА
+Неглубокая чаша без ручек и ножки, часто с центральным углублением (омфалос), использовавшаяся для ритуальных возлияний. Часто изображается в руках божеств и верующих, совершающих религиозные обряды.
+
+
+PRONAOS
+
+FR : PRONAOS
+Vestibule ou portique situé devant la cella (naos) d'un temple grec, formant l'espace de transition entre l'extérieur et la chambre sacrée. Souvent délimité par des colonnes ou des antes.
+RU : ПРОНАОС
+Вестибюль или портик, расположенный перед целлой (наосом) греческого храма, образующий переходное пространство между внешней частью и священной комнатой. Часто ограничен колоннами или антами.
+
+
+PROPYLAEON
+
+FR : PROPYLÉE
+Entrée monumentale d'un sanctuaire ou d'un ensemble architectural sacré, généralement avec des colonnes et plusieurs passages. Les Propylées de l'Acropole d'Athènes sont l'exemple le plus célèbre.
+RU : ПРОПИЛЕИ
+Монументальный вход в святилище или священный архитектурный комплекс, обычно с колоннами и несколькими проходами. Пропилеи Афинского Акрополя являются самым знаменитым примером.
+
+
+PYXIS
+
+FR : PYXIDE
+Petite boîte cylindrique avec couvercle, utilisée pour contenir des cosmétiques, des bijoux ou des objets précieux. Souvent donnée en cadeau lors des mariages et retrouvée dans les tombes féminines.
+RU : ПИКСИДА
+Небольшая цилиндрическая коробка с крышкой, использовавшаяся для хранения косметики, украшений или драгоценных предметов. Часто дарилась на свадьбах и обнаруживается в женских гробницах.
+
+
+RHYTON
+
+FR : RHYTON
+Vase à boire en forme de corne ou sculpté en forme d'animal, avec une ouverture au sommet pour remplir et un trou au fond pour verser. Utilisé dans les rituels et les banquets, souvent richement décoré.
+RU : РИТОН
+Сосуд для питья в форме рога или вырезанный в форме животного, с отверстием наверху для наполнения и отверстием внизу для наливания. Использовался в ритуалах и на банкетах, часто богато украшенный.
+
+
+ROSETTE
+
+FR : ROSETTE
+Motif décoratif circulaire stylisé représentant une fleur vue de dessus avec des pétales rayonnants. Couramment utilisé dans la décoration architecturale, la céramique et les bijoux grecs comme élément ornemental.
+RU : РОЗЕТКА
+Стилизованный круговой декоративный мотив, представляющий цветок, видимый сверху, с лучевидными лепестками. Широко используется в архитектурном декоре, керамике и греческих украшениях как орнаментальный элемент.
+
+
+SARCOPHAGUS
+
+FR : SARCOPHAGE
+Cercueil en pierre, souvent richement décoré de reliefs sculptés, utilisé pour les inhumations de personnes aisées. Les sarcophages grecs pouvaient représenter des scènes mythologiques, des banquets ou des batailles.
+RU : САРКОФАГ
+Каменный гроб, часто богато украшенный скульптурными рельефами, использовавшийся для погребения состоятельных людей. Греческие саркофаги могли изображать мифологические сцены, банкеты или битвы.
+
+
+SHAFT GRAVE
+
+FR : TOMBE À FOSSE
+Type de sépulture consistant en une fosse profonde rectangulaire creusée dans le sol, utilisée particulièrement à l'époque mycénienne. Les tombes à fosse du cercle A de Mycènes contenaient des trésors funéraires extraordinaires.
+RU : ШАХТОВАЯ ГРОБНИЦА
+Тип захоронения, состоящий из глубокой прямоугольной ямы, вырытой в земле, использовавшийся особенно в микенскую эпоху. Шахтовые гробницы круга А в Микенах содержали необычайные погребальные сокровища.
+
+
+SKYPHOS
+
+FR : SKYPHOS
+Coupe à boire profonde avec deux anses horizontales placées près du bord et un pied bas. Forme simple et pratique, très populaire pour la consommation quotidienne de vin lors des repas et symposiums.
+RU : СКИФОС
+Глубокая чаша для питья с двумя горизонтальными ручками, расположенными у края, и низкой ножкой. Простая и практичная форма, очень популярная для ежедневного потребления вина во время трапез и симпосиев.
+
+
+SPINDLE WHORL
+
+FR : FUSAÏOLE
+Disque de poids placé sur un fuseau pour maintenir la rotation lors du filage manuel de la laine ou du lin. Objet archéologique courant, souvent en argile ou en pierre, retrouvé dans les contextes domestiques et les tombes féminines.
+RU : ПРЯСЛИЦЕ
+Весовой диск, помещаемый на веретено для поддержания вращения при ручном прядении шерсти или льна. Распространённая археологическая находка, часто из глины или камня, обнаруживаемая в домашних контекстах и женских гробницах.
+
+
+STAMNOS
+
+FR : STAMNOS
+Jarre de stockage de taille moyenne avec un corps large et arrondi, un col court, deux anses horizontales et un pied. Utilisée pour conserver du vin, de l'eau ou d'autres liquides dans les contextes domestiques.
+RU : СТАМНОС
+Сосуд для хранения среднего размера с широким округлым телом, короткой шейкой, двумя горизонтальными ручками и ножкой. Использовался для хранения вина, воды или других жидкостей в домашних условиях.
+
+
+STEATITE
+
+FR : STÉATITE
+Pierre tendre et savonneuse (pierre ollaire) facilement sculptable, composée principalement de talc. Utilisée dans l'art grec pour créer des sceaux, des perles, des petites sculptures et des vases, particulièrement à l'époque minoenne.
+RU : СТЕАТИТ
+Мягкий мыльный камень (талькохлорит), легко поддающийся резьбе, состоящий в основном из талька. Использовался в греческом искусстве для создания печатей, бусин, небольших скульптур и сосудов, особенно в минойскую эпоху.
+
+
+STEREOBATE
+
+FR : STÉRÉOBATE
+Soubassement ou plateforme de fondation sur laquelle repose le crépidome (soubassement à degrés) d'un temple grec. Base solide assurant la stabilité de l'ensemble de la structure architecturale.
+RU : СТЕРЕОБАТ
+Основание или фундаментная платформа, на которой покоится крепидома (ступенчатое основание) греческого храма. Прочная база, обеспечивающая устойчивость всей архитектурной структуры.
+
+
+STOA
+
+FR : STOA
+Portique couvert à colonnade, bâtiment public allongé avec un toit soutenu par des colonnes le long d'un ou plusieurs côtés. Utilisé comme lieu de commerce, de rencontre sociale et d'enseignement philosophique dans l'agora grecque.
+RU : СТОЯ
+Крытый портик с колоннадой, вытянутое общественное здание с крышей, поддерживаемой колоннами вдоль одной или нескольких сторон. Использовалась как место торговли, социальных встреч и философского обучения на греческой агоре.
+
+
+STYLOBATE
+
+FR : STYLOBATE
+Marche supérieure du crépidome (soubassement à degrés) d'un temple grec, formant la plateforme sur laquelle reposent directement les colonnes. Surface de niveau parfaitement ajustée pour supporter les colonnes du péristyle.
+RU : СТИЛОБАТ
+Верхняя ступень крепидомы (ступенчатого основания) греческого храма, образующая платформу, на которой непосредственно покоятся колонны. Идеально выровненная поверхность для поддержки колонн перистиля.
+
+
+TEMENOS
+
+FR : TÉMÉNOS
+Enceinte sacrée délimitant un sanctuaire grec, séparant l'espace sacré du territoire profane. Pouvait contenir un ou plusieurs temples, autels, trésors et autres structures religieuses, entouré d'un mur de péribolos.
+RU : ТЕМЕНОС
+Священная ограда, очерчивающая греческое святилище, отделяющая священное пространство от профанной территории. Мог содержать один или несколько храмов, алтарей, сокровищниц и других религиозных структур, окружённых стеной периболоса.
+
+
+THOLOS TOMB
+
+FR : TOMBE À THOLOS
+Tombe monumentale à chambre circulaire avec une voûte en encorbellement (fausse coupole), caractéristique de l'architecture funéraire mycénienne. Le "Trésor d'Atrée" à Mycènes est l'exemple le plus célèbre.
+RU : ТОЛОСНАЯ ГРОБНИЦА
+Монументальная гробница с круглой камерой и ложносводчатым перекрытием (ложным куполом), характерная для микенской погребальной архитектуры. "Сокровищница Атрея" в Микенах является самым знаменитым примером.
+
+
+THYRSUS
+
+FR : THYRSE
+Bâton ou sceptre rituel associé à Dionysos et ses fidèles, surmonté d'une pomme de pin et enroulé de lierre ou de vigne. Symbole du culte dionysiaque porté par les ménades et les satyres dans les processions et les rites.
+Attributs : Pomme de pin au sommet, lierre, vigne, bâton de fenouil
+RU : ТИРС
+Ритуальный жезл или скипетр, ассоциируемый с Дионисом и его последователями, увенчанный сосновой шишкой и обвитый плющом или виноградной лозой. Символ дионисийского культа, носимый менадами и сатирами в процессиях и обрядах.
+Атрибуты : Сосновая шишка наверху, плющ, виноградная лоза, стебель фенхеля
+
+
+TRIDENT
+
+FR : TRIDENT
+Fourche à trois pointes, attribut caractéristique de Poséidon, dieu grec de la mer. Symbole de son pouvoir sur les océans, les tremblements de terre et les chevaux, le trident pouvait provoquer des tempêtes ou calmer les eaux.
+Attributs : Trois pointes acérées, long manche, associé à Poséidon
+RU : ТРЕЗУБЕЦ
+Вилка с тремя зубцами, характерный атрибут Посейдона, греческого бога моря. Символ его власти над океанами, землетрясениями и лошадьми, трезубец мог вызывать бури или успокаивать воды.
+Атрибуты : Три острых зубца, длинная рукоять, ассоциируется с Посейдоном
+
+
+TRIGLYPH
+
+FR : TRIGLYPHE
+Élément architectural rectangulaire de la frise dorique, caractérisé par trois rainures verticales, alternant avec les métopes. Dérive possiblement de la représentation stylisée des extrémités des poutres en bois dans l'architecture primitive.
+RU : ТРИГЛИФ
+Прямоугольный архитектурный элемент дорического фриза, характеризующийся тремя вертикальными желобками, чередующийся с метопами. Возможно, происходит от стилизованного изображения концов деревянных балок в примитивной архитектуре.
+
+
+TROJAN WAR
+
+FR : GUERRE DE TROIE
+Conflit légendaire entre les Grecs et les Troyens, raconté dans l'Iliade d'Homère et d'autres épopées. Thème artistique majeur représentant des héros comme Achille, Hector, Ulysse et des événements comme le jugement de Pâris et le cheval de Troie.
+RU : ТРОЯНСКАЯ ВОЙНА
+Легендарный конфликт между греками и троянцами, рассказанный в "Илиаде" Гомера и других эпосах. Важная художественная тема, представляющая героев, таких как Ахилл, Гектор, Одиссей, и события, такие как суд Париса и троянский конь.
+
+
+UNGUENTARIUM
+
+FR : UNGUENTARIUM
+Petit flacon allongé et étroit utilisé pour contenir des huiles parfumées, des onguents ou des cosmétiques. Particulièrement courant à l'époque hellénistique et romaine, souvent déposé dans les tombes comme offrande funéraire.
+RU : УНГВЕНТАРИЙ
+Маленький удлинённый и узкий флакон, использовавшийся для хранения ароматических масел, мазей или косметики. Особенно распространён в эллинистическую и римскую эпохи, часто помещался в гробницы как погребальное подношение.
+
+
+VOTIVE
+
+FR : VOTIF
+Objet offert à une divinité en accomplissement d'un vœu ou en remerciement d'une faveur accordée. Les offrandes votives grecques incluaient des statues, des reliefs, des vases, des armes, des bijoux et des ex-voto anatomiques.
+RU : ВОТИВНЫЙ
+Предмет, подношенный божеству в исполнение обета или в благодарность за оказанную милость. Греческие вотивные подношения включали статуи, рельефы, сосуды, оружие, украшения и анатомические экс-вото.
+
+
+WHETSTONE
+
+FR : PIERRE À AIGUISER
+Pierre abrasive utilisée pour aiguiser et affûter les lames d'outils et d'armes. Objet utilitaire courant dans la Grèce antique, souvent retrouvé dans les contextes domestiques, artisanaux et militaires.
+RU : ТОЧИЛЬНЫЙ КАМЕНЬ
+Абразивный камень, использовавшийся для заточки и правки лезвий инструментов и оружия. Распространённый утилитарный предмет в Древней Греции, часто обнаруживаемый в домашних, ремесленных и военных контекстах.
+
+
+WREATH
+
+FR : COURONNE
+Guirlande circulaire de feuilles, de fleurs ou de branches portée sur la tête comme symbole de victoire, d'honneur ou de statut religieux. Les couronnes grecques incluaient le laurier (Apollon, victoire), l'olivier (Athéna), le lierre (Dionysos) et le chêne (Zeus).
+RU : ВЕНОК
+Круглая гирлянда из листьев, цветов или веток, носимая на голове как символ победы, почести или религиозного статуса. Греческие венки включали лавр (Аполлон, победа), оливу (Афина), плющ (Дионис) и дуб (Зевс).
+
+
+XOANON
+
+FR : XOANON
+Statue de culte archaïque primitive en bois, souvent de forme simple et stylisée, représentant une divinité. Considérée comme particulièrement sacrée en raison de son ancienneté, parfois réputée être tombée du ciel (diopétès).
+RU : КСОАНОН
+Примитивная архаическая культовая статуя из дерева, часто простой и стилизованной формы, представляющая божество. Считалась особенно священной из-за своей древности, иногда считалось, что упала с неба (диопетес).
