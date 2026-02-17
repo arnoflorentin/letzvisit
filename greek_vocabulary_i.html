@@ -29,42 +29,18 @@
         .translation { font-size: 1.3em; font-weight: bold; color: #2c3e50; margin-bottom: 10px; }
         .description { color: #555; font-size: 1.05em; line-height: 1.8; }
         .attributes { margin-top: 10px; padding: 10px; background: #fff3cd; border-left: 3px solid #ffc107; font-style: italic; color: #856404; }
-
-        /* Galerie d images */
-        .image-gallery {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 25px;
-            padding-top: 20px;
-            border-top: 2px solid #e9ecef;
-            min-height: 180px;
-            align-items: center;
-        }
-        .image-item {
-            flex: 0 0 auto;
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-            transition: all 0.3s ease;
-            background: #f0f0f0;
-        }
+        .image-gallery { display: flex; justify-content: center; gap: 15px; margin-top: 25px; padding-top: 20px; border-top: 2px solid #e9ecef; min-height: 175px; align-items: center; }
+        .image-item { flex: 0 0 auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: all 0.3s ease; overflow: hidden; }
         .image-item:hover { transform: translateY(-3px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
         .image-item a { display: block; text-decoration: none; }
-        .image-item img { width: 150px; height: 150px; object-fit: cover; display: block; transition: transform 0.3s ease; }
-        .image-item:hover img { transform: scale(1.05); }
-        .image-caption { background: #2c3e50; color: white; padding: 6px 8px; font-size: 0.7em; text-align: center; line-height: 1.3; width: 150px; }
-        .image-caption a { color: #64b5f6; text-decoration: none; font-size: 0.85em; }
-        .image-caption a:hover { text-decoration: underline; }
-
-        /* Loading et erreur */
-        .img-loading { width: 150px; height: 150px; display: flex; align-items: center; justify-content: center; color: #999; font-size: 0.8em; text-align: center; background: #f8f9fa; border-radius: 8px; flex-direction: column; gap: 8px; }
-        .img-loading::before { content: "⏳"; font-size: 1.5em; }
-        .img-none { width: 450px; text-align: center; color: #999; font-size: 0.85em; padding: 20px; }
-
+        .image-item img { width: 150px; height: 150px; object-fit: cover; display: block; }
+        .image-caption { background: #2c3e50; color: white; padding: 5px 8px; font-size: 0.68em; text-align: center; width: 150px; line-height: 1.4; }
+        .image-caption a { color: #64b5f6; text-decoration: none; display: block; margin-top: 2px; }
+        .img-loading { color: #aaa; font-size: 0.85em; font-style: italic; }
+        .img-none { color: #bbb; font-size: 0.85em; font-style: italic; }
         .letter-divider { font-size: 3em; font-weight: bold; color: #667eea; margin: 50px 0 30px 0; padding-bottom: 15px; border-bottom: 3px solid #667eea; text-align: center; letter-spacing: 5px; scroll-margin-top: 20px; }
         footer { background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 40px; }
-        .stats { text-align: center; padding: 20px; background: #e8f4f8; margin: 20px 0; border-radius: 8px; }
+        .stats { text-align: center; padding: 20px; background: #e8f4f8; border-radius: 8px; margin: 20px 40px; }
         .stats strong { color: #667eea; font-size: 1.5em; }
         .scroll-to-top { position: fixed; bottom: 30px; right: 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 1000; border: none; }
         .scroll-to-top.visible { opacity: 1; visibility: visible; }
@@ -95,7 +71,7 @@
 
             <div class="letter-divider" id="A">A</div>
 
-            <div class="entry" data-term="acrolith" data-search="ACROLITH">
+            <div class="entry" data-term="acrolith" data-anchor="ACROLITH">
                 <div class="entry-title" id="A-ACROLITH">ACROLITH</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -110,11 +86,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ACROLITH">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="acropolis" data-search="ACROPOLIS">
+            <div class="entry" data-term="acropolis" data-anchor="ACROPOLIS">
                 <div class="entry-title" id="A-ACROPOLIS">ACROPOLIS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -129,11 +105,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ACROPOLIS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="acroterion" data-search="ACROTERION">
+            <div class="entry" data-term="acroterion" data-anchor="ACROTERION">
                 <div class="entry-title" id="A-ACROTERION">ACROTERION</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -148,11 +124,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ACROTERION">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="aegis" data-search="AEGIS">
+            <div class="entry" data-term="aegis" data-anchor="AEGIS">
                 <div class="entry-title" id="A-AEGIS">AEGIS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -167,11 +143,11 @@
                     <div class="attributes">Атрибуты : Голова Медузы, чешуя, змеи, бахрома по краям</div>
                 </div>
                 <div class="image-gallery" id="gallery-AEGIS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="agora" data-search="AGORA">
+            <div class="entry" data-term="agora" data-anchor="AGORA">
                 <div class="entry-title" id="A-AGORA">AGORA</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -186,11 +162,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-AGORA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="alabastron" data-search="ALABASTRON">
+            <div class="entry" data-term="alabastron" data-anchor="ALABASTRON">
                 <div class="entry-title" id="A-ALABASTRON">ALABASTRON</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -205,11 +181,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ALABASTRON">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="altar" data-search="ALTAR">
+            <div class="entry" data-term="altar" data-anchor="ALTAR">
                 <div class="entry-title" id="A-ALTAR">ALTAR</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -224,11 +200,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ALTAR">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="amazon" data-search="AMAZON">
+            <div class="entry" data-term="amazon" data-anchor="AMAZON">
                 <div class="entry-title" id="A-AMAZON">AMAZON</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -243,11 +219,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-AMAZON">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="amazonomachy" data-search="AMAZONOMACHY">
+            <div class="entry" data-term="amazonomachy" data-anchor="AMAZONOMACHY">
                 <div class="entry-title" id="A-AMAZONOMACHY">AMAZONOMACHY</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -262,11 +238,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-AMAZONOMACHY">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="amphora" data-search="AMPHORA">
+            <div class="entry" data-term="amphora" data-anchor="AMPHORA">
                 <div class="entry-title" id="A-AMPHORA">AMPHORA</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -281,11 +257,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-AMPHORA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="amphoroid vessel" data-search="AMPHOROID+VESSEL">
+            <div class="entry" data-term="amphoroid vessel" data-anchor="AMPHOROID VESSEL">
                 <div class="entry-title" id="A-AMPHOROID VESSEL">AMPHOROID VESSEL</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -300,11 +276,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-AMPHOROID-VESSEL">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="anta" data-search="ANTA">
+            <div class="entry" data-term="anta" data-anchor="ANTA">
                 <div class="entry-title" id="A-ANTA">ANTA</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -319,11 +295,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ANTA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="antae" data-search="ANTAE">
+            <div class="entry" data-term="antae" data-anchor="ANTAE">
                 <div class="entry-title" id="A-ANTAE">ANTAE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -338,11 +314,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ANTAE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="antis facade" data-search="ANTIS+FACADE">
+            <div class="entry" data-term="antis facade" data-anchor="ANTIS FACADE">
                 <div class="entry-title" id="A-ANTIS FACADE">ANTIS FACADE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -357,11 +333,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ANTIS-FACADE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="aphrodite" data-search="APHRODITE">
+            <div class="entry" data-term="aphrodite" data-anchor="APHRODITE">
                 <div class="entry-title" id="A-APHRODITE">APHRODITE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -376,11 +352,11 @@
                     <div class="attributes">Атрибуты : Голубь, роза, раковина, зеркало, волшебный пояс, золотое яблоко</div>
                 </div>
                 <div class="image-gallery" id="gallery-APHRODITE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="apollo" data-search="APOLLO">
+            <div class="entry" data-term="apollo" data-anchor="APOLLO">
                 <div class="entry-title" id="A-APOLLO">APOLLO</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -395,11 +371,11 @@
                     <div class="attributes">Атрибуты : Лира, лук и стрелы, лавровый венок, солнечная колесница, треножник</div>
                 </div>
                 <div class="image-gallery" id="gallery-APOLLO">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="apotropaic" data-search="APOTROPAIC">
+            <div class="entry" data-term="apotropaic" data-anchor="APOTROPAIC">
                 <div class="entry-title" id="A-APOTROPAIC">APOTROPAIC</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -414,11 +390,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-APOTROPAIC">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="archaic smile" data-search="ARCHAIC+SMILE">
+            <div class="entry" data-term="archaic smile" data-anchor="ARCHAIC SMILE">
                 <div class="entry-title" id="A-ARCHAIC SMILE">ARCHAIC SMILE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -433,11 +409,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ARCHAIC-SMILE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="architrave" data-search="ARCHITRAVE">
+            <div class="entry" data-term="architrave" data-anchor="ARCHITRAVE">
                 <div class="entry-title" id="A-ARCHITRAVE">ARCHITRAVE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -452,11 +428,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ARCHITRAVE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="ares" data-search="ARES">
+            <div class="entry" data-term="ares" data-anchor="ARES">
                 <div class="entry-title" id="A-ARES">ARES</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -471,11 +447,11 @@
                     <div class="attributes">Атрибуты : Шлем, щит, копьё, меч, доспехи, колесница, запряжённая лошадьми</div>
                 </div>
                 <div class="image-gallery" id="gallery-ARES">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="artemis" data-search="ARTEMIS">
+            <div class="entry" data-term="artemis" data-anchor="ARTEMIS">
                 <div class="entry-title" id="A-ARTEMIS">ARTEMIS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -490,11 +466,11 @@
                     <div class="attributes">Атрибуты : Лук и стрелы, колчан, полумесяц, лань, охотничьи собаки</div>
                 </div>
                 <div class="image-gallery" id="gallery-ARTEMIS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="aryballos" data-search="ARYBALLOS">
+            <div class="entry" data-term="aryballos" data-anchor="ARYBALLOS">
                 <div class="entry-title" id="A-ARYBALLOS">ARYBALLOS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -509,11 +485,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ARYBALLOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="askos askoi" data-search="ASKOS">
+            <div class="entry" data-term="askos askoi" data-anchor="ASKOS">
                 <div class="entry-title" id="A-ASKOS">ASKOS <span class="plural-badge">/ ASKOI</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -528,11 +504,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ASKOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="astragaloi" data-search="ASTRAGALOI">
+            <div class="entry" data-term="astragaloi" data-anchor="ASTRAGALOI">
                 <div class="entry-title" id="A-ASTRAGALOI">ASTRAGALOI</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -547,11 +523,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ASTRAGALOI">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="athena" data-search="ATHENA">
+            <div class="entry" data-term="athena" data-anchor="ATHENA">
                 <div class="entry-title" id="A-ATHENA">ATHENA</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -566,13 +542,13 @@
                     <div class="attributes">Атрибуты : Шлем, щит (эгида) с головой Медузы, копьё, сова, оливковое дерево</div>
                 </div>
                 <div class="image-gallery" id="gallery-ATHENA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="B">B</div>
 
-            <div class="entry" data-term="base" data-search="BASE">
+            <div class="entry" data-term="base" data-anchor="BASE">
                 <div class="entry-title" id="B-BASE">BASE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -587,11 +563,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-BASE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="beads" data-search="BEADS">
+            <div class="entry" data-term="beads" data-anchor="BEADS">
                 <div class="entry-title" id="B-BEADS">BEADS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -606,11 +582,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-BEADS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="bell krater" data-search="BELL+KRATER">
+            <div class="entry" data-term="bell krater" data-anchor="BELL KRATER">
                 <div class="entry-title" id="B-BELL KRATER">BELL KRATER</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -625,11 +601,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-BELL-KRATER">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="black glaze" data-search="BLACK+GLAZE">
+            <div class="entry" data-term="black glaze" data-anchor="BLACK GLAZE">
                 <div class="entry-title" id="B-BLACK GLAZE">BLACK GLAZE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -644,11 +620,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-BLACK-GLAZE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="black polished ware" data-search="BLACK+POLISHED+WARE">
+            <div class="entry" data-term="black polished ware" data-anchor="BLACK POLISHED WARE">
                 <div class="entry-title" id="B-BLACK POLISHED WARE">BLACK POLISHED WARE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -663,11 +639,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-BLACK-POLISHED-WARE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="black-figure" data-search="BLACK-FIGURE">
+            <div class="entry" data-term="black-figure" data-anchor="BLACK-FIGURE">
                 <div class="entry-title" id="B-BLACK-FIGURE">BLACK-FIGURE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -682,11 +658,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-BLACK-FIGURE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="boeotian" data-search="BOEOTIAN">
+            <div class="entry" data-term="boeotian" data-anchor="BOEOTIAN">
                 <div class="entry-title" id="B-BOEOTIAN">BOEOTIAN</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -701,11 +677,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-BOEOTIAN">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="bothros" data-search="BOTHROS">
+            <div class="entry" data-term="bothros" data-anchor="BOTHROS">
                 <div class="entry-title" id="B-BOTHROS">BOTHROS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -720,11 +696,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-BOTHROS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="bronze" data-search="BRONZE">
+            <div class="entry" data-term="bronze" data-anchor="BRONZE">
                 <div class="entry-title" id="B-BRONZE">BRONZE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -739,11 +715,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-BRONZE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="bucranium" data-search="BUCRANIUM">
+            <div class="entry" data-term="bucranium" data-anchor="BUCRANIUM">
                 <div class="entry-title" id="B-BUCRANIUM">BUCRANIUM</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -758,11 +734,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-BUCRANIUM">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="bust" data-search="BUST">
+            <div class="entry" data-term="bust" data-anchor="BUST">
                 <div class="entry-title" id="B-BUST">BUST</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -777,13 +753,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-BUST">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="C">C</div>
 
-            <div class="entry" data-term="calyx" data-search="CALYX">
+            <div class="entry" data-term="calyx" data-anchor="CALYX">
                 <div class="entry-title" id="C-CALYX">CALYX</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -798,11 +774,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CALYX">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="calyx krater" data-search="CALYX+KRATER">
+            <div class="entry" data-term="calyx krater" data-anchor="CALYX KRATER">
                 <div class="entry-title" id="C-CALYX KRATER">CALYX KRATER</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -817,11 +793,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CALYX-KRATER">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="capital" data-search="CAPITAL">
+            <div class="entry" data-term="capital" data-anchor="CAPITAL">
                 <div class="entry-title" id="C-CAPITAL">CAPITAL</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -836,11 +812,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CAPITAL">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="caryatid" data-search="CARYATID">
+            <div class="entry" data-term="caryatid" data-anchor="CARYATID">
                 <div class="entry-title" id="C-CARYATID">CARYATID</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -855,11 +831,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CARYATID">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="cella" data-search="CELLA">
+            <div class="entry" data-term="cella" data-anchor="CELLA">
                 <div class="entry-title" id="C-CELLA">CELLA</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -874,11 +850,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CELLA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="cenotaph" data-search="CENOTAPH">
+            <div class="entry" data-term="cenotaph" data-anchor="CENOTAPH">
                 <div class="entry-title" id="C-CENOTAPH">CENOTAPH</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -893,11 +869,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CENOTAPH">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="centaur" data-search="CENTAUR">
+            <div class="entry" data-term="centaur" data-anchor="CENTAUR">
                 <div class="entry-title" id="C-CENTAUR">CENTAUR</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -912,11 +888,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CENTAUR">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="centaurmachy" data-search="CENTAURMACHY">
+            <div class="entry" data-term="centaurmachy" data-anchor="CENTAURMACHY">
                 <div class="entry-title" id="C-CENTAURMACHY">CENTAURMACHY</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -931,11 +907,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CENTAURMACHY">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="chalk" data-search="CHALK">
+            <div class="entry" data-term="chalk" data-anchor="CHALK">
                 <div class="entry-title" id="C-CHALK">CHALK</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -950,11 +926,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CHALK">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="chiton" data-search="CHITON">
+            <div class="entry" data-term="chiton" data-anchor="CHITON">
                 <div class="entry-title" id="C-CHITON">CHITON</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -969,11 +945,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CHITON">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="choragic" data-search="CHORAGIC">
+            <div class="entry" data-term="choragic" data-anchor="CHORAGIC">
                 <div class="entry-title" id="C-CHORAGIC">CHORAGIC</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -988,11 +964,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CHORAGIC">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="chryselephantine" data-search="CHRYSELEPHANTINE">
+            <div class="entry" data-term="chryselephantine" data-anchor="CHRYSELEPHANTINE">
                 <div class="entry-title" id="C-CHRYSELEPHANTINE">CHRYSELEPHANTINE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1007,11 +983,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CHRYSELEPHANTINE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="cippus" data-search="CIPPUS">
+            <div class="entry" data-term="cippus" data-anchor="CIPPUS">
                 <div class="entry-title" id="C-CIPPUS">CIPPUS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1026,11 +1002,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CIPPUS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="cist shaped" data-search="CIST+SHAPED">
+            <div class="entry" data-term="cist shaped" data-anchor="CIST SHAPED">
                 <div class="entry-title" id="C-CIST SHAPED">CIST SHAPED</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1045,11 +1021,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CIST-SHAPED">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="clay" data-search="CLAY">
+            <div class="entry" data-term="clay" data-anchor="CLAY">
                 <div class="entry-title" id="C-CLAY">CLAY</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1064,11 +1040,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CLAY">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="coin" data-search="COIN">
+            <div class="entry" data-term="coin" data-anchor="COIN">
                 <div class="entry-title" id="C-COIN">COIN</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1083,11 +1059,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-COIN">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="column" data-search="COLUMN">
+            <div class="entry" data-term="column" data-anchor="COLUMN">
                 <div class="entry-title" id="C-COLUMN">COLUMN</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1102,11 +1078,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-COLUMN">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="conservation" data-search="CONSERVATION">
+            <div class="entry" data-term="conservation" data-anchor="CONSERVATION">
                 <div class="entry-title" id="C-CONSERVATION">CONSERVATION</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1121,11 +1097,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CONSERVATION">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="context" data-search="CONTEXT">
+            <div class="entry" data-term="context" data-anchor="CONTEXT">
                 <div class="entry-title" id="C-CONTEXT">CONTEXT</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1140,11 +1116,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CONTEXT">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="contrapposto" data-search="CONTRAPPOSTO">
+            <div class="entry" data-term="contrapposto" data-anchor="CONTRAPPOSTO">
                 <div class="entry-title" id="C-CONTRAPPOSTO">CONTRAPPOSTO</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1159,11 +1135,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CONTRAPPOSTO">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="corinthian order" data-search="CORINTHIAN+ORDER">
+            <div class="entry" data-term="corinthian order" data-anchor="CORINTHIAN ORDER">
                 <div class="entry-title" id="C-CORINTHIAN ORDER">CORINTHIAN ORDER</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1178,11 +1154,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CORINTHIAN-ORDER">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="cornice" data-search="CORNICE">
+            <div class="entry" data-term="cornice" data-anchor="CORNICE">
                 <div class="entry-title" id="C-CORNICE">CORNICE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1197,11 +1173,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CORNICE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="crater" data-search="CRATER">
+            <div class="entry" data-term="crater" data-anchor="CRATER">
                 <div class="entry-title" id="C-CRATER">CRATER</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1216,11 +1192,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CRATER">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="crepidoma" data-search="CREPIDOMA">
+            <div class="entry" data-term="crepidoma" data-anchor="CREPIDOMA">
                 <div class="entry-title" id="C-CREPIDOMA">CREPIDOMA</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1235,11 +1211,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CREPIDOMA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="cult statue" data-search="CULT+STATUE">
+            <div class="entry" data-term="cult statue" data-anchor="CULT STATUE">
                 <div class="entry-title" id="C-CULT STATUE">CULT STATUE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1254,11 +1230,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CULT-STATUE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="cutaway spout" data-search="CUTAWAY+SPOUT">
+            <div class="entry" data-term="cutaway spout" data-anchor="CUTAWAY SPOUT">
                 <div class="entry-title" id="C-CUTAWAY SPOUT">CUTAWAY SPOUT</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1273,13 +1249,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-CUTAWAY-SPOUT">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="D">D</div>
 
-            <div class="entry" data-term="demeter" data-search="DEMETER">
+            <div class="entry" data-term="demeter" data-anchor="DEMETER">
                 <div class="entry-title" id="D-DEMETER">DEMETER</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1294,11 +1270,11 @@
                     <div class="attributes">Атрибуты : Колосья пшеницы, сноп, факел, венок из пшеницы, змея, свинья</div>
                 </div>
                 <div class="image-gallery" id="gallery-DEMETER">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="dinos" data-search="DINOS">
+            <div class="entry" data-term="dinos" data-anchor="DINOS">
                 <div class="entry-title" id="D-DINOS">DINOS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1313,11 +1289,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-DINOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="dionysus" data-search="DIONYSUS">
+            <div class="entry" data-term="dionysus" data-anchor="DIONYSUS">
                 <div class="entry-title" id="D-DIONYSUS">DIONYSUS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1332,11 +1308,11 @@
                     <div class="attributes">Атрибуты : Тирс (жезл, увенчанный плющом и сосновой шишкой), виноградная лоза, винная чаша, пантера, свита сатиров и менад</div>
                 </div>
                 <div class="image-gallery" id="gallery-DIONYSUS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="distaff" data-search="DISTAFF">
+            <div class="entry" data-term="distaff" data-anchor="DISTAFF">
                 <div class="entry-title" id="D-DISTAFF">DISTAFF</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1351,11 +1327,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-DISTAFF">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="doric order" data-search="DORIC+ORDER">
+            <div class="entry" data-term="doric order" data-anchor="DORIC ORDER">
                 <div class="entry-title" id="D-DORIC ORDER">DORIC ORDER</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1370,11 +1346,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-DORIC-ORDER">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="drab polished ware" data-search="DRAB+POLISHED+WARE">
+            <div class="entry" data-term="drab polished ware" data-anchor="DRAB POLISHED WARE">
                 <div class="entry-title" id="D-DRAB POLISHED WARE">DRAB POLISHED WARE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1389,11 +1365,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-DRAB-POLISHED-WARE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="drapery" data-search="DRAPERY">
+            <div class="entry" data-term="drapery" data-anchor="DRAPERY">
                 <div class="entry-title" id="D-DRAPERY">DRAPERY</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1408,11 +1384,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-DRAPERY">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="dromos dromoi" data-search="DROMOS">
+            <div class="entry" data-term="dromos dromoi" data-anchor="DROMOS">
                 <div class="entry-title" id="D-DROMOS">DROMOS <span class="plural-badge">/ DROMOI</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1427,13 +1403,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-DROMOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="E">E</div>
 
-            <div class="entry" data-term="entablature" data-search="ENTABLATURE">
+            <div class="entry" data-term="entablature" data-anchor="ENTABLATURE">
                 <div class="entry-title" id="E-ENTABLATURE">ENTABLATURE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1448,11 +1424,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ENTABLATURE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="euthynteria" data-search="EUTHYNTERIA">
+            <div class="entry" data-term="euthynteria" data-anchor="EUTHYNTERIA">
                 <div class="entry-title" id="E-EUTHYNTERIA">EUTHYNTERIA</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1467,11 +1443,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-EUTHYNTERIA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="exaleiptron" data-search="EXALEIPTRON">
+            <div class="entry" data-term="exaleiptron" data-anchor="EXALEIPTRON">
                 <div class="entry-title" id="E-EXALEIPTRON">EXALEIPTRON</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1486,13 +1462,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-EXALEIPTRON">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="F">F</div>
 
-            <div class="entry" data-term="fabric" data-search="FABRIC">
+            <div class="entry" data-term="fabric" data-anchor="FABRIC">
                 <div class="entry-title" id="F-FABRIC">FABRIC</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1507,11 +1483,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-FABRIC">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="fibula" data-search="FIBULA">
+            <div class="entry" data-term="fibula" data-anchor="FIBULA">
                 <div class="entry-title" id="F-FIBULA">FIBULA</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1526,11 +1502,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-FIBULA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="firing" data-search="FIRING">
+            <div class="entry" data-term="firing" data-anchor="FIRING">
                 <div class="entry-title" id="F-FIRING">FIRING</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1545,11 +1521,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-FIRING">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="flask" data-search="FLASK">
+            <div class="entry" data-term="flask" data-anchor="FLASK">
                 <div class="entry-title" id="F-FLASK">FLASK</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1564,11 +1540,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-FLASK">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="frieze" data-search="FRIEZE">
+            <div class="entry" data-term="frieze" data-anchor="FRIEZE">
                 <div class="entry-title" id="F-FRIEZE">FRIEZE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1583,11 +1559,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-FRIEZE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="funnel mouth" data-search="FUNNEL+MOUTH">
+            <div class="entry" data-term="funnel mouth" data-anchor="FUNNEL MOUTH">
                 <div class="entry-title" id="F-FUNNEL MOUTH">FUNNEL MOUTH</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1602,11 +1578,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-FUNNEL-MOUTH">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="funnel rim" data-search="FUNNEL+RIM">
+            <div class="entry" data-term="funnel rim" data-anchor="FUNNEL RIM">
                 <div class="entry-title" id="F-FUNNEL RIM">FUNNEL RIM</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1621,13 +1597,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-FUNNEL-RIM">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="G">G</div>
 
-            <div class="entry" data-term="gigantomachy" data-search="GIGANTOMACHY">
+            <div class="entry" data-term="gigantomachy" data-anchor="GIGANTOMACHY">
                 <div class="entry-title" id="G-GIGANTOMACHY">GIGANTOMACHY</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1642,11 +1618,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-GIGANTOMACHY">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="girdle" data-search="GIRDLE">
+            <div class="entry" data-term="girdle" data-anchor="GIRDLE">
                 <div class="entry-title" id="G-GIRDLE">GIRDLE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1661,11 +1637,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-GIRDLE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="gold" data-search="GOLD">
+            <div class="entry" data-term="gold" data-anchor="GOLD">
                 <div class="entry-title" id="G-GOLD">GOLD</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1680,11 +1656,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-GOLD">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="gorgon" data-search="GORGON">
+            <div class="entry" data-term="gorgon" data-anchor="GORGON">
                 <div class="entry-title" id="G-GORGON">GORGON</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1699,11 +1675,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-GORGON">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="gourd jug" data-search="GOURD+JUG">
+            <div class="entry" data-term="gourd jug" data-anchor="GOURD JUG">
                 <div class="entry-title" id="G-GOURD JUG">GOURD JUG</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1718,11 +1694,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-GOURD-JUG">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="grave goods" data-search="GRAVE+GOODS">
+            <div class="entry" data-term="grave goods" data-anchor="GRAVE GOODS">
                 <div class="entry-title" id="G-GRAVE GOODS">GRAVE GOODS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1737,11 +1713,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-GRAVE-GOODS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="greaves" data-search="GREAVES">
+            <div class="entry" data-term="greaves" data-anchor="GREAVES">
                 <div class="entry-title" id="G-GREAVES">GREAVES</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1756,11 +1732,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-GREAVES">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="griffin" data-search="GRIFFIN">
+            <div class="entry" data-term="griffin" data-anchor="GRIFFIN">
                 <div class="entry-title" id="G-GRIFFIN">GRIFFIN</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1775,11 +1751,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-GRIFFIN">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="gymnasium" data-search="GYMNASIUM">
+            <div class="entry" data-term="gymnasium" data-anchor="GYMNASIUM">
                 <div class="entry-title" id="G-GYMNASIUM">GYMNASIUM</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1794,13 +1770,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-GYMNASIUM">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="H">H</div>
 
-            <div class="entry" data-term="hades" data-search="HADES">
+            <div class="entry" data-term="hades" data-anchor="HADES">
                 <div class="entry-title" id="H-HADES">HADES</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1815,11 +1791,11 @@
                     <div class="attributes">Атрибуты : Скипетр, рог изобилия, шлем-невидимка, трон, Цербер (трёхголовый пёс)</div>
                 </div>
                 <div class="image-gallery" id="gallery-HADES">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="helmet" data-search="HELMET">
+            <div class="entry" data-term="helmet" data-anchor="HELMET">
                 <div class="entry-title" id="H-HELMET">HELMET</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1834,11 +1810,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-HELMET">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="hephaestus" data-search="HEPHAESTUS">
+            <div class="entry" data-term="hephaestus" data-anchor="HEPHAESTUS">
                 <div class="entry-title" id="H-HEPHAESTUS">HEPHAESTUS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1853,11 +1829,11 @@
                     <div class="attributes">Атрибуты : Молот, наковальня, щипцы, коническая шапка, кузница, работа с металлами</div>
                 </div>
                 <div class="image-gallery" id="gallery-HEPHAESTUS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="hera" data-search="HERA">
+            <div class="entry" data-term="hera" data-anchor="HERA">
                 <div class="entry-title" id="H-HERA">HERA</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1872,11 +1848,11 @@
                     <div class="attributes">Атрибуты : Диадема, скипетр, павлин, гранат, кукушка, свадебная вуаль</div>
                 </div>
                 <div class="image-gallery" id="gallery-HERA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="heracles" data-search="HERACLES">
+            <div class="entry" data-term="heracles" data-anchor="HERACLES">
                 <div class="entry-title" id="H-HERACLES">HERACLES</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1891,11 +1867,11 @@
                     <div class="attributes">Атрибуты : Палица, шкура немейского льва, лук и стрелы, золотые яблоки Гесперид</div>
                 </div>
                 <div class="image-gallery" id="gallery-HERACLES">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="hermes" data-search="HERMES">
+            <div class="entry" data-term="hermes" data-anchor="HERMES">
                 <div class="entry-title" id="H-HERMES">HERMES</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1910,11 +1886,11 @@
                     <div class="attributes">Атрибуты : Кадуцей, петас (крылатая шляпа), крылатые сандалии, кошелёк, черепаха</div>
                 </div>
                 <div class="image-gallery" id="gallery-HERMES">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="hieratic garment" data-search="HIERATIC+GARMENT">
+            <div class="entry" data-term="hieratic garment" data-anchor="HIERATIC GARMENT">
                 <div class="entry-title" id="H-HIERATIC GARMENT">HIERATIC GARMENT</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1929,11 +1905,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-HIERATIC-GARMENT">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="himation" data-search="HIMATION">
+            <div class="entry" data-term="himation" data-anchor="HIMATION">
                 <div class="entry-title" id="H-HIMATION">HIMATION</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1948,11 +1924,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-HIMATION">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="hydria hydriae" data-search="HYDRIA">
+            <div class="entry" data-term="hydria hydriae" data-anchor="HYDRIA">
                 <div class="entry-title" id="H-HYDRIA">HYDRIA <span class="plural-badge">/ HYDRIAE</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1967,13 +1943,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-HYDRIA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="I">I</div>
 
-            <div class="entry" data-term="ionic order" data-search="IONIC+ORDER">
+            <div class="entry" data-term="ionic order" data-anchor="IONIC ORDER">
                 <div class="entry-title" id="I-IONIC ORDER">IONIC ORDER</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -1988,11 +1964,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-IONIC-ORDER">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="ivory" data-search="IVORY">
+            <div class="entry" data-term="ivory" data-anchor="IVORY">
                 <div class="entry-title" id="I-IVORY">IVORY</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2007,13 +1983,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-IVORY">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="J">J</div>
 
-            <div class="entry" data-term="jug" data-search="JUG">
+            <div class="entry" data-term="jug" data-anchor="JUG">
                 <div class="entry-title" id="J-JUG">JUG</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2028,11 +2004,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-JUG">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="juglet" data-search="JUGLET">
+            <div class="entry" data-term="juglet" data-anchor="JUGLET">
                 <div class="entry-title" id="J-JUGLET">JUGLET</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2047,13 +2023,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-JUGLET">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="K">K</div>
 
-            <div class="entry" data-term="kalathos" data-search="KALATHOS">
+            <div class="entry" data-term="kalathos" data-anchor="KALATHOS">
                 <div class="entry-title" id="K-KALATHOS">KALATHOS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2068,11 +2044,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-KALATHOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="kantharos" data-search="KANTHAROS">
+            <div class="entry" data-term="kantharos" data-anchor="KANTHAROS">
                 <div class="entry-title" id="K-KANTHAROS">KANTHAROS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2087,11 +2063,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-KANTHAROS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="kiln" data-search="KILN">
+            <div class="entry" data-term="kiln" data-anchor="KILN">
                 <div class="entry-title" id="K-KILN">KILN</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2106,11 +2082,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-KILN">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="kithara" data-search="KITHARA">
+            <div class="entry" data-term="kithara" data-anchor="KITHARA">
                 <div class="entry-title" id="K-KITHARA">KITHARA</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2125,11 +2101,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-KITHARA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="knife" data-search="KNIFE">
+            <div class="entry" data-term="knife" data-anchor="KNIFE">
                 <div class="entry-title" id="K-KNIFE">KNIFE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2144,11 +2120,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-KNIFE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="knucklebone" data-search="KNUCKLEBONE">
+            <div class="entry" data-term="knucklebone" data-anchor="KNUCKLEBONE">
                 <div class="entry-title" id="K-KNUCKLEBONE">KNUCKLEBONE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2163,11 +2139,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-KNUCKLEBONE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="kopis" data-search="KOPIS">
+            <div class="entry" data-term="kopis" data-anchor="KOPIS">
                 <div class="entry-title" id="K-KOPIS">KOPIS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2182,11 +2158,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-KOPIS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="kore" data-search="KORE">
+            <div class="entry" data-term="kore" data-anchor="KORE">
                 <div class="entry-title" id="K-KORE">KORE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2201,11 +2177,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-KORE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="kouros" data-search="KOUROS">
+            <div class="entry" data-term="kouros" data-anchor="KOUROS">
                 <div class="entry-title" id="K-KOUROS">KOUROS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2220,11 +2196,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-KOUROS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="kylix kylikes" data-search="KYLIX">
+            <div class="entry" data-term="kylix kylikes" data-anchor="KYLIX">
                 <div class="entry-title" id="K-KYLIX">KYLIX <span class="plural-badge">/ KYLIKES</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2239,13 +2215,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-KYLIX">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="L">L</div>
 
-            <div class="entry" data-term="labours of heracles" data-search="LABOURS+OF+HERACLES">
+            <div class="entry" data-term="labours of heracles" data-anchor="LABOURS OF HERACLES">
                 <div class="entry-title" id="L-LABOURS OF HERACLES">LABOURS OF HERACLES</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2260,11 +2236,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LABOURS-OF-HERACLES">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="ladle ladles" data-search="LADLE">
+            <div class="entry" data-term="ladle ladles" data-anchor="LADLE">
                 <div class="entry-title" id="L-LADLE">LADLE <span class="plural-badge">/ LADLES</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2279,11 +2255,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LADLE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="lagobolon" data-search="LAGOBOLON">
+            <div class="entry" data-term="lagobolon" data-anchor="LAGOBOLON">
                 <div class="entry-title" id="L-LAGOBOLON">LAGOBOLON</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2298,11 +2274,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LAGOBOLON">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="lagynos" data-search="LAGYNOS">
+            <div class="entry" data-term="lagynos" data-anchor="LAGYNOS">
                 <div class="entry-title" id="L-LAGYNOS">LAGYNOS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2317,11 +2293,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LAGYNOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="lead sling" data-search="LEAD+SLING">
+            <div class="entry" data-term="lead sling" data-anchor="LEAD SLING">
                 <div class="entry-title" id="L-LEAD SLING">LEAD SLING</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2336,11 +2312,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LEAD-SLING">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="lekanis" data-search="LEKANIS">
+            <div class="entry" data-term="lekanis" data-anchor="LEKANIS">
                 <div class="entry-title" id="L-LEKANIS">LEKANIS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2355,11 +2331,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LEKANIS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="lekythos lekythoi" data-search="LEKYTHOS">
+            <div class="entry" data-term="lekythos lekythoi" data-anchor="LEKYTHOS">
                 <div class="entry-title" id="L-LEKYTHOS">LEKYTHOS <span class="plural-badge">/ LEKYTHOI</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2374,11 +2350,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LEKYTHOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="libation" data-search="LIBATION">
+            <div class="entry" data-term="libation" data-anchor="LIBATION">
                 <div class="entry-title" id="L-LIBATION">LIBATION</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2393,11 +2369,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LIBATION">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="limestone" data-search="LIMESTONE">
+            <div class="entry" data-term="limestone" data-anchor="LIMESTONE">
                 <div class="entry-title" id="L-LIMESTONE">LIMESTONE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2412,11 +2388,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LIMESTONE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="lion" data-search="LION">
+            <div class="entry" data-term="lion" data-anchor="LION">
                 <div class="entry-title" id="L-LION">LION</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2431,11 +2407,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LION">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="loculi" data-search="LOCULI">
+            <div class="entry" data-term="loculi" data-anchor="LOCULI">
                 <div class="entry-title" id="L-LOCULI">LOCULI</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2450,11 +2426,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LOCULI">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="loom" data-search="LOOM">
+            <div class="entry" data-term="loom" data-anchor="LOOM">
                 <div class="entry-title" id="L-LOOM">LOOM</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2469,11 +2445,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LOOM">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="loom weights" data-search="LOOM+WEIGHTS">
+            <div class="entry" data-term="loom weights" data-anchor="LOOM WEIGHTS">
                 <div class="entry-title" id="L-LOOM WEIGHTS">LOOM WEIGHTS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2488,11 +2464,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LOOM-WEIGHTS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="loutrophoros" data-search="LOUTROPHOROS">
+            <div class="entry" data-term="loutrophoros" data-anchor="LOUTROPHOROS">
                 <div class="entry-title" id="L-LOUTROPHOROS">LOUTROPHOROS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2507,11 +2483,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LOUTROPHOROS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="lyre" data-search="LYRE">
+            <div class="entry" data-term="lyre" data-anchor="LYRE">
                 <div class="entry-title" id="L-LYRE">LYRE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2526,13 +2502,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-LYRE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="M">M</div>
 
-            <div class="entry" data-term="medusa" data-search="MEDUSA">
+            <div class="entry" data-term="medusa" data-anchor="MEDUSA">
                 <div class="entry-title" id="M-MEDUSA">MEDUSA</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2547,11 +2523,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-MEDUSA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="menorah" data-search="MENORAH">
+            <div class="entry" data-term="menorah" data-anchor="MENORAH">
                 <div class="entry-title" id="M-MENORAH">MENORAH</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2566,11 +2542,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-MENORAH">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="metope" data-search="METOPE">
+            <div class="entry" data-term="metope" data-anchor="METOPE">
                 <div class="entry-title" id="M-METOPE">METOPE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2585,11 +2561,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-METOPE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="miniature panathenaic" data-search="MINIATURE+PANATHENAIC">
+            <div class="entry" data-term="miniature panathenaic" data-anchor="MINIATURE PANATHENAIC">
                 <div class="entry-title" id="M-MINIATURE PANATHENAIC">MINIATURE PANATHENAIC</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2604,11 +2580,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-MINIATURE-PANATHENAIC">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="minotaur" data-search="MINOTAUR">
+            <div class="entry" data-term="minotaur" data-anchor="MINOTAUR">
                 <div class="entry-title" id="M-MINOTAUR">MINOTAUR</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2623,11 +2599,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-MINOTAUR">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="mirror" data-search="MIRROR">
+            <div class="entry" data-term="mirror" data-anchor="MIRROR">
                 <div class="entry-title" id="M-MIRROR">MIRROR</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2642,11 +2618,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-MIRROR">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="molten" data-search="MOLTEN">
+            <div class="entry" data-term="molten" data-anchor="MOLTEN">
                 <div class="entry-title" id="M-MOLTEN">MOLTEN</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2661,11 +2637,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-MOLTEN">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="mortar" data-search="MORTAR">
+            <div class="entry" data-term="mortar" data-anchor="MORTAR">
                 <div class="entry-title" id="M-MORTAR">MORTAR</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2680,13 +2656,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-MORTAR">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="N">N</div>
 
-            <div class="entry" data-term="naos" data-search="NAOS">
+            <div class="entry" data-term="naos" data-anchor="NAOS">
                 <div class="entry-title" id="N-NAOS">NAOS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2701,11 +2677,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-NAOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="necropolis" data-search="NECROPOLIS">
+            <div class="entry" data-term="necropolis" data-anchor="NECROPOLIS">
                 <div class="entry-title" id="N-NECROPOLIS">NECROPOLIS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2720,11 +2696,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-NECROPOLIS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="niches" data-search="NICHES">
+            <div class="entry" data-term="niches" data-anchor="NICHES">
                 <div class="entry-title" id="N-NICHES">NICHES</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2739,11 +2715,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-NICHES">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="nike" data-search="NIKE">
+            <div class="entry" data-term="nike" data-anchor="NIKE">
                 <div class="entry-title" id="N-NIKE">NIKE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2758,11 +2734,11 @@
                     <div class="attributes">Атрибуты : Крылья, лавровый венок, пальмовая ветвь, труба</div>
                 </div>
                 <div class="image-gallery" id="gallery-NIKE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="nymph" data-search="NYMPH">
+            <div class="entry" data-term="nymph" data-anchor="NYMPH">
                 <div class="entry-title" id="N-NYMPH">NYMPH</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2777,13 +2753,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-NYMPH">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="O">O</div>
 
-            <div class="entry" data-term="odeon" data-search="ODEON">
+            <div class="entry" data-term="odeon" data-anchor="ODEON">
                 <div class="entry-title" id="O-ODEON">ODEON</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2798,11 +2774,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ODEON">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="odysseus" data-search="ODYSSEUS">
+            <div class="entry" data-term="odysseus" data-anchor="ODYSSEUS">
                 <div class="entry-title" id="O-ODYSSEUS">ODYSSEUS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2817,11 +2793,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ODYSSEUS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="oenochoiske" data-search="OENOCHOISKE">
+            <div class="entry" data-term="oenochoiske" data-anchor="OENOCHOISKE">
                 <div class="entry-title" id="O-OENOCHOISKE">OENOCHOISKE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2836,11 +2812,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-OENOCHOISKE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="oinochoe oenochoe" data-search="OINOCHOE">
+            <div class="entry" data-term="oinochoe oenochoe" data-anchor="OINOCHOE">
                 <div class="entry-title" id="O-OINOCHOE">OINOCHOE <span class="plural-badge">/ OENOCHOE</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2855,11 +2831,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-OINOCHOE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="olpe olpes olpé" data-search="OLPE">
+            <div class="entry" data-term="olpe olpes olpé" data-anchor="OLPE">
                 <div class="entry-title" id="O-OLPE">OLPE <span class="plural-badge">/ OLPES / OLPÉ</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2874,11 +2850,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-OLPE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="ophiolite" data-search="OPHIOLITE">
+            <div class="entry" data-term="ophiolite" data-anchor="OPHIOLITE">
                 <div class="entry-title" id="O-OPHIOLITE">OPHIOLITE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2893,11 +2869,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-OPHIOLITE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="opisthodomos" data-search="OPISTHODOMOS">
+            <div class="entry" data-term="opisthodomos" data-anchor="OPISTHODOMOS">
                 <div class="entry-title" id="O-OPISTHODOMOS">OPISTHODOMOS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2912,11 +2888,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-OPISTHODOMOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="ostracism" data-search="OSTRACISM">
+            <div class="entry" data-term="ostracism" data-anchor="OSTRACISM">
                 <div class="entry-title" id="O-OSTRACISM">OSTRACISM</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2931,11 +2907,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-OSTRACISM">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="ostrakon ostraca" data-search="OSTRAKON">
+            <div class="entry" data-term="ostrakon ostraca" data-anchor="OSTRAKON">
                 <div class="entry-title" id="O-OSTRAKON">OSTRAKON <span class="plural-badge">/ OSTRACA</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2950,13 +2926,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-OSTRAKON">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="P">P</div>
 
-            <div class="entry" data-term="palmette" data-search="PALMETTE">
+            <div class="entry" data-term="palmette" data-anchor="PALMETTE">
                 <div class="entry-title" id="P-PALMETTE">PALMETTE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2971,11 +2947,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PALMETTE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="pan" data-search="PAN">
+            <div class="entry" data-term="pan" data-anchor="PAN">
                 <div class="entry-title" id="P-PAN">PAN</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -2990,11 +2966,11 @@
                     <div class="attributes">Атрибуты : Флейта Пана (сиринкс), пастуший посох, козлиные ноги и рога, сосновый венок</div>
                 </div>
                 <div class="image-gallery" id="gallery-PAN">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="panathenaic" data-search="PANATHENAIC">
+            <div class="entry" data-term="panathenaic" data-anchor="PANATHENAIC">
                 <div class="entry-title" id="P-PANATHENAIC">PANATHENAIC</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3009,11 +2985,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PANATHENAIC">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="patera" data-search="PATERA">
+            <div class="entry" data-term="patera" data-anchor="PATERA">
                 <div class="entry-title" id="P-PATERA">PATERA</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3028,11 +3004,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PATERA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="pediment" data-search="PEDIMENT">
+            <div class="entry" data-term="pediment" data-anchor="PEDIMENT">
                 <div class="entry-title" id="P-PEDIMENT">PEDIMENT</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3047,11 +3023,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PEDIMENT">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="pelike" data-search="PELIKE">
+            <div class="entry" data-term="pelike" data-anchor="PELIKE">
                 <div class="entry-title" id="P-PELIKE">PELIKE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3066,11 +3042,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PELIKE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="peribolos" data-search="PERIBOLOS">
+            <div class="entry" data-term="peribolos" data-anchor="PERIBOLOS">
                 <div class="entry-title" id="P-PERIBOLOS">PERIBOLOS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3085,11 +3061,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PERIBOLOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="peripatos" data-search="PERIPATOS">
+            <div class="entry" data-term="peripatos" data-anchor="PERIPATOS">
                 <div class="entry-title" id="P-PERIPATOS">PERIPATOS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3104,11 +3080,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PERIPATOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="peristasis" data-search="PERISTASIS">
+            <div class="entry" data-term="peristasis" data-anchor="PERISTASIS">
                 <div class="entry-title" id="P-PERISTASIS">PERISTASIS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3123,11 +3099,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PERISTASIS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="peristyle" data-search="PERISTYLE">
+            <div class="entry" data-term="peristyle" data-anchor="PERISTYLE">
                 <div class="entry-title" id="P-PERISTYLE">PERISTYLE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3142,11 +3118,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PERISTYLE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="persephone" data-search="PERSEPHONE">
+            <div class="entry" data-term="persephone" data-anchor="PERSEPHONE">
                 <div class="entry-title" id="P-PERSEPHONE">PERSEPHONE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3161,11 +3137,11 @@
                     <div class="attributes">Атрибуты : Гранат, факел, корона, скипетр, сноп пшеницы</div>
                 </div>
                 <div class="image-gallery" id="gallery-PERSEPHONE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="perseus" data-search="PERSEUS">
+            <div class="entry" data-term="perseus" data-anchor="PERSEUS">
                 <div class="entry-title" id="P-PERSEUS">PERSEUS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3180,11 +3156,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PERSEUS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="phiale" data-search="PHIALE">
+            <div class="entry" data-term="phiale" data-anchor="PHIALE">
                 <div class="entry-title" id="P-PHIALE">PHIALE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3199,11 +3175,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PHIALE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="picrolite" data-search="PICROLITE">
+            <div class="entry" data-term="picrolite" data-anchor="PICROLITE">
                 <div class="entry-title" id="P-PICROLITE">PICROLITE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3218,11 +3194,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PICROLITE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="piriform" data-search="PIRIFORM">
+            <div class="entry" data-term="piriform" data-anchor="PIRIFORM">
                 <div class="entry-title" id="P-PIRIFORM">PIRIFORM</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3237,11 +3213,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PIRIFORM">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="pithos" data-search="PITHOS">
+            <div class="entry" data-term="pithos" data-anchor="PITHOS">
                 <div class="entry-title" id="P-PITHOS">PITHOS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3256,11 +3232,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PITHOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="pits" data-search="PITS">
+            <div class="entry" data-term="pits" data-anchor="PITS">
                 <div class="entry-title" id="P-PITS">PITS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3275,11 +3251,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PITS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="plaster cast" data-search="PLASTER+CAST">
+            <div class="entry" data-term="plaster cast" data-anchor="PLASTER CAST">
                 <div class="entry-title" id="P-PLASTER CAST">PLASTER CAST</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3294,11 +3270,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PLASTER-CAST">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="polychromy" data-search="POLYCHROMY">
+            <div class="entry" data-term="polychromy" data-anchor="POLYCHROMY">
                 <div class="entry-title" id="P-POLYCHROMY">POLYCHROMY</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3313,11 +3289,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-POLYCHROMY">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="poppy blossom" data-search="POPPY+BLOSSOM">
+            <div class="entry" data-term="poppy blossom" data-anchor="POPPY BLOSSOM">
                 <div class="entry-title" id="P-POPPY BLOSSOM">POPPY BLOSSOM</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3332,11 +3308,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-POPPY-BLOSSOM">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="poseidon" data-search="POSEIDON">
+            <div class="entry" data-term="poseidon" data-anchor="POSEIDON">
                 <div class="entry-title" id="P-POSEIDON">POSEIDON</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3351,11 +3327,11 @@
                     <div class="attributes">Атрибуты : Трезубец, колесница, запряжённая гиппокампами, дельфин, лошадь, бык</div>
                 </div>
                 <div class="image-gallery" id="gallery-POSEIDON">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="postherd" data-search="POSTHERD">
+            <div class="entry" data-term="postherd" data-anchor="POSTHERD">
                 <div class="entry-title" id="P-POSTHERD">POSTHERD</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3370,11 +3346,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-POSTHERD">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="pronaos" data-search="PRONAOS">
+            <div class="entry" data-term="pronaos" data-anchor="PRONAOS">
                 <div class="entry-title" id="P-PRONAOS">PRONAOS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3389,11 +3365,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PRONAOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="propylaeon" data-search="PROPYLAEON">
+            <div class="entry" data-term="propylaeon" data-anchor="PROPYLAEON">
                 <div class="entry-title" id="P-PROPYLAEON">PROPYLAEON</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3408,11 +3384,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PROPYLAEON">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="pyxis" data-search="PYXIS">
+            <div class="entry" data-term="pyxis" data-anchor="PYXIS">
                 <div class="entry-title" id="P-PYXIS">PYXIS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3427,13 +3403,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-PYXIS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="Q">Q</div>
 
-            <div class="entry" data-term="quadrigae" data-search="QUADRIGAE">
+            <div class="entry" data-term="quadrigae" data-anchor="QUADRIGAE">
                 <div class="entry-title" id="Q-QUADRIGAE">QUADRIGAE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3448,13 +3424,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-QUADRIGAE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="R">R</div>
 
-            <div class="entry" data-term="rattle" data-search="RATTLE">
+            <div class="entry" data-term="rattle" data-anchor="RATTLE">
                 <div class="entry-title" id="R-RATTLE">RATTLE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3469,11 +3445,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-RATTLE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="red on black" data-search="RED+ON+BLACK">
+            <div class="entry" data-term="red on black" data-anchor="RED ON BLACK">
                 <div class="entry-title" id="R-RED ON BLACK">RED ON BLACK</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3488,11 +3464,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-RED-ON-BLACK">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="red on red" data-search="RED+ON+RED">
+            <div class="entry" data-term="red on red" data-anchor="RED ON RED">
                 <div class="entry-title" id="R-RED ON RED">RED ON RED</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3507,11 +3483,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-RED-ON-RED">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="red polished ware" data-search="RED+POLISHED+WARE">
+            <div class="entry" data-term="red polished ware" data-anchor="RED POLISHED WARE">
                 <div class="entry-title" id="R-RED POLISHED WARE">RED POLISHED WARE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3526,11 +3502,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-RED-POLISHED-WARE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="red-figure" data-search="RED-FIGURE">
+            <div class="entry" data-term="red-figure" data-anchor="RED-FIGURE">
                 <div class="entry-title" id="R-RED-FIGURE">RED-FIGURE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3545,11 +3521,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-RED-FIGURE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="relief" data-search="RELIEF">
+            <div class="entry" data-term="relief" data-anchor="RELIEF">
                 <div class="entry-title" id="R-RELIEF">RELIEF</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3564,11 +3540,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-RELIEF">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="relief plaque" data-search="RELIEF+PLAQUE">
+            <div class="entry" data-term="relief plaque" data-anchor="RELIEF PLAQUE">
                 <div class="entry-title" id="R-RELIEF PLAQUE">RELIEF PLAQUE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3583,11 +3559,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-RELIEF-PLAQUE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="rhyton" data-search="RHYTON">
+            <div class="entry" data-term="rhyton" data-anchor="RHYTON">
                 <div class="entry-title" id="R-RHYTON">RHYTON</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3602,11 +3578,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-RHYTON">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="rosette" data-search="ROSETTE">
+            <div class="entry" data-term="rosette" data-anchor="ROSETTE">
                 <div class="entry-title" id="R-ROSETTE">ROSETTE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3621,11 +3597,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ROSETTE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="rounders roundels" data-search="ROUNDERS">
+            <div class="entry" data-term="rounders roundels" data-anchor="ROUNDERS">
                 <div class="entry-title" id="R-ROUNDERS">ROUNDERS <span class="plural-badge">/ ROUNDELS</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3640,13 +3616,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-ROUNDERS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="S">S</div>
 
-            <div class="entry" data-term="sarcophagus" data-search="SARCOPHAGUS">
+            <div class="entry" data-term="sarcophagus" data-anchor="SARCOPHAGUS">
                 <div class="entry-title" id="S-SARCOPHAGUS">SARCOPHAGUS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3661,11 +3637,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SARCOPHAGUS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="satyr" data-search="SATYR">
+            <div class="entry" data-term="satyr" data-anchor="SATYR">
                 <div class="entry-title" id="S-SATYR">SATYR</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3680,11 +3656,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SATYR">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="saucer shaped" data-search="SAUCER+SHAPED">
+            <div class="entry" data-term="saucer shaped" data-anchor="SAUCER SHAPED">
                 <div class="entry-title" id="S-SAUCER SHAPED">SAUCER SHAPED</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3699,11 +3675,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SAUCER-SHAPED">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="shaft grave" data-search="SHAFT+GRAVE">
+            <div class="entry" data-term="shaft grave" data-anchor="SHAFT GRAVE">
                 <div class="entry-title" id="S-SHAFT GRAVE">SHAFT GRAVE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3718,11 +3694,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SHAFT-GRAVE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="shallow plate" data-search="SHALLOW+PLATE">
+            <div class="entry" data-term="shallow plate" data-anchor="SHALLOW PLATE">
                 <div class="entry-title" id="S-SHALLOW PLATE">SHALLOW PLATE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3737,11 +3713,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SHALLOW-PLATE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="sheath" data-search="SHEATH">
+            <div class="entry" data-term="sheath" data-anchor="SHEATH">
                 <div class="entry-title" id="S-SHEATH">SHEATH</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3756,11 +3732,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SHEATH">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="siren" data-search="SIREN">
+            <div class="entry" data-term="siren" data-anchor="SIREN">
                 <div class="entry-title" id="S-SIREN">SIREN</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3775,11 +3751,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SIREN">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="skyfoid" data-search="SKYFOID">
+            <div class="entry" data-term="skyfoid" data-anchor="SKYFOID">
                 <div class="entry-title" id="S-SKYFOID">SKYFOID</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3794,11 +3770,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SKYFOID">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="skyphos skyfos skylphos" data-search="SKYPHOS">
+            <div class="entry" data-term="skyphos skyfos skylphos" data-anchor="SKYPHOS">
                 <div class="entry-title" id="S-SKYPHOS">SKYPHOS <span class="plural-badge">/ SKYFOS / SKYLPHOS</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3813,11 +3789,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SKYPHOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="sphinx" data-search="SPHINX">
+            <div class="entry" data-term="sphinx" data-anchor="SPHINX">
                 <div class="entry-title" id="S-SPHINX">SPHINX</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3832,11 +3808,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SPHINX">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="spindle whorl" data-search="SPINDLE+WHORL">
+            <div class="entry" data-term="spindle whorl" data-anchor="SPINDLE WHORL">
                 <div class="entry-title" id="S-SPINDLE WHORL">SPINDLE WHORL</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3851,11 +3827,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SPINDLE-WHORL">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="spool shaped" data-search="SPOOL+SHAPED">
+            <div class="entry" data-term="spool shaped" data-anchor="SPOOL SHAPED">
                 <div class="entry-title" id="S-SPOOL SHAPED">SPOOL SHAPED</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3870,11 +3846,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SPOOL-SHAPED">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="spout" data-search="SPOUT">
+            <div class="entry" data-term="spout" data-anchor="SPOUT">
                 <div class="entry-title" id="S-SPOUT">SPOUT</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3889,11 +3865,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SPOUT">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="stadium" data-search="STADIUM">
+            <div class="entry" data-term="stadium" data-anchor="STADIUM">
                 <div class="entry-title" id="S-STADIUM">STADIUM</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3908,11 +3884,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-STADIUM">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="stamnos" data-search="STAMNOS">
+            <div class="entry" data-term="stamnos" data-anchor="STAMNOS">
                 <div class="entry-title" id="S-STAMNOS">STAMNOS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3927,11 +3903,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-STAMNOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="stamp" data-search="STAMP">
+            <div class="entry" data-term="stamp" data-anchor="STAMP">
                 <div class="entry-title" id="S-STAMP">STAMP</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3946,11 +3922,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-STAMP">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="stater" data-search="STATER">
+            <div class="entry" data-term="stater" data-anchor="STATER">
                 <div class="entry-title" id="S-STATER">STATER</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3965,11 +3941,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-STATER">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="steatite" data-search="STEATITE">
+            <div class="entry" data-term="steatite" data-anchor="STEATITE">
                 <div class="entry-title" id="S-STEATITE">STEATITE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -3984,11 +3960,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-STEATITE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="stereobate" data-search="STEREOBATE">
+            <div class="entry" data-term="stereobate" data-anchor="STEREOBATE">
                 <div class="entry-title" id="S-STEREOBATE">STEREOBATE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4003,11 +3979,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-STEREOBATE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="stoa" data-search="STOA">
+            <div class="entry" data-term="stoa" data-anchor="STOA">
                 <div class="entry-title" id="S-STOA">STOA</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4022,11 +3998,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-STOA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="strigil" data-search="STRIGIL">
+            <div class="entry" data-term="strigil" data-anchor="STRIGIL">
                 <div class="entry-title" id="S-STRIGIL">STRIGIL</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4041,11 +4017,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-STRIGIL">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="stylobate" data-search="STYLOBATE">
+            <div class="entry" data-term="stylobate" data-anchor="STYLOBATE">
                 <div class="entry-title" id="S-STYLOBATE">STYLOBATE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4060,11 +4036,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-STYLOBATE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="symposium" data-search="SYMPOSIUM">
+            <div class="entry" data-term="symposium" data-anchor="SYMPOSIUM">
                 <div class="entry-title" id="S-SYMPOSIUM">SYMPOSIUM</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4079,11 +4055,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SYMPOSIUM">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="syrinx" data-search="SYRINX">
+            <div class="entry" data-term="syrinx" data-anchor="SYRINX">
                 <div class="entry-title" id="S-SYRINX">SYRINX</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4098,13 +4074,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-SYRINX">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="T">T</div>
 
-            <div class="entry" data-term="tangaran" data-search="TANGARAN">
+            <div class="entry" data-term="tangaran" data-anchor="TANGARAN">
                 <div class="entry-title" id="T-TANGARAN">TANGARAN</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4119,11 +4095,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-TANGARAN">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="tankard tankards" data-search="TANKARD">
+            <div class="entry" data-term="tankard tankards" data-anchor="TANKARD">
                 <div class="entry-title" id="T-TANKARD">TANKARD <span class="plural-badge">/ TANKARDS</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4138,11 +4114,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-TANKARD">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="temenos" data-search="TEMENOS">
+            <div class="entry" data-term="temenos" data-anchor="TEMENOS">
                 <div class="entry-title" id="T-TEMENOS">TEMENOS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4157,11 +4133,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-TEMENOS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="tendril motif" data-search="TENDRIL+MOTIF">
+            <div class="entry" data-term="tendril motif" data-anchor="TENDRIL MOTIF">
                 <div class="entry-title" id="T-TENDRIL MOTIF">TENDRIL MOTIF</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4176,11 +4152,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-TENDRIL-MOTIF">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="terracotta" data-search="TERRACOTTA">
+            <div class="entry" data-term="terracotta" data-anchor="TERRACOTTA">
                 <div class="entry-title" id="T-TERRACOTTA">TERRACOTTA</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4195,11 +4171,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-TERRACOTTA">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="tetradrachm" data-search="TETRADRACHM">
+            <div class="entry" data-term="tetradrachm" data-anchor="TETRADRACHM">
                 <div class="entry-title" id="T-TETRADRACHM">TETRADRACHM</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4214,11 +4190,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-TETRADRACHM">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="theatre" data-search="THEATRE">
+            <div class="entry" data-term="theatre" data-anchor="THEATRE">
                 <div class="entry-title" id="T-THEATRE">THEATRE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4233,11 +4209,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-THEATRE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="theseus" data-search="THESEUS">
+            <div class="entry" data-term="theseus" data-anchor="THESEUS">
                 <div class="entry-title" id="T-THESEUS">THESEUS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4252,11 +4228,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-THESEUS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="tholos tomb" data-search="THOLOS+TOMB">
+            <div class="entry" data-term="tholos tomb" data-anchor="THOLOS TOMB">
                 <div class="entry-title" id="T-THOLOS TOMB">THOLOS TOMB</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4271,11 +4247,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-THOLOS-TOMB">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="thyrsus" data-search="THYRSUS">
+            <div class="entry" data-term="thyrsus" data-anchor="THYRSUS">
                 <div class="entry-title" id="T-THYRSUS">THYRSUS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4290,11 +4266,11 @@
                     <div class="attributes">Атрибуты : Сосновая шишка наверху, плющ, виноградная лоза, стебель фенхеля</div>
                 </div>
                 <div class="image-gallery" id="gallery-THYRSUS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="trident" data-search="TRIDENT">
+            <div class="entry" data-term="trident" data-anchor="TRIDENT">
                 <div class="entry-title" id="T-TRIDENT">TRIDENT</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4309,11 +4285,11 @@
                     <div class="attributes">Атрибуты : Три острых зубца, длинная рукоять, ассоциируется с Посейдоном</div>
                 </div>
                 <div class="image-gallery" id="gallery-TRIDENT">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="triglyph" data-search="TRIGLYPH">
+            <div class="entry" data-term="triglyph" data-anchor="TRIGLYPH">
                 <div class="entry-title" id="T-TRIGLYPH">TRIGLYPH</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4328,11 +4304,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-TRIGLYPH">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="trojan war" data-search="TROJAN+WAR">
+            <div class="entry" data-term="trojan war" data-anchor="TROJAN WAR">
                 <div class="entry-title" id="T-TROJAN WAR">TROJAN WAR</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4347,13 +4323,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-TROJAN-WAR">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="U">U</div>
 
-            <div class="entry" data-term="unguentarium" data-search="UNGUENTARIUM">
+            <div class="entry" data-term="unguentarium" data-anchor="UNGUENTARIUM">
                 <div class="entry-title" id="U-UNGUENTARIUM">UNGUENTARIUM</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4368,13 +4344,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-UNGUENTARIUM">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="V">V</div>
 
-            <div class="entry" data-term="votive" data-search="VOTIVE">
+            <div class="entry" data-term="votive" data-anchor="VOTIVE">
                 <div class="entry-title" id="V-VOTIVE">VOTIVE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4389,13 +4365,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-VOTIVE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="W">W</div>
 
-            <div class="entry" data-term="wares" data-search="WARES">
+            <div class="entry" data-term="wares" data-anchor="WARES">
                 <div class="entry-title" id="W-WARES">WARES</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4410,11 +4386,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-WARES">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="warp threads" data-search="WARP+THREADS">
+            <div class="entry" data-term="warp threads" data-anchor="WARP THREADS">
                 <div class="entry-title" id="W-WARP THREADS">WARP THREADS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4429,11 +4405,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-WARP-THREADS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="whetstone" data-search="WHETSTONE">
+            <div class="entry" data-term="whetstone" data-anchor="WHETSTONE">
                 <div class="entry-title" id="W-WHETSTONE">WHETSTONE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4448,11 +4424,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-WHETSTONE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="white painted ware" data-search="WHITE+PAINTED+WARE">
+            <div class="entry" data-term="white painted ware" data-anchor="WHITE PAINTED WARE">
                 <div class="entry-title" id="W-WHITE PAINTED WARE">WHITE PAINTED WARE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4467,11 +4443,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-WHITE-PAINTED-WARE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="wishbone" data-search="WISHBONE">
+            <div class="entry" data-term="wishbone" data-anchor="WISHBONE">
                 <div class="entry-title" id="W-WISHBONE">WISHBONE</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4486,11 +4462,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-WISHBONE">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="wreath" data-search="WREATH">
+            <div class="entry" data-term="wreath" data-anchor="WREATH">
                 <div class="entry-title" id="W-WREATH">WREATH</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4505,11 +4481,11 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-WREATH">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
-            <div class="entry" data-term="wreath of oak leaves" data-search="WREATH+OF+OAK+LEAVES">
+            <div class="entry" data-term="wreath of oak leaves" data-anchor="WREATH OF OAK LEAVES">
                 <div class="entry-title" id="W-WREATH OF OAK LEAVES">WREATH OF OAK LEAVES</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4524,13 +4500,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-WREATH-OF-OAK-LEAVES">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="X">X</div>
 
-            <div class="entry" data-term="xoanon" data-search="XOANON">
+            <div class="entry" data-term="xoanon" data-anchor="XOANON">
                 <div class="entry-title" id="X-XOANON">XOANON</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4545,13 +4521,13 @@
                     
                 </div>
                 <div class="image-gallery" id="gallery-XOANON">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
             <div class="letter-divider" id="Z">Z</div>
 
-            <div class="entry" data-term="zeus" data-search="ZEUS">
+            <div class="entry" data-term="zeus" data-anchor="ZEUS">
                 <div class="entry-title" id="Z-ZEUS">ZEUS</div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
@@ -4566,7 +4542,7 @@
                     <div class="attributes">Атрибуты : Молния, орёл, скипетр, дубовый венок, трон</div>
                 </div>
                 <div class="image-gallery" id="gallery-ZEUS">
-                    <div class="img-loading">Chargement des images...</div>
+                    <span class="img-loading">⏳ Chargement des images...</span>
                 </div>
             </div>
 
@@ -4576,134 +4552,126 @@
             <p>Greek Art & Archaeology Vocabulary • Словарь греческого искусства и археологии</p>
         </footer>
     </div>
-
     <button class="scroll-to-top" id="scrollToTop" title="Retour en haut">↑</button>
 
     <script>
         // Navigation alphabétique
-        const alphabetNav = document.getElementById('alphabetNav');
         const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Z'];
-        letters.forEach(letter => {
-            const link = document.createElement('a');
-            link.href = '#' + letter;
-            link.textContent = letter;
-            alphabetNav.appendChild(link);
+        const nav = document.getElementById('alphabetNav');
+        letters.forEach(l => {
+            const a = document.createElement('a');
+            a.href = '#' + l;
+            a.textContent = l;
+            nav.appendChild(a);
         });
 
         document.getElementById('totalCount').textContent = document.querySelectorAll('.entry').length;
 
-        // Recherche
         function searchEntries() {
             const filter = document.getElementById('searchInput').value.toLowerCase();
-            document.querySelectorAll('.entry').forEach(entry => {
-                const term = entry.getAttribute('data-term');
-                const text = entry.textContent.toLowerCase();
-                entry.style.display = (term.includes(filter) || text.includes(filter)) ? '' : 'none';
+            document.querySelectorAll('.entry').forEach(e => {
+                e.style.display = (e.dataset.term.includes(filter) || e.textContent.toLowerCase().includes(filter)) ? '' : 'none';
             });
         }
 
-        // Navigation instantanée
-        document.querySelectorAll('.alphabet-nav a').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+        document.querySelectorAll('.alphabet-nav a').forEach(a => {
+            a.addEventListener('click', e => {
                 e.preventDefault();
-                const el = document.getElementById(this.getAttribute('href').substring(1));
+                const el = document.getElementById(a.getAttribute('href').substring(1));
                 if (el) el.scrollIntoView({ behavior: 'auto', block: 'start' });
             });
         });
 
-        // Bouton retour en haut
-        const scrollToTopBtn = document.getElementById('scrollToTop');
-        window.addEventListener('scroll', () => {
-            scrollToTopBtn.classList.toggle('visible', window.pageYOffset > 300);
-        });
-        scrollToTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'auto' }));
+        const btn = document.getElementById('scrollToTop');
+        window.addEventListener('scroll', () => btn.classList.toggle('visible', window.pageYOffset > 300));
+        btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'auto' }));
 
-        // =============================================
-        // CHARGEMENT DES IMAGES via Met Museum API
-        // =============================================
-        async function fetchMetImages(searchTerm, galleryId) {
+        // Dictionnaire des termes de recherche optimisés
+        const searchMap = {"ACROLITH": "acrolith greek sculpture", "ACROPOLIS": "acropolis athens parthenon", "ACROTERION": "acroterion greek temple", "AEGIS": "aegis athena greek", "AGORA": "agora athens ancient greek", "ALABASTRON": "alabastron greek vase", "ALTAR": "ancient greek altar", "AMAZON": "amazon greek warrior vase", "AMAZONOMACHY": "amazonomachy greek sculpture", "AMPHORA": "greek amphora attic", "AMPHOROID VESSEL": "greek amphora vessel", "ANTA": "anta greek temple architecture", "ANTAE": "antae greek temple", "ANTIS FACADE": "greek temple facade columns", "APHRODITE": "aphrodite greek goddess sculpture", "APOLLO": "apollo greek god sculpture", "APOTROPAIC": "apotropaic gorgon greek", "ARCHAIC SMILE": "archaic smile greek kouros", "ARCHITRAVE": "architrave greek temple", "ARES": "ares greek god sculpture", "ARTEMIS": "artemis greek goddess sculpture", "ARYBALLOS": "aryballos greek vase oil", "ASKOS": "askos greek vase", "ASTRAGALOI": "astragaloi knucklebone greek", "ATHENA": "athena greek goddess sculpture", "BASE": "greek column base architecture", "BEADS": "ancient greek beads jewelry", "BELL KRATER": "bell krater greek vase", "BLACK GLAZE": "black glaze greek pottery", "BLACK POLISHED WARE": "black polished ware greek pottery", "BLACK-FIGURE": "black figure greek pottery attic", "BOEOTIAN": "boeotian greek pottery figurine", "BOTHROS": "bothros greek sanctuary pit", "BRONZE": "ancient greek bronze sculpture", "BUCRANIUM": "bucranium greek architectural decoration", "BUST": "greek bust sculpture portrait", "CALYX": "calyx krater greek vase", "CALYX KRATER": "calyx krater greek vase red figure", "CAPITAL": "greek column capital doric ionic", "CARYATID": "caryatid erechtheion greek", "CELLA": "cella greek temple naos", "CENOTAPH": "greek cenotaph funerary monument", "CENTAUR": "centaur greek mythology sculpture", "CENTAURMACHY": "centauromachy greek sculpture lapith", "CHALK": "greek chalk limestone ancient", "CHITON": "chiton greek garment sculpture", "CHORAGIC": "choragic monument greek", "CHRYSELEPHANTINE": "chryselephantine greek statue gold ivory", "CIPPUS": "cippus greek funerary stele", "CIST SHAPED": "cist grave greek burial", "CLAY": "greek clay pottery ancient", "COIN": "ancient greek coin silver", "COLUMN": "greek column doric architecture", "CONSERVATION": "greek artifact conservation museum", "CONTEXT": "greek archaeological excavation", "CONTRAPPOSTO": "contrapposto greek sculpture classical", "CORINTHIAN ORDER": "corinthian order column capital", "CORNICE": "greek temple cornice architecture", "CRATER": "greek krater mixing vessel", "CREPIDOMA": "greek temple crepidoma steps", "CULT STATUE": "greek cult statue temple deity", "CUTAWAY SPOUT": "greek pottery spout vessel", "DEMETER": "demeter greek goddess sculpture", "DINOS": "dinos greek vase mixing", "DIONYSUS": "dionysus greek god sculpture vase", "DISTAFF": "distaff greek spinning wool", "DORIC ORDER": "doric order column greek temple", "DRAB POLISHED WARE": "greek polished pottery bronze age", "DRAPERY": "greek sculpture drapery classical", "DROMOS": "dromos mycenaean tomb corridor", "ENTABLATURE": "entablature greek temple architecture", "EUTHYNTERIA": "euthynteria greek temple foundation", "EXALEIPTRON": "exaleiptron greek vase cosmetics", "FABRIC": "greek pottery fabric clay analysis", "FIBULA": "fibula ancient greek brooch", "FIRING": "greek pottery kiln firing", "FLASK": "greek flask vessel pottery", "FRIEZE": "greek frieze sculpture parthenon", "FUNNEL MOUTH": "greek pottery funnel neck vessel", "FUNNEL RIM": "greek pottery rim vessel", "GIGANTOMACHY": "gigantomachy greek sculpture gods giants", "GIRDLE": "girdle greek goddess belt", "GOLD": "ancient greek gold jewelry wreath", "GORGON": "gorgon medusa greek sculpture", "GOURD JUG": "greek jug vessel pottery", "GRAVE GOODS": "greek grave goods burial offerings", "GREAVES": "greek greaves bronze armor", "GRIFFIN": "griffin greek mythology sculpture", "GYMNASIUM": "gymnasium ancient greek building", "HADES": "hades greek god underworld", "HELMET": "greek helmet bronze corinthian", "HEPHAESTUS": "hephaestus greek god forge", "HERA": "hera greek goddess sculpture", "HERACLES": "heracles hercules greek hero sculpture", "HERMES": "hermes greek god sculpture", "HIERATIC GARMENT": "greek hieratic garment ritual", "HIMATION": "himation greek garment cloak", "HYDRIA": "hydria greek water vessel vase", "IONIC ORDER": "ionic order column volute greek", "IVORY": "ancient greek ivory carving", "JUG": "greek jug oinochoe pottery", "JUGLET": "greek juglet small vessel", "KALATHOS": "kalathos greek basket wool", "KANTHAROS": "kantharos greek drinking cup dionysus", "KILN": "ancient greek pottery kiln", "KITHARA": "kithara greek lyre apollo music", "KNIFE": "ancient greek knife iron bronze", "KNUCKLEBONE": "knucklebone astragalos greek game", "KOPIS": "kopis greek sword blade", "KORE": "kore archaic greek female statue", "KOUROS": "kouros archaic greek male statue", "KYLIX": "kylix greek drinking cup symposium", "LABOURS OF HERACLES": "labors hercules heracles greek vase", "LADLE": "greek ladle kyathos bronze", "LAGOBOLON": "lagobolon greek hunting stick", "LAGYNOS": "lagynos greek wine jug hellenistic", "LEAD SLING": "lead sling bullet ancient greek", "LEKANIS": "lekanis greek lidded bowl", "LEKYTHOS": "lekythos greek oil flask white ground", "LIBATION": "libation greek ritual phiale", "LIMESTONE": "limestone greek sculpture ancient", "LION": "lion greek sculpture ancient", "LOCULI": "loculi greek tomb niches", "LOOM": "greek loom weaving ancient", "LOOM WEIGHTS": "loom weights greek terracotta", "LOUTROPHOROS": "loutrophoros greek wedding vase", "LYRE": "greek lyre music ancient", "MEDUSA": "medusa gorgon greek sculpture head", "MENORAH": "menorah jewish ancient greece", "METOPE": "metope greek temple sculpture", "MINIATURE PANATHENAIC": "panathenaic amphora miniature greek", "MINOTAUR": "minotaur greek mythology vase", "MIRROR": "ancient greek bronze mirror", "MOLTEN": "greek bronze casting metalwork", "MORTAR": "ancient greek mortar pestle", "NAOS": "naos greek temple cella interior", "NECROPOLIS": "greek necropolis cemetery ancient", "NICHES": "greek tomb niches burial", "NIKE": "nike greek goddess victory sculpture", "NYMPH": "nymph greek mythology sculpture", "ODEON": "odeon ancient greek theatre music", "ODYSSEUS": "odysseus ulysses greek hero vase", "OENOCHOISKE": "oinochoe small greek pottery", "OINOCHOE": "oinochoe greek wine jug pottery", "OLPE": "olpe greek wine jug pottery", "OPHIOLITE": "ophiolite green stone ancient cyprus", "OPISTHODOMOS": "opisthodomos greek temple rear", "OSTRACISM": "ostracism ostrakon athens democracy", "OSTRAKON": "ostrakon greek ostracism sherd", "PALMETTE": "palmette greek decorative motif", "PAN": "pan greek god satyr pipes", "PANATHENAIC": "panathenaic amphora greek prize", "PATERA": "patera greek libation bowl", "PEDIMENT": "pediment greek temple sculpture", "PELIKE": "pelike greek vase red figure", "PERIBOLOS": "peribolos greek sanctuary wall", "PERIPATOS": "peripatos greek pathway colonnade", "PERISTASIS": "peristyle greek temple colonnade", "PERISTYLE": "peristyle greek courtyard columns", "PERSEPHONE": "persephone greek goddess underworld", "PERSEUS": "perseus greek hero medusa vase", "PHIALE": "phiale greek libation bowl", "PICROLITE": "picrolite steatite cyprus figurine", "PIRIFORM": "piriform greek vessel pottery", "PITHOS": "pithos large greek storage jar", "PITS": "greek archaeological pit bothros", "PLASTER CAST": "plaster cast greek sculpture copy", "POLYCHROMY": "polychromy greek sculpture painted color", "POPPY BLOSSOM": "poppy demeter greek symbol", "POSEIDON": "poseidon greek god sea sculpture", "POSTHERD": "greek pottery sherd fragment", "PRONAOS": "pronaos greek temple vestibule", "PROPYLAEON": "propylaea athens acropolis gate", "PYXIS": "pyxis greek lidded box jewelry", "QUADRIGAE": "quadriga greek chariot race", "RATTLE": "greek rattle terracotta child", "RED ON BLACK": "red on black greek pottery", "RED ON RED": "red polished ware greek cyprus", "RED POLISHED WARE": "red polished pottery bronze age cyprus", "RED-FIGURE": "red figure greek pottery attic", "RELIEF": "greek relief sculpture marble", "RELIEF PLAQUE": "greek relief plaque terracotta", "RHYTON": "rhyton greek drinking horn vessel", "ROSETTE": "rosette greek decorative motif", "ROUNDELS": "roundels ancient greek", "SARCOPHAGUS": "greek sarcophagus stone relief", "SATYR": "satyr dionysus greek mythology", "SAUCER SHAPED": "greek saucer plate vessel pottery", "SHAFT GRAVE": "shaft grave mycenae gold", "SHALLOW PLATE": "greek shallow plate pottery", "SHEATH": "ancient greek sword sheath bronze", "SIREN": "siren greek mythology bird woman", "SKYFOID": "skyphos greek drinking cup", "SKYPHOS": "skyphos greek drinking cup pottery", "SPHINX": "sphinx greek mythology sculpture", "SPINDLE WHORL": "spindle whorl greek terracotta", "SPOOL SHAPED": "greek spool shaped object terracotta", "SPOUT": "greek pottery spout vessel", "STADIUM": "greek stadium ancient athletics", "STAMNOS": "stamnos greek storage jar", "STAMP": "greek seal stamp ancient", "STATER": "stater ancient greek coin silver", "STEATITE": "steatite soapstone greek seal", "STEREOBATE": "stereobate greek temple foundation", "STOA": "stoa greek portico agora", "STRIGIL": "strigil greek athlete bronze scraper", "STYLOBATE": "stylobate greek temple platform", "SYMPOSIUM": "greek symposium drinking vase", "SYRINX": "syrinx pan pipes greek music", "TANGARAN": "tanagra figurine terracotta greek", "TANKARD": "greek tankard vessel pottery", "TEMENOS": "temenos greek sacred precinct", "TENDRIL MOTIF": "tendril vine greek decorative vase", "TERRACOTTA": "ancient greek terracotta figurine", "TETRADRACHM": "tetradrachm athenian silver coin owl", "THEATRE": "ancient greek theatre epidaurus", "THESEUS": "theseus greek hero minotaur vase", "THOLOS TOMB": "tholos tomb mycenae treasury atreus", "THYRSUS": "thyrsus dionysus greek staff", "TRIDENT": "trident poseidon greek god", "TRIGLYPH": "triglyph doric frieze greek temple", "TROJAN WAR": "trojan war greek vase achilles", "UNGUENTARIUM": "unguentarium greek perfume flask", "VOTIVE": "greek votive offering sanctuary", "WARES": "greek pottery wares ancient", "WARP THREADS": "greek weaving textile ancient", "WHETSTONE": "ancient greek whetstone sharpening", "WHITE PAINTED WARE": "white painted pottery cyprus ancient", "WISHBONE": "ancient greek bird bone", "WREATH": "greek wreath laurel gold ancient", "WREATH OF OAK LEAVES": "greek oak wreath gold zeus olympia", "XOANON": "xoanon greek primitive wooden idol", "ZEUS": "zeus greek god sculpture olympia"};
+
+        // Chargement images Met Museum département grec (dept 13)
+        async function fetchMetImages(anchor, galleryId) {
             const gallery = document.getElementById(galleryId);
-            try {
-                // Recherche dans l'API du Met Museum (department 13 = Greek & Roman)
-                const searchUrl = `https://collectionapi.metmuseum.org/public/collection/v1/search?q=${encodeURIComponent(searchTerm)}&departmentId=13&hasImages=true`;
-                const searchRes = await fetch(searchUrl);
-                const searchData = await searchRes.json();
+            const query = searchMap[anchor] || anchor + ' ancient greek';
 
-                if (!searchData.objectIDs || searchData.objectIDs.length === 0) {
-                    // Si rien dans le dept grec, chercher sans restriction
-                    const searchUrl2 = `https://collectionapi.metmuseum.org/public/collection/v1/search?q=${encodeURIComponent(searchTerm)}&hasImages=true`;
-                    const searchRes2 = await fetch(searchUrl2);
-                    const searchData2 = await searchRes2.json();
-                    if (!searchData2.objectIDs || searchData2.objectIDs.length === 0) {
-                        gallery.innerHTML = '<div class="img-none">Aucune image trouvée</div>';
-                        return;
-                    }
-                    searchData.objectIDs = searchData2.objectIDs;
+            try {
+                // Recherche d abord dans le dept Greek & Roman Art (13)
+                let url = `https://collectionapi.metmuseum.org/public/collection/v1/search?q=${encodeURIComponent(query)}&departmentId=13&hasImages=true`;
+                let res = await fetch(url);
+                let data = await res.json();
+
+                // Si pas assez de résultats, élargir la recherche
+                if (!data.objectIDs || data.objectIDs.length < 3) {
+                    url = `https://collectionapi.metmuseum.org/public/collection/v1/search?q=${encodeURIComponent(query)}&hasImages=true`;
+                    res = await fetch(url);
+                    data = await res.json();
                 }
 
-                // Récupérer les détails des 3 premiers objets avec images
-                const ids = searchData.objectIDs.slice(0, 10); // On prend 10 pour filtrer
-                const imageItems = [];
+                if (!data.objectIDs || data.objectIDs.length === 0) {
+                    gallery.innerHTML = '<span class="img-none">Aucune image trouvée</span>';
+                    return;
+                }
+
+                // Prendre les 15 premiers IDs et filtrer ceux avec images
+                const ids = data.objectIDs.slice(0, 15);
+                const images = [];
 
                 for (const id of ids) {
-                    if (imageItems.length >= 3) break;
+                    if (images.length >= 3) break;
                     try {
-                        const objRes = await fetch(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${id}`);
-                        const obj = await objRes.json();
-                        if (obj.primaryImageSmall) {
-                            imageItems.push({
-                                url: obj.primaryImageSmall,
-                                title: obj.title || searchTerm,
-                                date: obj.objectDate || '',
-                                link: obj.objectURL || '#'
+                        const obj = await fetch(`https://collectionapi.metmuseum.org/public/collection/v1/objects/${id}`);
+                        const d = await obj.json();
+                        // Vérifier que c est bien de l art grec/antique
+                        if (d.primaryImageSmall && d.primaryImageSmall !== '') {
+                            images.push({
+                                src: d.primaryImageSmall,
+                                title: d.title || anchor,
+                                date: d.objectDate || '',
+                                link: d.objectURL || '#',
+                                culture: d.culture || ''
                             });
                         }
                     } catch(e) {}
                 }
 
-                if (imageItems.length === 0) {
-                    gallery.innerHTML = '<div class="img-none">Aucune image disponible</div>';
+                if (images.length === 0) {
+                    gallery.innerHTML = '<span class="img-none">Aucune image disponible</span>';
                     return;
                 }
 
-                // Afficher les images
-                gallery.innerHTML = imageItems.map(img => `
+                gallery.innerHTML = images.map(img => `
                     <div class="image-item">
                         <a href="${img.link}" target="_blank">
-                            <img src="${img.url}" alt="${img.title}" loading="lazy">
+                            <img src="${img.src}" alt="${img.title}" loading="lazy"
+                                 onerror="this.closest('.image-item').remove()">
                             <div class="image-caption">
-                                ${img.title.substring(0, 25)}${img.title.length > 25 ? '...' : ''}<br>
+                                ${img.title.substring(0,24)}${img.title.length>24?'...':''}<br>
                                 ${img.date}<br>
-                                <a href="${img.link}" target="_blank">Met Museum</a>
+                                <a href="${img.link}" target="_blank">Met Museum ↗</a>
                             </div>
                         </a>
                     </div>
                 `).join('');
 
             } catch(err) {
-                gallery.innerHTML = '<div class="img-none">Erreur de chargement</div>';
+                gallery.innerHTML = '<span class="img-none">Images non disponibles</span>';
             }
         }
 
-        // Intersection Observer : charger les images uniquement quand l article est visible
+        // Lazy loading via IntersectionObserver
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    const entryEl = entry.target;
-                    const searchTerm = entryEl.getAttribute('data-search').replace(/\+/g, ' ');
-                    const anchorId = entryEl.querySelector('.entry-title').id;
-                    const galleryId = 'gallery-' + anchorId.substring(anchorId.indexOf('-') + 1).replace(/ /g, '-');
-                    fetchMetImages(searchTerm, galleryId);
-                    observer.unobserve(entryEl); // Ne charger qu une seule fois
+                    const el = entry.target;
+                    const anchor = el.dataset.anchor;
+                    const galleryId = 'gallery-' + anchor.replace(/ /g, '-');
+                    fetchMetImages(anchor, galleryId);
+                    observer.unobserve(el);
                 }
             });
         }, { threshold: 0.1 });
 
-        // Observer toutes les entrées
-        document.querySelectorAll('.entry').forEach(entry => {
-            observer.observe(entry);
-        });
-
+        document.querySelectorAll('.entry').forEach(e => observer.observe(e));
     </script>
 </body>
 </html>
