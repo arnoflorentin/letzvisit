@@ -237,8 +237,8 @@
                 </div>
             </div>
 
-            <div class="entry" data-term="anta">
-                <div class="entry-title" id="A-ANTA">ANTA</div>
+            <div class="entry" data-term="anta antae">
+                <div class="entry-title" id="A-ANTA">ANTA <span class="plural-badge">/ ANTAE</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
                     <div class="translation">ANTE</div>
@@ -249,22 +249,6 @@
                     <span class="language-label ru-label">RU</span>
                     <div class="translation">АНТА</div>
                     <div class="description">Прямоугольный выступающий столб, завершающий боковые стены греческого храма, образующий концы стены целлы. Часто использовался для поддержки антаблемента в храмах in antis.</div>
-                    
-                </div>
-            </div>
-
-            <div class="entry" data-term="antae">
-                <div class="entry-title" id="A-ANTAE">ANTAE</div>
-                <div class="language-section">
-                    <span class="language-label fr-label">FR</span>
-                    <div class="translation">ANTES</div>
-                    <div class="description">Pluriel d'anta. Piliers rectangulaires qui terminent les murs latéraux d'un temple et encadrent l'entrée, caractéristiques de l'architecture des temples grecs in antis.</div>
-                    
-                </div>
-                <div class="language-section">
-                    <span class="language-label ru-label">RU</span>
-                    <div class="translation">АНТЫ</div>
-                    <div class="description">Множественное число от анта. Прямоугольные столбы, завершающие боковые стены храма и обрамляющие вход, характерные для архитектуры греческих храмов in antis.</div>
                     
                 </div>
             </div>
@@ -2361,24 +2345,8 @@
                 </div>
             </div>
 
-            <div class="entry" data-term="oenochoiske">
-                <div class="entry-title" id="O-OENOCHOISKE">OENOCHOISKE</div>
-                <div class="language-section">
-                    <span class="language-label fr-label">FR</span>
-                    <div class="translation">ŒNOCHOÏSKÉ</div>
-                    <div class="description">Petite œnochoé (cruche à vin), version miniature de la cruche à vin standard, probablement utilisée pour des portions individuelles ou comme offrande votive.</div>
-                    
-                </div>
-                <div class="language-section">
-                    <span class="language-label ru-label">RU</span>
-                    <div class="translation">ОЙНОХОИСКА</div>
-                    <div class="description">Маленькая ойнохоя (винный кувшин), миниатюрная версия стандартного винного кувшина, вероятно использовавшаяся для индивидуальных порций или как вотивное подношение.</div>
-                    
-                </div>
-            </div>
-
-            <div class="entry" data-term="oinochoe oenochoe">
-                <div class="entry-title" id="O-OINOCHOE">OINOCHOE <span class="plural-badge">/ OENOCHOE</span></div>
+            <div class="entry" data-term="oinochoe oenochoe oenochoiske">
+                <div class="entry-title" id="O-OINOCHOE">OINOCHOE <span class="plural-badge">/ OENOCHOE / OENOCHOISKE</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
                     <div class="translation">ŒNOCHOÉ</div>
@@ -3169,24 +3137,8 @@
                 </div>
             </div>
 
-            <div class="entry" data-term="skyfoid">
-                <div class="entry-title" id="S-SKYFOID">SKYFOID</div>
-                <div class="language-section">
-                    <span class="language-label fr-label">FR</span>
-                    <div class="translation">SKYPHOÏDE</div>
-                    <div class="description">En forme de skyphos, qualifie un objet ou un vase dont la forme rappelle celle d'un skyphos (coupe profonde à deux anses).</div>
-                    
-                </div>
-                <div class="language-section">
-                    <span class="language-label ru-label">RU</span>
-                    <div class="translation">СКИФОВИДНЫЙ</div>
-                    <div class="description">В форме скифоса, характеризует объект или сосуд, форма которого напоминает скифос (глубокую чашу с двумя ручками).</div>
-                    
-                </div>
-            </div>
-
-            <div class="entry" data-term="skyphos skyfos skylphos">
-                <div class="entry-title" id="S-SKYPHOS">SKYPHOS <span class="plural-badge">/ SKYFOS / SKYLPHOS</span></div>
+            <div class="entry" data-term="skyphos skyfos skylphos skyfoid">
+                <div class="entry-title" id="S-SKYPHOS">SKYPHOS <span class="plural-badge">/ SKYFOS / SKYLPHOS / SKYFOID</span></div>
                 <div class="language-section">
                     <span class="language-label fr-label">FR</span>
                     <div class="translation">SKYPHOS</div>
@@ -3876,9 +3828,7 @@
         });
 
         const scrollToTopBtn = document.getElementById('scrollToTop');
-        window.addEventListener('scroll', () => {
-            scrollToTopBtn.classList.toggle('visible', window.pageYOffset > 300);
-        });
+        window.addEventListener('scroll', () => scrollToTopBtn.classList.toggle('visible', window.pageYOffset > 300));
         scrollToTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'auto' }));
     </script>
 </body>
