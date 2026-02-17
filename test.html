@@ -11,9 +11,17 @@
         header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; text-align: center; }
         header h1 { font-size: 2.5em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
         header p { font-size: 1.2em; opacity: 0.9; }
-        .search-box { padding: 30px; background: #f8f9fa; border-bottom: 2px solid #e9ecef; }
+        
+        .controls-bar { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 30px 40px; background: #f8f9fa; border-bottom: 2px solid #e9ecef; }
+        .search-box { flex: 1; max-width: 800px; }
         #searchInput { width: 100%; padding: 15px 20px; font-size: 16px; border: 2px solid #667eea; border-radius: 50px; outline: none; transition: all 0.3s; }
         #searchInput:focus { box-shadow: 0 0 15px rgba(102, 126, 234, 0.3); }
+        
+        .language-selector { display: flex; gap: 10px; background: white; padding: 8px; border-radius: 50px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .language-selector button { padding: 10px 20px; border: none; background: transparent; color: #667eea; font-weight: bold; font-size: 14px; cursor: pointer; border-radius: 50px; transition: all 0.3s; font-family: 'Georgia', 'Times New Roman', serif; }
+        .language-selector button:hover { background: #f0f0f0; }
+        .language-selector button.active { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        
         .content { padding: 40px; }
         .entry { margin-bottom: 40px; padding: 30px; background: #ffffff; border-radius: 10px; border-left: 5px solid #667eea; box-shadow: 0 2px 10px rgba(0,0,0,0.05); transition: all 0.3s; }
         .entry:hover { box-shadow: 0 5px 20px rgba(0,0,0,0.1); transform: translateX(5px); }
@@ -36,8 +44,9 @@
         @media (max-width: 768px) {
             header h1 { font-size: 1.8em; }
             .entry-title { font-size: 1.5em; }
-            .alphabet-nav { gap: 5px; }
-            .alphabet-nav a { padding: 6px 10px; font-size: 0.9em; }
+            .controls-bar { flex-direction: column; padding: 20px; }
+            .search-box { max-width: 100%; }
+            .language-selector { width: 100%; justify-content: center; }
         }
     </style>
 </head>
@@ -47,8 +56,15 @@
             <h1>📚 Vocabulaire Grec Ancien</h1>
             <p>Ancient Greek Vocabulary - Древнегреческий словарь</p>
         </header>
-        <div class="search-box">
-            <input type="text" id="searchInput" placeholder="🔍 Rechercher un terme... (Search... Поиск...)" onkeyup="searchEntries()">
+        <div class="controls-bar">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Rechercher un terme... (Search... Поиск...)" onkeyup="searchEntries()">
+            </div>
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="all">Tout</button>
+                <button class="lang-btn" data-lang="fr">FR</button>
+                <button class="lang-btn" data-lang="ru">RU</button>
+            </div>
         </div>
         <div class="stats">
             <p>Total des termes : <strong id="totalCount">0</strong></p>
@@ -4333,6 +4349,30 @@
                 entry.style.display = (term.includes(filter) || text.includes(filter)) ? '' : 'none';
             });
         }
+
+        // Language selector
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Update active button
+                document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                const lang = this.getAttribute('data-lang');
+                
+                // Show/hide language sections
+                document.querySelectorAll('.language-section').forEach(section => {
+                    if (lang === 'all') {
+                        section.style.display = '';
+                    } else if (section.querySelector('.fr-label') && lang === 'fr') {
+                        section.style.display = '';
+                    } else if (section.querySelector('.ru-label') && lang === 'ru') {
+                        section.style.display = '';
+                    } else {
+                        section.style.display = 'none';
+                    }
+                });
+            });
+        });
 
         const scrollToTopBtn = document.getElementById('scrollToTop');
         window.addEventListener('scroll', () => scrollToTopBtn.classList.toggle('visible', window.pageYOffset > 300));
