@@ -37,9 +37,9 @@
         .attributes { margin-top: 10px; padding: 10px; background: #fff3cd; border-left: 3px solid #ffc107; font-style: italic; color: #856404; }
         
         .image-gallery { display: flex; justify-content: center; gap: 15px; margin-top: 20px; padding-top: 20px; border-top: 2px solid #e9ecef; }
-        .image-gallery img { width: 150px; height: 150px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: transform 0.3s ease; cursor: pointer; }
+        .image-gallery img { width: 150px; height: 150px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); transition: transform 0.3s ease; cursor: pointer; background: #f0f0f0; }
         .image-gallery img:hover { transform: scale(1.05); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
-        .image-placeholder { width: 150px; height: 150px; background: #f0f0f0; border: 2px dashed #ccc; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #999; font-size: 0.85em; text-align: center; padding: 10px; font-style: italic; }
+        .image-gallery img[src*="placeholder"] { border: 2px dashed #ccc; }
         
         .letter-divider { font-size: 3em; font-weight: bold; color: #667eea; margin: 30px 0 30px 0; padding-bottom: 15px; border-bottom: 3px solid #667eea; text-align: center; letter-spacing: 5px; scroll-margin-top: 20px; }
         footer { background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 40px; }
@@ -92,9 +92,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/acrolith-1.jpg" alt="ACROLITH 1" loading="lazy" width="150" height="150">
+                    <img src="images/acrolith-2.jpg" alt="ACROLITH 2" loading="lazy" width="150" height="150">
+                    <img src="images/acrolith-3.jpg" alt="ACROLITH 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -115,9 +115,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/acropolis-1.jpg" alt="ACROPOLIS 1" loading="lazy" width="150" height="150">
+                    <img src="images/acropolis-2.jpg" alt="ACROPOLIS 2" loading="lazy" width="150" height="150">
+                    <img src="images/acropolis-3.jpg" alt="ACROPOLIS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -138,9 +138,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/acroterion-1.jpg" alt="ACROTERION 1" loading="lazy" width="150" height="150">
+                    <img src="images/acroterion-2.jpg" alt="ACROTERION 2" loading="lazy" width="150" height="150">
+                    <img src="images/acroterion-3.jpg" alt="ACROTERION 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -161,9 +161,9 @@
                     <div class="attributes">Атрибуты : Голова Медузы, чешуя, змеи, бахрома по краям</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/aegis-1.jpg" alt="AEGIS 1" loading="lazy" width="150" height="150">
+                    <img src="images/aegis-2.jpg" alt="AEGIS 2" loading="lazy" width="150" height="150">
+                    <img src="images/aegis-3.jpg" alt="AEGIS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -184,9 +184,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/agora-1.jpg" alt="AGORA 1" loading="lazy" width="150" height="150">
+                    <img src="images/agora-2.jpg" alt="AGORA 2" loading="lazy" width="150" height="150">
+                    <img src="images/agora-3.jpg" alt="AGORA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -207,9 +207,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/alabastron-1.jpg" alt="ALABASTRON 1" loading="lazy" width="150" height="150">
+                    <img src="images/alabastron-2.jpg" alt="ALABASTRON 2" loading="lazy" width="150" height="150">
+                    <img src="images/alabastron-3.jpg" alt="ALABASTRON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -230,9 +230,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/altar-1.jpg" alt="ALTAR 1" loading="lazy" width="150" height="150">
+                    <img src="images/altar-2.jpg" alt="ALTAR 2" loading="lazy" width="150" height="150">
+                    <img src="images/altar-3.jpg" alt="ALTAR 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -253,9 +253,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/amazon-1.jpg" alt="AMAZON 1" loading="lazy" width="150" height="150">
+                    <img src="images/amazon-2.jpg" alt="AMAZON 2" loading="lazy" width="150" height="150">
+                    <img src="images/amazon-3.jpg" alt="AMAZON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -276,9 +276,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/amazonomachy-1.jpg" alt="AMAZONOMACHY 1" loading="lazy" width="150" height="150">
+                    <img src="images/amazonomachy-2.jpg" alt="AMAZONOMACHY 2" loading="lazy" width="150" height="150">
+                    <img src="images/amazonomachy-3.jpg" alt="AMAZONOMACHY 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -299,9 +299,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/amphora-1.jpg" alt="AMPHORA 1" loading="lazy" width="150" height="150">
+                    <img src="images/amphora-2.jpg" alt="AMPHORA 2" loading="lazy" width="150" height="150">
+                    <img src="images/amphora-3.jpg" alt="AMPHORA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -322,9 +322,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/amphoroid-vessel-1.jpg" alt="AMPHOROID VESSEL 1" loading="lazy" width="150" height="150">
+                    <img src="images/amphoroid-vessel-2.jpg" alt="AMPHOROID VESSEL 2" loading="lazy" width="150" height="150">
+                    <img src="images/amphoroid-vessel-3.jpg" alt="AMPHOROID VESSEL 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -345,9 +345,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/anta-1.jpg" alt="ANTA 1" loading="lazy" width="150" height="150">
+                    <img src="images/anta-2.jpg" alt="ANTA 2" loading="lazy" width="150" height="150">
+                    <img src="images/anta-3.jpg" alt="ANTA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -368,9 +368,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/antis-facade-1.jpg" alt="ANTIS FACADE 1" loading="lazy" width="150" height="150">
+                    <img src="images/antis-facade-2.jpg" alt="ANTIS FACADE 2" loading="lazy" width="150" height="150">
+                    <img src="images/antis-facade-3.jpg" alt="ANTIS FACADE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -391,9 +391,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/antler-1.jpg" alt="ANTLER 1" loading="lazy" width="150" height="150">
+                    <img src="images/antler-2.jpg" alt="ANTLER 2" loading="lazy" width="150" height="150">
+                    <img src="images/antler-3.jpg" alt="ANTLER 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -414,9 +414,9 @@
                     <div class="attributes">Атрибуты : Голубь, роза, раковина, зеркало, волшебный пояс, золотое яблоко</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/aphrodite-1.jpg" alt="APHRODITE 1" loading="lazy" width="150" height="150">
+                    <img src="images/aphrodite-2.jpg" alt="APHRODITE 2" loading="lazy" width="150" height="150">
+                    <img src="images/aphrodite-3.jpg" alt="APHRODITE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -437,9 +437,9 @@
                     <div class="attributes">Атрибуты : Лира, лук и стрелы, лавровый венок, солнечная колесница, треножник</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/apollo-1.jpg" alt="APOLLO 1" loading="lazy" width="150" height="150">
+                    <img src="images/apollo-2.jpg" alt="APOLLO 2" loading="lazy" width="150" height="150">
+                    <img src="images/apollo-3.jpg" alt="APOLLO 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -460,9 +460,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/apotropaic-1.jpg" alt="APOTROPAIC 1" loading="lazy" width="150" height="150">
+                    <img src="images/apotropaic-2.jpg" alt="APOTROPAIC 2" loading="lazy" width="150" height="150">
+                    <img src="images/apotropaic-3.jpg" alt="APOTROPAIC 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -483,9 +483,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/archaic-smile-1.jpg" alt="ARCHAIC SMILE 1" loading="lazy" width="150" height="150">
+                    <img src="images/archaic-smile-2.jpg" alt="ARCHAIC SMILE 2" loading="lazy" width="150" height="150">
+                    <img src="images/archaic-smile-3.jpg" alt="ARCHAIC SMILE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -506,9 +506,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/architrave-1.jpg" alt="ARCHITRAVE 1" loading="lazy" width="150" height="150">
+                    <img src="images/architrave-2.jpg" alt="ARCHITRAVE 2" loading="lazy" width="150" height="150">
+                    <img src="images/architrave-3.jpg" alt="ARCHITRAVE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -529,9 +529,9 @@
                     <div class="attributes">Атрибуты : Шлем, щит, копьё, меч, доспехи, колесница, запряжённая лошадьми</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/ares-1.jpg" alt="ARES 1" loading="lazy" width="150" height="150">
+                    <img src="images/ares-2.jpg" alt="ARES 2" loading="lazy" width="150" height="150">
+                    <img src="images/ares-3.jpg" alt="ARES 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -552,9 +552,9 @@
                     <div class="attributes">Атрибуты : Лук и стрелы, колчан, полумесяц, лань, охотничьи собаки</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/artemis-1.jpg" alt="ARTEMIS 1" loading="lazy" width="150" height="150">
+                    <img src="images/artemis-2.jpg" alt="ARTEMIS 2" loading="lazy" width="150" height="150">
+                    <img src="images/artemis-3.jpg" alt="ARTEMIS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -575,9 +575,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/aryballos-1.jpg" alt="ARYBALLOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/aryballos-2.jpg" alt="ARYBALLOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/aryballos-3.jpg" alt="ARYBALLOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -598,9 +598,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/askos-1.jpg" alt="ASKOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/askos-2.jpg" alt="ASKOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/askos-3.jpg" alt="ASKOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -621,9 +621,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/astragaloi-1.jpg" alt="ASTRAGALOI 1" loading="lazy" width="150" height="150">
+                    <img src="images/astragaloi-2.jpg" alt="ASTRAGALOI 2" loading="lazy" width="150" height="150">
+                    <img src="images/astragaloi-3.jpg" alt="ASTRAGALOI 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -644,9 +644,9 @@
                     <div class="attributes">Атрибуты : Шлем, щит (эгида) с головой Медузы, копьё, сова, оливковое дерево</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/athena-1.jpg" alt="ATHENA 1" loading="lazy" width="150" height="150">
+                    <img src="images/athena-2.jpg" alt="ATHENA 2" loading="lazy" width="150" height="150">
+                    <img src="images/athena-3.jpg" alt="ATHENA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -669,9 +669,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/base-1.jpg" alt="BASE 1" loading="lazy" width="150" height="150">
+                    <img src="images/base-2.jpg" alt="BASE 2" loading="lazy" width="150" height="150">
+                    <img src="images/base-3.jpg" alt="BASE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -692,9 +692,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/beads-1.jpg" alt="BEADS 1" loading="lazy" width="150" height="150">
+                    <img src="images/beads-2.jpg" alt="BEADS 2" loading="lazy" width="150" height="150">
+                    <img src="images/beads-3.jpg" alt="BEADS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -715,9 +715,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/bell-krater-1.jpg" alt="BELL KRATER 1" loading="lazy" width="150" height="150">
+                    <img src="images/bell-krater-2.jpg" alt="BELL KRATER 2" loading="lazy" width="150" height="150">
+                    <img src="images/bell-krater-3.jpg" alt="BELL KRATER 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -738,9 +738,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/black-glaze-1.jpg" alt="BLACK GLAZE 1" loading="lazy" width="150" height="150">
+                    <img src="images/black-glaze-2.jpg" alt="BLACK GLAZE 2" loading="lazy" width="150" height="150">
+                    <img src="images/black-glaze-3.jpg" alt="BLACK GLAZE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -761,9 +761,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/black-polished-ware-1.jpg" alt="BLACK POLISHED WARE 1" loading="lazy" width="150" height="150">
+                    <img src="images/black-polished-ware-2.jpg" alt="BLACK POLISHED WARE 2" loading="lazy" width="150" height="150">
+                    <img src="images/black-polished-ware-3.jpg" alt="BLACK POLISHED WARE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -784,9 +784,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/black-figure-1.jpg" alt="BLACK-FIGURE 1" loading="lazy" width="150" height="150">
+                    <img src="images/black-figure-2.jpg" alt="BLACK-FIGURE 2" loading="lazy" width="150" height="150">
+                    <img src="images/black-figure-3.jpg" alt="BLACK-FIGURE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -807,9 +807,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/boeotian-1.jpg" alt="BOEOTIAN 1" loading="lazy" width="150" height="150">
+                    <img src="images/boeotian-2.jpg" alt="BOEOTIAN 2" loading="lazy" width="150" height="150">
+                    <img src="images/boeotian-3.jpg" alt="BOEOTIAN 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -830,9 +830,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/bothros-1.jpg" alt="BOTHROS 1" loading="lazy" width="150" height="150">
+                    <img src="images/bothros-2.jpg" alt="BOTHROS 2" loading="lazy" width="150" height="150">
+                    <img src="images/bothros-3.jpg" alt="BOTHROS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -853,9 +853,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/bronze-1.jpg" alt="BRONZE 1" loading="lazy" width="150" height="150">
+                    <img src="images/bronze-2.jpg" alt="BRONZE 2" loading="lazy" width="150" height="150">
+                    <img src="images/bronze-3.jpg" alt="BRONZE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -876,9 +876,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/bucranium-1.jpg" alt="BUCRANIUM 1" loading="lazy" width="150" height="150">
+                    <img src="images/bucranium-2.jpg" alt="BUCRANIUM 2" loading="lazy" width="150" height="150">
+                    <img src="images/bucranium-3.jpg" alt="BUCRANIUM 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -899,9 +899,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/bust-1.jpg" alt="BUST 1" loading="lazy" width="150" height="150">
+                    <img src="images/bust-2.jpg" alt="BUST 2" loading="lazy" width="150" height="150">
+                    <img src="images/bust-3.jpg" alt="BUST 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -924,9 +924,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/caldera-1.jpg" alt="CALDERA 1" loading="lazy" width="150" height="150">
+                    <img src="images/caldera-2.jpg" alt="CALDERA 2" loading="lazy" width="150" height="150">
+                    <img src="images/caldera-3.jpg" alt="CALDERA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -947,9 +947,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/calyx-1.jpg" alt="CALYX 1" loading="lazy" width="150" height="150">
+                    <img src="images/calyx-2.jpg" alt="CALYX 2" loading="lazy" width="150" height="150">
+                    <img src="images/calyx-3.jpg" alt="CALYX 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -970,9 +970,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/calyx-krater-1.jpg" alt="CALYX KRATER 1" loading="lazy" width="150" height="150">
+                    <img src="images/calyx-krater-2.jpg" alt="CALYX KRATER 2" loading="lazy" width="150" height="150">
+                    <img src="images/calyx-krater-3.jpg" alt="CALYX KRATER 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -993,9 +993,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/capital-1.jpg" alt="CAPITAL 1" loading="lazy" width="150" height="150">
+                    <img src="images/capital-2.jpg" alt="CAPITAL 2" loading="lazy" width="150" height="150">
+                    <img src="images/capital-3.jpg" alt="CAPITAL 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1016,9 +1016,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/caryatid-1.jpg" alt="CARYATID 1" loading="lazy" width="150" height="150">
+                    <img src="images/caryatid-2.jpg" alt="CARYATID 2" loading="lazy" width="150" height="150">
+                    <img src="images/caryatid-3.jpg" alt="CARYATID 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1039,9 +1039,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/cella-1.jpg" alt="CELLA 1" loading="lazy" width="150" height="150">
+                    <img src="images/cella-2.jpg" alt="CELLA 2" loading="lazy" width="150" height="150">
+                    <img src="images/cella-3.jpg" alt="CELLA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1062,9 +1062,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/cenotaph-1.jpg" alt="CENOTAPH 1" loading="lazy" width="150" height="150">
+                    <img src="images/cenotaph-2.jpg" alt="CENOTAPH 2" loading="lazy" width="150" height="150">
+                    <img src="images/cenotaph-3.jpg" alt="CENOTAPH 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1085,9 +1085,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/centaur-1.jpg" alt="CENTAUR 1" loading="lazy" width="150" height="150">
+                    <img src="images/centaur-2.jpg" alt="CENTAUR 2" loading="lazy" width="150" height="150">
+                    <img src="images/centaur-3.jpg" alt="CENTAUR 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1108,9 +1108,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/centaurmachy-1.jpg" alt="CENTAURMACHY 1" loading="lazy" width="150" height="150">
+                    <img src="images/centaurmachy-2.jpg" alt="CENTAURMACHY 2" loading="lazy" width="150" height="150">
+                    <img src="images/centaurmachy-3.jpg" alt="CENTAURMACHY 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1131,9 +1131,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/chalk-1.jpg" alt="CHALK 1" loading="lazy" width="150" height="150">
+                    <img src="images/chalk-2.jpg" alt="CHALK 2" loading="lazy" width="150" height="150">
+                    <img src="images/chalk-3.jpg" alt="CHALK 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1154,9 +1154,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/chiton-1.jpg" alt="CHITON 1" loading="lazy" width="150" height="150">
+                    <img src="images/chiton-2.jpg" alt="CHITON 2" loading="lazy" width="150" height="150">
+                    <img src="images/chiton-3.jpg" alt="CHITON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1177,9 +1177,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/choes-1.jpg" alt="CHOES 1" loading="lazy" width="150" height="150">
+                    <img src="images/choes-2.jpg" alt="CHOES 2" loading="lazy" width="150" height="150">
+                    <img src="images/choes-3.jpg" alt="CHOES 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1200,9 +1200,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/choragic-1.jpg" alt="CHORAGIC 1" loading="lazy" width="150" height="150">
+                    <img src="images/choragic-2.jpg" alt="CHORAGIC 2" loading="lazy" width="150" height="150">
+                    <img src="images/choragic-3.jpg" alt="CHORAGIC 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1223,9 +1223,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/chryselephantine-1.jpg" alt="CHRYSELEPHANTINE 1" loading="lazy" width="150" height="150">
+                    <img src="images/chryselephantine-2.jpg" alt="CHRYSELEPHANTINE 2" loading="lazy" width="150" height="150">
+                    <img src="images/chryselephantine-3.jpg" alt="CHRYSELEPHANTINE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1246,9 +1246,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/cippus-1.jpg" alt="CIPPUS 1" loading="lazy" width="150" height="150">
+                    <img src="images/cippus-2.jpg" alt="CIPPUS 2" loading="lazy" width="150" height="150">
+                    <img src="images/cippus-3.jpg" alt="CIPPUS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1269,9 +1269,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/cist-shaped-1.jpg" alt="CIST SHAPED 1" loading="lazy" width="150" height="150">
+                    <img src="images/cist-shaped-2.jpg" alt="CIST SHAPED 2" loading="lazy" width="150" height="150">
+                    <img src="images/cist-shaped-3.jpg" alt="CIST SHAPED 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1292,9 +1292,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/clay-1.jpg" alt="CLAY 1" loading="lazy" width="150" height="150">
+                    <img src="images/clay-2.jpg" alt="CLAY 2" loading="lazy" width="150" height="150">
+                    <img src="images/clay-3.jpg" alt="CLAY 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1315,9 +1315,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/coin-1.jpg" alt="COIN 1" loading="lazy" width="150" height="150">
+                    <img src="images/coin-2.jpg" alt="COIN 2" loading="lazy" width="150" height="150">
+                    <img src="images/coin-3.jpg" alt="COIN 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1338,9 +1338,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/column-1.jpg" alt="COLUMN 1" loading="lazy" width="150" height="150">
+                    <img src="images/column-2.jpg" alt="COLUMN 2" loading="lazy" width="150" height="150">
+                    <img src="images/column-3.jpg" alt="COLUMN 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1361,9 +1361,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/conservation-1.jpg" alt="CONSERVATION 1" loading="lazy" width="150" height="150">
+                    <img src="images/conservation-2.jpg" alt="CONSERVATION 2" loading="lazy" width="150" height="150">
+                    <img src="images/conservation-3.jpg" alt="CONSERVATION 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1384,9 +1384,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/context-1.jpg" alt="CONTEXT 1" loading="lazy" width="150" height="150">
+                    <img src="images/context-2.jpg" alt="CONTEXT 2" loading="lazy" width="150" height="150">
+                    <img src="images/context-3.jpg" alt="CONTEXT 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1407,9 +1407,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/contrapposto-1.jpg" alt="CONTRAPPOSTO 1" loading="lazy" width="150" height="150">
+                    <img src="images/contrapposto-2.jpg" alt="CONTRAPPOSTO 2" loading="lazy" width="150" height="150">
+                    <img src="images/contrapposto-3.jpg" alt="CONTRAPPOSTO 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1430,9 +1430,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/corinthian-order-1.jpg" alt="CORINTHIAN ORDER 1" loading="lazy" width="150" height="150">
+                    <img src="images/corinthian-order-2.jpg" alt="CORINTHIAN ORDER 2" loading="lazy" width="150" height="150">
+                    <img src="images/corinthian-order-3.jpg" alt="CORINTHIAN ORDER 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1453,9 +1453,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/cornice-1.jpg" alt="CORNICE 1" loading="lazy" width="150" height="150">
+                    <img src="images/cornice-2.jpg" alt="CORNICE 2" loading="lazy" width="150" height="150">
+                    <img src="images/cornice-3.jpg" alt="CORNICE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1476,9 +1476,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/crater-1.jpg" alt="CRATER 1" loading="lazy" width="150" height="150">
+                    <img src="images/crater-2.jpg" alt="CRATER 2" loading="lazy" width="150" height="150">
+                    <img src="images/crater-3.jpg" alt="CRATER 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1499,9 +1499,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/crepidoma-1.jpg" alt="CREPIDOMA 1" loading="lazy" width="150" height="150">
+                    <img src="images/crepidoma-2.jpg" alt="CREPIDOMA 2" loading="lazy" width="150" height="150">
+                    <img src="images/crepidoma-3.jpg" alt="CREPIDOMA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1522,9 +1522,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/cult-statue-1.jpg" alt="CULT STATUE 1" loading="lazy" width="150" height="150">
+                    <img src="images/cult-statue-2.jpg" alt="CULT STATUE 2" loading="lazy" width="150" height="150">
+                    <img src="images/cult-statue-3.jpg" alt="CULT STATUE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1545,9 +1545,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/cutaway-spout-1.jpg" alt="CUTAWAY SPOUT 1" loading="lazy" width="150" height="150">
+                    <img src="images/cutaway-spout-2.jpg" alt="CUTAWAY SPOUT 2" loading="lazy" width="150" height="150">
+                    <img src="images/cutaway-spout-3.jpg" alt="CUTAWAY SPOUT 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1570,9 +1570,9 @@
                     <div class="attributes">Атрибуты : Колосья пшеницы, сноп, факел, венок из пшеницы, змея, свинья</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/demeter-1.jpg" alt="DEMETER 1" loading="lazy" width="150" height="150">
+                    <img src="images/demeter-2.jpg" alt="DEMETER 2" loading="lazy" width="150" height="150">
+                    <img src="images/demeter-3.jpg" alt="DEMETER 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1593,9 +1593,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/dinos-1.jpg" alt="DINOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/dinos-2.jpg" alt="DINOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/dinos-3.jpg" alt="DINOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1616,9 +1616,9 @@
                     <div class="attributes">Атрибуты : Тирс (жезл, увенчанный плющом и сосновой шишкой), виноградная лоза, винная чаша, пантера, свита сатиров и менад</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/dionysus-1.jpg" alt="DIONYSUS 1" loading="lazy" width="150" height="150">
+                    <img src="images/dionysus-2.jpg" alt="DIONYSUS 2" loading="lazy" width="150" height="150">
+                    <img src="images/dionysus-3.jpg" alt="DIONYSUS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1639,9 +1639,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/diorite-1.jpg" alt="DIORITE 1" loading="lazy" width="150" height="150">
+                    <img src="images/diorite-2.jpg" alt="DIORITE 2" loading="lazy" width="150" height="150">
+                    <img src="images/diorite-3.jpg" alt="DIORITE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1662,9 +1662,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/distaff-1.jpg" alt="DISTAFF 1" loading="lazy" width="150" height="150">
+                    <img src="images/distaff-2.jpg" alt="DISTAFF 2" loading="lazy" width="150" height="150">
+                    <img src="images/distaff-3.jpg" alt="DISTAFF 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1685,9 +1685,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/doric-order-1.jpg" alt="DORIC ORDER 1" loading="lazy" width="150" height="150">
+                    <img src="images/doric-order-2.jpg" alt="DORIC ORDER 2" loading="lazy" width="150" height="150">
+                    <img src="images/doric-order-3.jpg" alt="DORIC ORDER 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1708,9 +1708,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/drab-polished-ware-1.jpg" alt="DRAB POLISHED WARE 1" loading="lazy" width="150" height="150">
+                    <img src="images/drab-polished-ware-2.jpg" alt="DRAB POLISHED WARE 2" loading="lazy" width="150" height="150">
+                    <img src="images/drab-polished-ware-3.jpg" alt="DRAB POLISHED WARE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1731,9 +1731,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/drapery-1.jpg" alt="DRAPERY 1" loading="lazy" width="150" height="150">
+                    <img src="images/drapery-2.jpg" alt="DRAPERY 2" loading="lazy" width="150" height="150">
+                    <img src="images/drapery-3.jpg" alt="DRAPERY 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1754,9 +1754,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/dromos-1.jpg" alt="DROMOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/dromos-2.jpg" alt="DROMOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/dromos-3.jpg" alt="DROMOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1777,9 +1777,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/dwellings-1.jpg" alt="DWELLINGS 1" loading="lazy" width="150" height="150">
+                    <img src="images/dwellings-2.jpg" alt="DWELLINGS 2" loading="lazy" width="150" height="150">
+                    <img src="images/dwellings-3.jpg" alt="DWELLINGS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1802,9 +1802,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/entablature-1.jpg" alt="ENTABLATURE 1" loading="lazy" width="150" height="150">
+                    <img src="images/entablature-2.jpg" alt="ENTABLATURE 2" loading="lazy" width="150" height="150">
+                    <img src="images/entablature-3.jpg" alt="ENTABLATURE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1825,9 +1825,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/epinetron-1.jpg" alt="EPINETRON 1" loading="lazy" width="150" height="150">
+                    <img src="images/epinetron-2.jpg" alt="EPINETRON 2" loading="lazy" width="150" height="150">
+                    <img src="images/epinetron-3.jpg" alt="EPINETRON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1848,9 +1848,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/epistyle-1.jpg" alt="EPISTYLE 1" loading="lazy" width="150" height="150">
+                    <img src="images/epistyle-2.jpg" alt="EPISTYLE 2" loading="lazy" width="150" height="150">
+                    <img src="images/epistyle-3.jpg" alt="EPISTYLE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1871,9 +1871,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/ethos-1.jpg" alt="ETHOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/ethos-2.jpg" alt="ETHOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/ethos-3.jpg" alt="ETHOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1894,9 +1894,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/euthynteria-1.jpg" alt="EUTHYNTERIA 1" loading="lazy" width="150" height="150">
+                    <img src="images/euthynteria-2.jpg" alt="EUTHYNTERIA 2" loading="lazy" width="150" height="150">
+                    <img src="images/euthynteria-3.jpg" alt="EUTHYNTERIA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1917,9 +1917,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/exaleiptron-1.jpg" alt="EXALEIPTRON 1" loading="lazy" width="150" height="150">
+                    <img src="images/exaleiptron-2.jpg" alt="EXALEIPTRON 2" loading="lazy" width="150" height="150">
+                    <img src="images/exaleiptron-3.jpg" alt="EXALEIPTRON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1942,9 +1942,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/fabric-1.jpg" alt="FABRIC 1" loading="lazy" width="150" height="150">
+                    <img src="images/fabric-2.jpg" alt="FABRIC 2" loading="lazy" width="150" height="150">
+                    <img src="images/fabric-3.jpg" alt="FABRIC 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1965,9 +1965,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/fibula-1.jpg" alt="FIBULA 1" loading="lazy" width="150" height="150">
+                    <img src="images/fibula-2.jpg" alt="FIBULA 2" loading="lazy" width="150" height="150">
+                    <img src="images/fibula-3.jpg" alt="FIBULA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -1988,9 +1988,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/firing-1.jpg" alt="FIRING 1" loading="lazy" width="150" height="150">
+                    <img src="images/firing-2.jpg" alt="FIRING 2" loading="lazy" width="150" height="150">
+                    <img src="images/firing-3.jpg" alt="FIRING 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2011,9 +2011,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/flask-1.jpg" alt="FLASK 1" loading="lazy" width="150" height="150">
+                    <img src="images/flask-2.jpg" alt="FLASK 2" loading="lazy" width="150" height="150">
+                    <img src="images/flask-3.jpg" alt="FLASK 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2034,9 +2034,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/foliate-1.jpg" alt="FOLIATE 1" loading="lazy" width="150" height="150">
+                    <img src="images/foliate-2.jpg" alt="FOLIATE 2" loading="lazy" width="150" height="150">
+                    <img src="images/foliate-3.jpg" alt="FOLIATE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2057,9 +2057,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/frieze-1.jpg" alt="FRIEZE 1" loading="lazy" width="150" height="150">
+                    <img src="images/frieze-2.jpg" alt="FRIEZE 2" loading="lazy" width="150" height="150">
+                    <img src="images/frieze-3.jpg" alt="FRIEZE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2080,9 +2080,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/funnel-mouth-1.jpg" alt="FUNNEL MOUTH 1" loading="lazy" width="150" height="150">
+                    <img src="images/funnel-mouth-2.jpg" alt="FUNNEL MOUTH 2" loading="lazy" width="150" height="150">
+                    <img src="images/funnel-mouth-3.jpg" alt="FUNNEL MOUTH 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2103,9 +2103,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/funnel-rim-1.jpg" alt="FUNNEL RIM 1" loading="lazy" width="150" height="150">
+                    <img src="images/funnel-rim-2.jpg" alt="FUNNEL RIM 2" loading="lazy" width="150" height="150">
+                    <img src="images/funnel-rim-3.jpg" alt="FUNNEL RIM 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2128,9 +2128,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/gigantomachy-1.jpg" alt="GIGANTOMACHY 1" loading="lazy" width="150" height="150">
+                    <img src="images/gigantomachy-2.jpg" alt="GIGANTOMACHY 2" loading="lazy" width="150" height="150">
+                    <img src="images/gigantomachy-3.jpg" alt="GIGANTOMACHY 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2151,9 +2151,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/girdle-1.jpg" alt="GIRDLE 1" loading="lazy" width="150" height="150">
+                    <img src="images/girdle-2.jpg" alt="GIRDLE 2" loading="lazy" width="150" height="150">
+                    <img src="images/girdle-3.jpg" alt="GIRDLE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2174,9 +2174,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/gold-1.jpg" alt="GOLD 1" loading="lazy" width="150" height="150">
+                    <img src="images/gold-2.jpg" alt="GOLD 2" loading="lazy" width="150" height="150">
+                    <img src="images/gold-3.jpg" alt="GOLD 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2197,9 +2197,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/gorgon-1.jpg" alt="GORGON 1" loading="lazy" width="150" height="150">
+                    <img src="images/gorgon-2.jpg" alt="GORGON 2" loading="lazy" width="150" height="150">
+                    <img src="images/gorgon-3.jpg" alt="GORGON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2220,9 +2220,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/gourd-jug-1.jpg" alt="GOURD JUG 1" loading="lazy" width="150" height="150">
+                    <img src="images/gourd-jug-2.jpg" alt="GOURD JUG 2" loading="lazy" width="150" height="150">
+                    <img src="images/gourd-jug-3.jpg" alt="GOURD JUG 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2243,9 +2243,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/grave-goods-1.jpg" alt="GRAVE GOODS 1" loading="lazy" width="150" height="150">
+                    <img src="images/grave-goods-2.jpg" alt="GRAVE GOODS 2" loading="lazy" width="150" height="150">
+                    <img src="images/grave-goods-3.jpg" alt="GRAVE GOODS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2266,9 +2266,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/greaves-1.jpg" alt="GREAVES 1" loading="lazy" width="150" height="150">
+                    <img src="images/greaves-2.jpg" alt="GREAVES 2" loading="lazy" width="150" height="150">
+                    <img src="images/greaves-3.jpg" alt="GREAVES 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2289,9 +2289,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/griffin-1.jpg" alt="GRIFFIN 1" loading="lazy" width="150" height="150">
+                    <img src="images/griffin-2.jpg" alt="GRIFFIN 2" loading="lazy" width="150" height="150">
+                    <img src="images/griffin-3.jpg" alt="GRIFFIN 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2312,9 +2312,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/gymnasium-1.jpg" alt="GYMNASIUM 1" loading="lazy" width="150" height="150">
+                    <img src="images/gymnasium-2.jpg" alt="GYMNASIUM 2" loading="lazy" width="150" height="150">
+                    <img src="images/gymnasium-3.jpg" alt="GYMNASIUM 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2337,9 +2337,9 @@
                     <div class="attributes">Атрибуты : Скипетр, рог изобилия, шлем-невидимка, трон, Цербер (трёхголовый пёс)</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/hades-1.jpg" alt="HADES 1" loading="lazy" width="150" height="150">
+                    <img src="images/hades-2.jpg" alt="HADES 2" loading="lazy" width="150" height="150">
+                    <img src="images/hades-3.jpg" alt="HADES 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2360,9 +2360,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/helladic-1.jpg" alt="HELLADIC 1" loading="lazy" width="150" height="150">
+                    <img src="images/helladic-2.jpg" alt="HELLADIC 2" loading="lazy" width="150" height="150">
+                    <img src="images/helladic-3.jpg" alt="HELLADIC 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2383,9 +2383,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/helmet-1.jpg" alt="HELMET 1" loading="lazy" width="150" height="150">
+                    <img src="images/helmet-2.jpg" alt="HELMET 2" loading="lazy" width="150" height="150">
+                    <img src="images/helmet-3.jpg" alt="HELMET 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2406,9 +2406,9 @@
                     <div class="attributes">Атрибуты : Молот, наковальня, щипцы, коническая шапка, кузница, работа с металлами</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/hephaestus-1.jpg" alt="HEPHAESTUS 1" loading="lazy" width="150" height="150">
+                    <img src="images/hephaestus-2.jpg" alt="HEPHAESTUS 2" loading="lazy" width="150" height="150">
+                    <img src="images/hephaestus-3.jpg" alt="HEPHAESTUS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2429,9 +2429,9 @@
                     <div class="attributes">Атрибуты : Диадема, скипетр, павлин, гранат, кукушка, свадебная вуаль</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/hera-1.jpg" alt="HERA 1" loading="lazy" width="150" height="150">
+                    <img src="images/hera-2.jpg" alt="HERA 2" loading="lazy" width="150" height="150">
+                    <img src="images/hera-3.jpg" alt="HERA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2452,9 +2452,9 @@
                     <div class="attributes">Атрибуты : Палица, шкура немейского льва, лук и стрелы, золотые яблоки Гесперид</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/heracles-1.jpg" alt="HERACLES 1" loading="lazy" width="150" height="150">
+                    <img src="images/heracles-2.jpg" alt="HERACLES 2" loading="lazy" width="150" height="150">
+                    <img src="images/heracles-3.jpg" alt="HERACLES 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2475,9 +2475,9 @@
                     <div class="attributes">Атрибуты : Кадуцей, петас (крылатая шляпа), крылатые сандалии, кошелёк, черепаха</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/hermes-1.jpg" alt="HERMES 1" loading="lazy" width="150" height="150">
+                    <img src="images/hermes-2.jpg" alt="HERMES 2" loading="lazy" width="150" height="150">
+                    <img src="images/hermes-3.jpg" alt="HERMES 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2498,9 +2498,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/hieratic-garment-1.jpg" alt="HIERATIC GARMENT 1" loading="lazy" width="150" height="150">
+                    <img src="images/hieratic-garment-2.jpg" alt="HIERATIC GARMENT 2" loading="lazy" width="150" height="150">
+                    <img src="images/hieratic-garment-3.jpg" alt="HIERATIC GARMENT 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2521,9 +2521,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/himation-1.jpg" alt="HIMATION 1" loading="lazy" width="150" height="150">
+                    <img src="images/himation-2.jpg" alt="HIMATION 2" loading="lazy" width="150" height="150">
+                    <img src="images/himation-3.jpg" alt="HIMATION 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2544,9 +2544,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/hydria-1.jpg" alt="HYDRIA 1" loading="lazy" width="150" height="150">
+                    <img src="images/hydria-2.jpg" alt="HYDRIA 2" loading="lazy" width="150" height="150">
+                    <img src="images/hydria-3.jpg" alt="HYDRIA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2567,9 +2567,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/hymettian-marble-1.jpg" alt="HYMETTIAN MARBLE 1" loading="lazy" width="150" height="150">
+                    <img src="images/hymettian-marble-2.jpg" alt="HYMETTIAN MARBLE 2" loading="lazy" width="150" height="150">
+                    <img src="images/hymettian-marble-3.jpg" alt="HYMETTIAN MARBLE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2590,9 +2590,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/hyperborean-1.jpg" alt="HYPERBOREAN 1" loading="lazy" width="150" height="150">
+                    <img src="images/hyperborean-2.jpg" alt="HYPERBOREAN 2" loading="lazy" width="150" height="150">
+                    <img src="images/hyperborean-3.jpg" alt="HYPERBOREAN 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2615,9 +2615,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/ionic-order-1.jpg" alt="IONIC ORDER 1" loading="lazy" width="150" height="150">
+                    <img src="images/ionic-order-2.jpg" alt="IONIC ORDER 2" loading="lazy" width="150" height="150">
+                    <img src="images/ionic-order-3.jpg" alt="IONIC ORDER 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2638,9 +2638,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/ithyphalic-1.jpg" alt="ITHYPHALIC 1" loading="lazy" width="150" height="150">
+                    <img src="images/ithyphalic-2.jpg" alt="ITHYPHALIC 2" loading="lazy" width="150" height="150">
+                    <img src="images/ithyphalic-3.jpg" alt="ITHYPHALIC 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2661,9 +2661,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/ivory-1.jpg" alt="IVORY 1" loading="lazy" width="150" height="150">
+                    <img src="images/ivory-2.jpg" alt="IVORY 2" loading="lazy" width="150" height="150">
+                    <img src="images/ivory-3.jpg" alt="IVORY 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2686,9 +2686,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/jug-1.jpg" alt="JUG 1" loading="lazy" width="150" height="150">
+                    <img src="images/jug-2.jpg" alt="JUG 2" loading="lazy" width="150" height="150">
+                    <img src="images/jug-3.jpg" alt="JUG 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2709,9 +2709,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/juglet-1.jpg" alt="JUGLET 1" loading="lazy" width="150" height="150">
+                    <img src="images/juglet-2.jpg" alt="JUGLET 2" loading="lazy" width="150" height="150">
+                    <img src="images/juglet-3.jpg" alt="JUGLET 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2734,9 +2734,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/kalathos-1.jpg" alt="KALATHOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/kalathos-2.jpg" alt="KALATHOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/kalathos-3.jpg" alt="KALATHOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2757,9 +2757,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/kantharos-1.jpg" alt="KANTHAROS 1" loading="lazy" width="150" height="150">
+                    <img src="images/kantharos-2.jpg" alt="KANTHAROS 2" loading="lazy" width="150" height="150">
+                    <img src="images/kantharos-3.jpg" alt="KANTHAROS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2780,9 +2780,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/kiln-1.jpg" alt="KILN 1" loading="lazy" width="150" height="150">
+                    <img src="images/kiln-2.jpg" alt="KILN 2" loading="lazy" width="150" height="150">
+                    <img src="images/kiln-3.jpg" alt="KILN 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2803,9 +2803,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/kithara-1.jpg" alt="KITHARA 1" loading="lazy" width="150" height="150">
+                    <img src="images/kithara-2.jpg" alt="KITHARA 2" loading="lazy" width="150" height="150">
+                    <img src="images/kithara-3.jpg" alt="KITHARA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2826,9 +2826,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/knife-1.jpg" alt="KNIFE 1" loading="lazy" width="150" height="150">
+                    <img src="images/knife-2.jpg" alt="KNIFE 2" loading="lazy" width="150" height="150">
+                    <img src="images/knife-3.jpg" alt="KNIFE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2849,9 +2849,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/knucklebone-1.jpg" alt="KNUCKLEBONE 1" loading="lazy" width="150" height="150">
+                    <img src="images/knucklebone-2.jpg" alt="KNUCKLEBONE 2" loading="lazy" width="150" height="150">
+                    <img src="images/knucklebone-3.jpg" alt="KNUCKLEBONE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2872,9 +2872,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/kopis-1.jpg" alt="KOPIS 1" loading="lazy" width="150" height="150">
+                    <img src="images/kopis-2.jpg" alt="KOPIS 2" loading="lazy" width="150" height="150">
+                    <img src="images/kopis-3.jpg" alt="KOPIS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2895,9 +2895,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/kore-1.jpg" alt="KORE 1" loading="lazy" width="150" height="150">
+                    <img src="images/kore-2.jpg" alt="KORE 2" loading="lazy" width="150" height="150">
+                    <img src="images/kore-3.jpg" alt="KORE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2918,9 +2918,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/kothon-1.jpg" alt="KOTHON 1" loading="lazy" width="150" height="150">
+                    <img src="images/kothon-2.jpg" alt="KOTHON 2" loading="lazy" width="150" height="150">
+                    <img src="images/kothon-3.jpg" alt="KOTHON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2941,9 +2941,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/kotinos-1.jpg" alt="KOTINOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/kotinos-2.jpg" alt="KOTINOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/kotinos-3.jpg" alt="KOTINOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2964,9 +2964,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/kouros-1.jpg" alt="KOUROS 1" loading="lazy" width="150" height="150">
+                    <img src="images/kouros-2.jpg" alt="KOUROS 2" loading="lazy" width="150" height="150">
+                    <img src="images/kouros-3.jpg" alt="KOUROS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -2987,9 +2987,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/kylix-1.jpg" alt="KYLIX 1" loading="lazy" width="150" height="150">
+                    <img src="images/kylix-2.jpg" alt="KYLIX 2" loading="lazy" width="150" height="150">
+                    <img src="images/kylix-3.jpg" alt="KYLIX 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3010,9 +3010,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/kymbe-1.jpg" alt="KYMBE 1" loading="lazy" width="150" height="150">
+                    <img src="images/kymbe-2.jpg" alt="KYMBE 2" loading="lazy" width="150" height="150">
+                    <img src="images/kymbe-3.jpg" alt="KYMBE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3035,9 +3035,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/labours-of-heracles-1.jpg" alt="LABOURS OF HERACLES 1" loading="lazy" width="150" height="150">
+                    <img src="images/labours-of-heracles-2.jpg" alt="LABOURS OF HERACLES 2" loading="lazy" width="150" height="150">
+                    <img src="images/labours-of-heracles-3.jpg" alt="LABOURS OF HERACLES 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3058,9 +3058,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/ladle-1.jpg" alt="LADLE 1" loading="lazy" width="150" height="150">
+                    <img src="images/ladle-2.jpg" alt="LADLE 2" loading="lazy" width="150" height="150">
+                    <img src="images/ladle-3.jpg" alt="LADLE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3081,9 +3081,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/lagobolon-1.jpg" alt="LAGOBOLON 1" loading="lazy" width="150" height="150">
+                    <img src="images/lagobolon-2.jpg" alt="LAGOBOLON 2" loading="lazy" width="150" height="150">
+                    <img src="images/lagobolon-3.jpg" alt="LAGOBOLON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3104,9 +3104,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/lagynos-1.jpg" alt="LAGYNOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/lagynos-2.jpg" alt="LAGYNOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/lagynos-3.jpg" alt="LAGYNOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3127,9 +3127,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/lead-sling-1.jpg" alt="LEAD SLING 1" loading="lazy" width="150" height="150">
+                    <img src="images/lead-sling-2.jpg" alt="LEAD SLING 2" loading="lazy" width="150" height="150">
+                    <img src="images/lead-sling-3.jpg" alt="LEAD SLING 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3150,9 +3150,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/lebes-kalpe-1.jpg" alt="LEBES KALPE 1" loading="lazy" width="150" height="150">
+                    <img src="images/lebes-kalpe-2.jpg" alt="LEBES KALPE 2" loading="lazy" width="150" height="150">
+                    <img src="images/lebes-kalpe-3.jpg" alt="LEBES KALPE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3173,9 +3173,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/lekanis-1.jpg" alt="LEKANIS 1" loading="lazy" width="150" height="150">
+                    <img src="images/lekanis-2.jpg" alt="LEKANIS 2" loading="lazy" width="150" height="150">
+                    <img src="images/lekanis-3.jpg" alt="LEKANIS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3196,9 +3196,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/lekythos-1.jpg" alt="LEKYTHOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/lekythos-2.jpg" alt="LEKYTHOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/lekythos-3.jpg" alt="LEKYTHOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3219,9 +3219,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/libation-1.jpg" alt="LIBATION 1" loading="lazy" width="150" height="150">
+                    <img src="images/libation-2.jpg" alt="LIBATION 2" loading="lazy" width="150" height="150">
+                    <img src="images/libation-3.jpg" alt="LIBATION 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3242,9 +3242,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/limestone-1.jpg" alt="LIMESTONE 1" loading="lazy" width="150" height="150">
+                    <img src="images/limestone-2.jpg" alt="LIMESTONE 2" loading="lazy" width="150" height="150">
+                    <img src="images/limestone-3.jpg" alt="LIMESTONE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3265,9 +3265,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/lion-1.jpg" alt="LION 1" loading="lazy" width="150" height="150">
+                    <img src="images/lion-2.jpg" alt="LION 2" loading="lazy" width="150" height="150">
+                    <img src="images/lion-3.jpg" alt="LION 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3288,9 +3288,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/loculi-1.jpg" alt="LOCULI 1" loading="lazy" width="150" height="150">
+                    <img src="images/loculi-2.jpg" alt="LOCULI 2" loading="lazy" width="150" height="150">
+                    <img src="images/loculi-3.jpg" alt="LOCULI 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3311,9 +3311,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/loom-1.jpg" alt="LOOM 1" loading="lazy" width="150" height="150">
+                    <img src="images/loom-2.jpg" alt="LOOM 2" loading="lazy" width="150" height="150">
+                    <img src="images/loom-3.jpg" alt="LOOM 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3334,9 +3334,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/loom-weights-1.jpg" alt="LOOM WEIGHTS 1" loading="lazy" width="150" height="150">
+                    <img src="images/loom-weights-2.jpg" alt="LOOM WEIGHTS 2" loading="lazy" width="150" height="150">
+                    <img src="images/loom-weights-3.jpg" alt="LOOM WEIGHTS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3357,9 +3357,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/loutrophoros-1.jpg" alt="LOUTROPHOROS 1" loading="lazy" width="150" height="150">
+                    <img src="images/loutrophoros-2.jpg" alt="LOUTROPHOROS 2" loading="lazy" width="150" height="150">
+                    <img src="images/loutrophoros-3.jpg" alt="LOUTROPHOROS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3380,9 +3380,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/lyre-1.jpg" alt="LYRE 1" loading="lazy" width="150" height="150">
+                    <img src="images/lyre-2.jpg" alt="LYRE 2" loading="lazy" width="150" height="150">
+                    <img src="images/lyre-3.jpg" alt="LYRE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3405,9 +3405,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/marble-kernos-1.jpg" alt="MARBLE KERNOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/marble-kernos-2.jpg" alt="MARBLE KERNOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/marble-kernos-3.jpg" alt="MARBLE KERNOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3428,9 +3428,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/medusa-1.jpg" alt="MEDUSA 1" loading="lazy" width="150" height="150">
+                    <img src="images/medusa-2.jpg" alt="MEDUSA 2" loading="lazy" width="150" height="150">
+                    <img src="images/medusa-3.jpg" alt="MEDUSA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3451,9 +3451,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/megaron-1.jpg" alt="MEGARON 1" loading="lazy" width="150" height="150">
+                    <img src="images/megaron-2.jpg" alt="MEGARON 2" loading="lazy" width="150" height="150">
+                    <img src="images/megaron-3.jpg" alt="MEGARON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3474,9 +3474,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/menorah-1.jpg" alt="MENORAH 1" loading="lazy" width="150" height="150">
+                    <img src="images/menorah-2.jpg" alt="MENORAH 2" loading="lazy" width="150" height="150">
+                    <img src="images/menorah-3.jpg" alt="MENORAH 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3497,9 +3497,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/metope-1.jpg" alt="METOPE 1" loading="lazy" width="150" height="150">
+                    <img src="images/metope-2.jpg" alt="METOPE 2" loading="lazy" width="150" height="150">
+                    <img src="images/metope-3.jpg" alt="METOPE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3520,9 +3520,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/miniature-panathenaic-1.jpg" alt="MINIATURE PANATHENAIC 1" loading="lazy" width="150" height="150">
+                    <img src="images/miniature-panathenaic-2.jpg" alt="MINIATURE PANATHENAIC 2" loading="lazy" width="150" height="150">
+                    <img src="images/miniature-panathenaic-3.jpg" alt="MINIATURE PANATHENAIC 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3543,9 +3543,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/minotaur-1.jpg" alt="MINOTAUR 1" loading="lazy" width="150" height="150">
+                    <img src="images/minotaur-2.jpg" alt="MINOTAUR 2" loading="lazy" width="150" height="150">
+                    <img src="images/minotaur-3.jpg" alt="MINOTAUR 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3566,9 +3566,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/mirror-1.jpg" alt="MIRROR 1" loading="lazy" width="150" height="150">
+                    <img src="images/mirror-2.jpg" alt="MIRROR 2" loading="lazy" width="150" height="150">
+                    <img src="images/mirror-3.jpg" alt="MIRROR 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3589,9 +3589,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/molten-1.jpg" alt="MOLTEN 1" loading="lazy" width="150" height="150">
+                    <img src="images/molten-2.jpg" alt="MOLTEN 2" loading="lazy" width="150" height="150">
+                    <img src="images/molten-3.jpg" alt="MOLTEN 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3612,9 +3612,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/moriai-1.jpg" alt="MORIAI 1" loading="lazy" width="150" height="150">
+                    <img src="images/moriai-2.jpg" alt="MORIAI 2" loading="lazy" width="150" height="150">
+                    <img src="images/moriai-3.jpg" alt="MORIAI 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3635,9 +3635,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/mortar-1.jpg" alt="MORTAR 1" loading="lazy" width="150" height="150">
+                    <img src="images/mortar-2.jpg" alt="MORTAR 2" loading="lazy" width="150" height="150">
+                    <img src="images/mortar-3.jpg" alt="MORTAR 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3660,9 +3660,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/naiskos-1.jpg" alt="NAISKOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/naiskos-2.jpg" alt="NAISKOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/naiskos-3.jpg" alt="NAISKOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3683,9 +3683,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/naos-1.jpg" alt="NAOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/naos-2.jpg" alt="NAOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/naos-3.jpg" alt="NAOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3706,9 +3706,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/naxian-marble-1.jpg" alt="NAXIAN MARBLE 1" loading="lazy" width="150" height="150">
+                    <img src="images/naxian-marble-2.jpg" alt="NAXIAN MARBLE 2" loading="lazy" width="150" height="150">
+                    <img src="images/naxian-marble-3.jpg" alt="NAXIAN MARBLE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3729,9 +3729,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/necropolis-1.jpg" alt="NECROPOLIS 1" loading="lazy" width="150" height="150">
+                    <img src="images/necropolis-2.jpg" alt="NECROPOLIS 2" loading="lazy" width="150" height="150">
+                    <img src="images/necropolis-3.jpg" alt="NECROPOLIS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3752,9 +3752,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/niches-1.jpg" alt="NICHES 1" loading="lazy" width="150" height="150">
+                    <img src="images/niches-2.jpg" alt="NICHES 2" loading="lazy" width="150" height="150">
+                    <img src="images/niches-3.jpg" alt="NICHES 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3775,9 +3775,9 @@
                     <div class="attributes">Атрибуты : Крылья, лавровый венок, пальмовая ветвь, труба</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/nike-1.jpg" alt="NIKE 1" loading="lazy" width="150" height="150">
+                    <img src="images/nike-2.jpg" alt="NIKE 2" loading="lazy" width="150" height="150">
+                    <img src="images/nike-3.jpg" alt="NIKE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3798,9 +3798,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/nymph-1.jpg" alt="NYMPH 1" loading="lazy" width="150" height="150">
+                    <img src="images/nymph-2.jpg" alt="NYMPH 2" loading="lazy" width="150" height="150">
+                    <img src="images/nymph-3.jpg" alt="NYMPH 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3823,9 +3823,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/odeon-1.jpg" alt="ODEON 1" loading="lazy" width="150" height="150">
+                    <img src="images/odeon-2.jpg" alt="ODEON 2" loading="lazy" width="150" height="150">
+                    <img src="images/odeon-3.jpg" alt="ODEON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3846,9 +3846,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/odysseus-1.jpg" alt="ODYSSEUS 1" loading="lazy" width="150" height="150">
+                    <img src="images/odysseus-2.jpg" alt="ODYSSEUS 2" loading="lazy" width="150" height="150">
+                    <img src="images/odysseus-3.jpg" alt="ODYSSEUS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3869,9 +3869,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/oinochoe-1.jpg" alt="OINOCHOE 1" loading="lazy" width="150" height="150">
+                    <img src="images/oinochoe-2.jpg" alt="OINOCHOE 2" loading="lazy" width="150" height="150">
+                    <img src="images/oinochoe-3.jpg" alt="OINOCHOE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3892,9 +3892,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/olpe-1.jpg" alt="OLPE 1" loading="lazy" width="150" height="150">
+                    <img src="images/olpe-2.jpg" alt="OLPE 2" loading="lazy" width="150" height="150">
+                    <img src="images/olpe-3.jpg" alt="OLPE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3915,9 +3915,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/ophiolite-1.jpg" alt="OPHIOLITE 1" loading="lazy" width="150" height="150">
+                    <img src="images/ophiolite-2.jpg" alt="OPHIOLITE 2" loading="lazy" width="150" height="150">
+                    <img src="images/ophiolite-3.jpg" alt="OPHIOLITE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3938,9 +3938,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/opisthodomos-1.jpg" alt="OPISTHODOMOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/opisthodomos-2.jpg" alt="OPISTHODOMOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/opisthodomos-3.jpg" alt="OPISTHODOMOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3961,9 +3961,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/ostracism-1.jpg" alt="OSTRACISM 1" loading="lazy" width="150" height="150">
+                    <img src="images/ostracism-2.jpg" alt="OSTRACISM 2" loading="lazy" width="150" height="150">
+                    <img src="images/ostracism-3.jpg" alt="OSTRACISM 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -3984,9 +3984,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/ostrakon-1.jpg" alt="OSTRAKON 1" loading="lazy" width="150" height="150">
+                    <img src="images/ostrakon-2.jpg" alt="OSTRAKON 2" loading="lazy" width="150" height="150">
+                    <img src="images/ostrakon-3.jpg" alt="OSTRAKON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4009,9 +4009,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/palmette-1.jpg" alt="PALMETTE 1" loading="lazy" width="150" height="150">
+                    <img src="images/palmette-2.jpg" alt="PALMETTE 2" loading="lazy" width="150" height="150">
+                    <img src="images/palmette-3.jpg" alt="PALMETTE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4032,9 +4032,9 @@
                     <div class="attributes">Атрибуты : Флейта Пана (сиринкс), пастуший посох, козлиные ноги и рога, сосновый венок</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/pan-1.jpg" alt="PAN 1" loading="lazy" width="150" height="150">
+                    <img src="images/pan-2.jpg" alt="PAN 2" loading="lazy" width="150" height="150">
+                    <img src="images/pan-3.jpg" alt="PAN 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4055,9 +4055,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/panathenaic-1.jpg" alt="PANATHENAIC 1" loading="lazy" width="150" height="150">
+                    <img src="images/panathenaic-2.jpg" alt="PANATHENAIC 2" loading="lazy" width="150" height="150">
+                    <img src="images/panathenaic-3.jpg" alt="PANATHENAIC 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4078,9 +4078,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/parian-marble-1.jpg" alt="PARIAN MARBLE 1" loading="lazy" width="150" height="150">
+                    <img src="images/parian-marble-2.jpg" alt="PARIAN MARBLE 2" loading="lazy" width="150" height="150">
+                    <img src="images/parian-marble-3.jpg" alt="PARIAN MARBLE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4101,9 +4101,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/patera-1.jpg" alt="PATERA 1" loading="lazy" width="150" height="150">
+                    <img src="images/patera-2.jpg" alt="PATERA 2" loading="lazy" width="150" height="150">
+                    <img src="images/patera-3.jpg" alt="PATERA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4124,9 +4124,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/pediment-1.jpg" alt="PEDIMENT 1" loading="lazy" width="150" height="150">
+                    <img src="images/pediment-2.jpg" alt="PEDIMENT 2" loading="lazy" width="150" height="150">
+                    <img src="images/pediment-3.jpg" alt="PEDIMENT 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4147,9 +4147,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/pelike-1.jpg" alt="PELIKE 1" loading="lazy" width="150" height="150">
+                    <img src="images/pelike-2.jpg" alt="PELIKE 2" loading="lazy" width="150" height="150">
+                    <img src="images/pelike-3.jpg" alt="PELIKE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4170,9 +4170,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/peribolos-1.jpg" alt="PERIBOLOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/peribolos-2.jpg" alt="PERIBOLOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/peribolos-3.jpg" alt="PERIBOLOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4193,9 +4193,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/peripatos-1.jpg" alt="PERIPATOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/peripatos-2.jpg" alt="PERIPATOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/peripatos-3.jpg" alt="PERIPATOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4216,9 +4216,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/peristasis-1.jpg" alt="PERISTASIS 1" loading="lazy" width="150" height="150">
+                    <img src="images/peristasis-2.jpg" alt="PERISTASIS 2" loading="lazy" width="150" height="150">
+                    <img src="images/peristasis-3.jpg" alt="PERISTASIS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4239,9 +4239,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/peristyle-1.jpg" alt="PERISTYLE 1" loading="lazy" width="150" height="150">
+                    <img src="images/peristyle-2.jpg" alt="PERISTYLE 2" loading="lazy" width="150" height="150">
+                    <img src="images/peristyle-3.jpg" alt="PERISTYLE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4262,9 +4262,9 @@
                     <div class="attributes">Атрибуты : Гранат, факел, корона, скипетр, сноп пшеницы</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/persephone-1.jpg" alt="PERSEPHONE 1" loading="lazy" width="150" height="150">
+                    <img src="images/persephone-2.jpg" alt="PERSEPHONE 2" loading="lazy" width="150" height="150">
+                    <img src="images/persephone-3.jpg" alt="PERSEPHONE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4285,9 +4285,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/perseus-1.jpg" alt="PERSEUS 1" loading="lazy" width="150" height="150">
+                    <img src="images/perseus-2.jpg" alt="PERSEUS 2" loading="lazy" width="150" height="150">
+                    <img src="images/perseus-3.jpg" alt="PERSEUS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4308,9 +4308,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/phiale-1.jpg" alt="PHIALE 1" loading="lazy" width="150" height="150">
+                    <img src="images/phiale-2.jpg" alt="PHIALE 2" loading="lazy" width="150" height="150">
+                    <img src="images/phiale-3.jpg" alt="PHIALE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4331,9 +4331,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/picrolite-1.jpg" alt="PICROLITE 1" loading="lazy" width="150" height="150">
+                    <img src="images/picrolite-2.jpg" alt="PICROLITE 2" loading="lazy" width="150" height="150">
+                    <img src="images/picrolite-3.jpg" alt="PICROLITE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4354,9 +4354,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/piriform-1.jpg" alt="PIRIFORM 1" loading="lazy" width="150" height="150">
+                    <img src="images/piriform-2.jpg" alt="PIRIFORM 2" loading="lazy" width="150" height="150">
+                    <img src="images/piriform-3.jpg" alt="PIRIFORM 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4377,9 +4377,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/pithos-1.jpg" alt="PITHOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/pithos-2.jpg" alt="PITHOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/pithos-3.jpg" alt="PITHOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4400,9 +4400,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/pits-1.jpg" alt="PITS 1" loading="lazy" width="150" height="150">
+                    <img src="images/pits-2.jpg" alt="PITS 2" loading="lazy" width="150" height="150">
+                    <img src="images/pits-3.jpg" alt="PITS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4423,9 +4423,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/plaster-cast-1.jpg" alt="PLASTER CAST 1" loading="lazy" width="150" height="150">
+                    <img src="images/plaster-cast-2.jpg" alt="PLASTER CAST 2" loading="lazy" width="150" height="150">
+                    <img src="images/plaster-cast-3.jpg" alt="PLASTER CAST 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4446,9 +4446,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/polychromy-1.jpg" alt="POLYCHROMY 1" loading="lazy" width="150" height="150">
+                    <img src="images/polychromy-2.jpg" alt="POLYCHROMY 2" loading="lazy" width="150" height="150">
+                    <img src="images/polychromy-3.jpg" alt="POLYCHROMY 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4469,9 +4469,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/poppy-blossom-1.jpg" alt="POPPY BLOSSOM 1" loading="lazy" width="150" height="150">
+                    <img src="images/poppy-blossom-2.jpg" alt="POPPY BLOSSOM 2" loading="lazy" width="150" height="150">
+                    <img src="images/poppy-blossom-3.jpg" alt="POPPY BLOSSOM 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4492,9 +4492,9 @@
                     <div class="attributes">Атрибуты : Трезубец, колесница, запряжённая гиппокампами, дельфин, лошадь, бык</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/poseidon-1.jpg" alt="POSEIDON 1" loading="lazy" width="150" height="150">
+                    <img src="images/poseidon-2.jpg" alt="POSEIDON 2" loading="lazy" width="150" height="150">
+                    <img src="images/poseidon-3.jpg" alt="POSEIDON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4515,9 +4515,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/postherd-1.jpg" alt="POSTHERD 1" loading="lazy" width="150" height="150">
+                    <img src="images/postherd-2.jpg" alt="POSTHERD 2" loading="lazy" width="150" height="150">
+                    <img src="images/postherd-3.jpg" alt="POSTHERD 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4538,9 +4538,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/pronaos-1.jpg" alt="PRONAOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/pronaos-2.jpg" alt="PRONAOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/pronaos-3.jpg" alt="PRONAOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4561,9 +4561,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/propylaeon-1.jpg" alt="PROPYLAEON 1" loading="lazy" width="150" height="150">
+                    <img src="images/propylaeon-2.jpg" alt="PROPYLAEON 2" loading="lazy" width="150" height="150">
+                    <img src="images/propylaeon-3.jpg" alt="PROPYLAEON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4584,9 +4584,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/pyxis-1.jpg" alt="PYXIS 1" loading="lazy" width="150" height="150">
+                    <img src="images/pyxis-2.jpg" alt="PYXIS 2" loading="lazy" width="150" height="150">
+                    <img src="images/pyxis-3.jpg" alt="PYXIS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4609,9 +4609,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/quadrigae-1.jpg" alt="QUADRIGAE 1" loading="lazy" width="150" height="150">
+                    <img src="images/quadrigae-2.jpg" alt="QUADRIGAE 2" loading="lazy" width="150" height="150">
+                    <img src="images/quadrigae-3.jpg" alt="QUADRIGAE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4634,9 +4634,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/rattle-1.jpg" alt="RATTLE 1" loading="lazy" width="150" height="150">
+                    <img src="images/rattle-2.jpg" alt="RATTLE 2" loading="lazy" width="150" height="150">
+                    <img src="images/rattle-3.jpg" alt="RATTLE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4657,9 +4657,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/red-on-black-1.jpg" alt="RED ON BLACK 1" loading="lazy" width="150" height="150">
+                    <img src="images/red-on-black-2.jpg" alt="RED ON BLACK 2" loading="lazy" width="150" height="150">
+                    <img src="images/red-on-black-3.jpg" alt="RED ON BLACK 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4680,9 +4680,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/red-on-red-1.jpg" alt="RED ON RED 1" loading="lazy" width="150" height="150">
+                    <img src="images/red-on-red-2.jpg" alt="RED ON RED 2" loading="lazy" width="150" height="150">
+                    <img src="images/red-on-red-3.jpg" alt="RED ON RED 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4703,9 +4703,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/red-polished-ware-1.jpg" alt="RED POLISHED WARE 1" loading="lazy" width="150" height="150">
+                    <img src="images/red-polished-ware-2.jpg" alt="RED POLISHED WARE 2" loading="lazy" width="150" height="150">
+                    <img src="images/red-polished-ware-3.jpg" alt="RED POLISHED WARE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4726,9 +4726,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/red-figure-1.jpg" alt="RED-FIGURE 1" loading="lazy" width="150" height="150">
+                    <img src="images/red-figure-2.jpg" alt="RED-FIGURE 2" loading="lazy" width="150" height="150">
+                    <img src="images/red-figure-3.jpg" alt="RED-FIGURE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4749,9 +4749,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/relief-1.jpg" alt="RELIEF 1" loading="lazy" width="150" height="150">
+                    <img src="images/relief-2.jpg" alt="RELIEF 2" loading="lazy" width="150" height="150">
+                    <img src="images/relief-3.jpg" alt="RELIEF 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4772,9 +4772,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/relief-plaque-1.jpg" alt="RELIEF PLAQUE 1" loading="lazy" width="150" height="150">
+                    <img src="images/relief-plaque-2.jpg" alt="RELIEF PLAQUE 2" loading="lazy" width="150" height="150">
+                    <img src="images/relief-plaque-3.jpg" alt="RELIEF PLAQUE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4795,9 +4795,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/rhyton-1.jpg" alt="RHYTON 1" loading="lazy" width="150" height="150">
+                    <img src="images/rhyton-2.jpg" alt="RHYTON 2" loading="lazy" width="150" height="150">
+                    <img src="images/rhyton-3.jpg" alt="RHYTON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4818,9 +4818,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/rosette-1.jpg" alt="ROSETTE 1" loading="lazy" width="150" height="150">
+                    <img src="images/rosette-2.jpg" alt="ROSETTE 2" loading="lazy" width="150" height="150">
+                    <img src="images/rosette-3.jpg" alt="ROSETTE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4841,9 +4841,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/rounders-1.jpg" alt="ROUNDERS 1" loading="lazy" width="150" height="150">
+                    <img src="images/rounders-2.jpg" alt="ROUNDERS 2" loading="lazy" width="150" height="150">
+                    <img src="images/rounders-3.jpg" alt="ROUNDERS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4866,9 +4866,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/sarcophagus-1.jpg" alt="SARCOPHAGUS 1" loading="lazy" width="150" height="150">
+                    <img src="images/sarcophagus-2.jpg" alt="SARCOPHAGUS 2" loading="lazy" width="150" height="150">
+                    <img src="images/sarcophagus-3.jpg" alt="SARCOPHAGUS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4889,9 +4889,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/satyr-1.jpg" alt="SATYR 1" loading="lazy" width="150" height="150">
+                    <img src="images/satyr-2.jpg" alt="SATYR 2" loading="lazy" width="150" height="150">
+                    <img src="images/satyr-3.jpg" alt="SATYR 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4912,9 +4912,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/saucer-shaped-1.jpg" alt="SAUCER SHAPED 1" loading="lazy" width="150" height="150">
+                    <img src="images/saucer-shaped-2.jpg" alt="SAUCER SHAPED 2" loading="lazy" width="150" height="150">
+                    <img src="images/saucer-shaped-3.jpg" alt="SAUCER SHAPED 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4935,9 +4935,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/scraped-1.jpg" alt="SCRAPED 1" loading="lazy" width="150" height="150">
+                    <img src="images/scraped-2.jpg" alt="SCRAPED 2" loading="lazy" width="150" height="150">
+                    <img src="images/scraped-3.jpg" alt="SCRAPED 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4958,9 +4958,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/shaft-grave-1.jpg" alt="SHAFT GRAVE 1" loading="lazy" width="150" height="150">
+                    <img src="images/shaft-grave-2.jpg" alt="SHAFT GRAVE 2" loading="lazy" width="150" height="150">
+                    <img src="images/shaft-grave-3.jpg" alt="SHAFT GRAVE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -4981,9 +4981,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/shallow-plate-1.jpg" alt="SHALLOW PLATE 1" loading="lazy" width="150" height="150">
+                    <img src="images/shallow-plate-2.jpg" alt="SHALLOW PLATE 2" loading="lazy" width="150" height="150">
+                    <img src="images/shallow-plate-3.jpg" alt="SHALLOW PLATE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5004,9 +5004,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/sheath-1.jpg" alt="SHEATH 1" loading="lazy" width="150" height="150">
+                    <img src="images/sheath-2.jpg" alt="SHEATH 2" loading="lazy" width="150" height="150">
+                    <img src="images/sheath-3.jpg" alt="SHEATH 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5027,9 +5027,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/siren-1.jpg" alt="SIREN 1" loading="lazy" width="150" height="150">
+                    <img src="images/siren-2.jpg" alt="SIREN 2" loading="lazy" width="150" height="150">
+                    <img src="images/siren-3.jpg" alt="SIREN 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5050,9 +5050,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/skyphos-1.jpg" alt="SKYPHOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/skyphos-2.jpg" alt="SKYPHOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/skyphos-3.jpg" alt="SKYPHOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5073,9 +5073,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/sphinx-1.jpg" alt="SPHINX 1" loading="lazy" width="150" height="150">
+                    <img src="images/sphinx-2.jpg" alt="SPHINX 2" loading="lazy" width="150" height="150">
+                    <img src="images/sphinx-3.jpg" alt="SPHINX 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5096,9 +5096,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/spindle-whorl-1.jpg" alt="SPINDLE WHORL 1" loading="lazy" width="150" height="150">
+                    <img src="images/spindle-whorl-2.jpg" alt="SPINDLE WHORL 2" loading="lazy" width="150" height="150">
+                    <img src="images/spindle-whorl-3.jpg" alt="SPINDLE WHORL 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5119,9 +5119,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/spool-shaped-1.jpg" alt="SPOOL SHAPED 1" loading="lazy" width="150" height="150">
+                    <img src="images/spool-shaped-2.jpg" alt="SPOOL SHAPED 2" loading="lazy" width="150" height="150">
+                    <img src="images/spool-shaped-3.jpg" alt="SPOOL SHAPED 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5142,9 +5142,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/spout-1.jpg" alt="SPOUT 1" loading="lazy" width="150" height="150">
+                    <img src="images/spout-2.jpg" alt="SPOUT 2" loading="lazy" width="150" height="150">
+                    <img src="images/spout-3.jpg" alt="SPOUT 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5165,9 +5165,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/stadium-1.jpg" alt="STADIUM 1" loading="lazy" width="150" height="150">
+                    <img src="images/stadium-2.jpg" alt="STADIUM 2" loading="lazy" width="150" height="150">
+                    <img src="images/stadium-3.jpg" alt="STADIUM 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5188,9 +5188,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/stamnos-1.jpg" alt="STAMNOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/stamnos-2.jpg" alt="STAMNOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/stamnos-3.jpg" alt="STAMNOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5211,9 +5211,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/stamp-1.jpg" alt="STAMP 1" loading="lazy" width="150" height="150">
+                    <img src="images/stamp-2.jpg" alt="STAMP 2" loading="lazy" width="150" height="150">
+                    <img src="images/stamp-3.jpg" alt="STAMP 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5234,9 +5234,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/stater-1.jpg" alt="STATER 1" loading="lazy" width="150" height="150">
+                    <img src="images/stater-2.jpg" alt="STATER 2" loading="lazy" width="150" height="150">
+                    <img src="images/stater-3.jpg" alt="STATER 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5257,9 +5257,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/steatite-1.jpg" alt="STEATITE 1" loading="lazy" width="150" height="150">
+                    <img src="images/steatite-2.jpg" alt="STEATITE 2" loading="lazy" width="150" height="150">
+                    <img src="images/steatite-3.jpg" alt="STEATITE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5280,9 +5280,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/stele-1.jpg" alt="STELE 1" loading="lazy" width="150" height="150">
+                    <img src="images/stele-2.jpg" alt="STELE 2" loading="lazy" width="150" height="150">
+                    <img src="images/stele-3.jpg" alt="STELE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5303,9 +5303,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/stereobate-1.jpg" alt="STEREOBATE 1" loading="lazy" width="150" height="150">
+                    <img src="images/stereobate-2.jpg" alt="STEREOBATE 2" loading="lazy" width="150" height="150">
+                    <img src="images/stereobate-3.jpg" alt="STEREOBATE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5326,9 +5326,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/stirrup-1.jpg" alt="STIRRUP 1" loading="lazy" width="150" height="150">
+                    <img src="images/stirrup-2.jpg" alt="STIRRUP 2" loading="lazy" width="150" height="150">
+                    <img src="images/stirrup-3.jpg" alt="STIRRUP 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5349,9 +5349,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/stoa-1.jpg" alt="STOA 1" loading="lazy" width="150" height="150">
+                    <img src="images/stoa-2.jpg" alt="STOA 2" loading="lazy" width="150" height="150">
+                    <img src="images/stoa-3.jpg" alt="STOA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5372,9 +5372,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/strainer-1.jpg" alt="STRAINER 1" loading="lazy" width="150" height="150">
+                    <img src="images/strainer-2.jpg" alt="STRAINER 2" loading="lazy" width="150" height="150">
+                    <img src="images/strainer-3.jpg" alt="STRAINER 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5395,9 +5395,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/strigil-1.jpg" alt="STRIGIL 1" loading="lazy" width="150" height="150">
+                    <img src="images/strigil-2.jpg" alt="STRIGIL 2" loading="lazy" width="150" height="150">
+                    <img src="images/strigil-3.jpg" alt="STRIGIL 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5418,9 +5418,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/stylobate-1.jpg" alt="STYLOBATE 1" loading="lazy" width="150" height="150">
+                    <img src="images/stylobate-2.jpg" alt="STYLOBATE 2" loading="lazy" width="150" height="150">
+                    <img src="images/stylobate-3.jpg" alt="STYLOBATE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5441,9 +5441,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/symposium-1.jpg" alt="SYMPOSIUM 1" loading="lazy" width="150" height="150">
+                    <img src="images/symposium-2.jpg" alt="SYMPOSIUM 2" loading="lazy" width="150" height="150">
+                    <img src="images/symposium-3.jpg" alt="SYMPOSIUM 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5464,9 +5464,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/syrinx-1.jpg" alt="SYRINX 1" loading="lazy" width="150" height="150">
+                    <img src="images/syrinx-2.jpg" alt="SYRINX 2" loading="lazy" width="150" height="150">
+                    <img src="images/syrinx-3.jpg" alt="SYRINX 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5489,9 +5489,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/tangaran-1.jpg" alt="TANGARAN 1" loading="lazy" width="150" height="150">
+                    <img src="images/tangaran-2.jpg" alt="TANGARAN 2" loading="lazy" width="150" height="150">
+                    <img src="images/tangaran-3.jpg" alt="TANGARAN 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5512,9 +5512,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/tankard-1.jpg" alt="TANKARD 1" loading="lazy" width="150" height="150">
+                    <img src="images/tankard-2.jpg" alt="TANKARD 2" loading="lazy" width="150" height="150">
+                    <img src="images/tankard-3.jpg" alt="TANKARD 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5535,9 +5535,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/temenos-1.jpg" alt="TEMENOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/temenos-2.jpg" alt="TEMENOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/temenos-3.jpg" alt="TEMENOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5558,9 +5558,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/tendril-motif-1.jpg" alt="TENDRIL MOTIF 1" loading="lazy" width="150" height="150">
+                    <img src="images/tendril-motif-2.jpg" alt="TENDRIL MOTIF 2" loading="lazy" width="150" height="150">
+                    <img src="images/tendril-motif-3.jpg" alt="TENDRIL MOTIF 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5581,9 +5581,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/terracotta-1.jpg" alt="TERRACOTTA 1" loading="lazy" width="150" height="150">
+                    <img src="images/terracotta-2.jpg" alt="TERRACOTTA 2" loading="lazy" width="150" height="150">
+                    <img src="images/terracotta-3.jpg" alt="TERRACOTTA 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5604,9 +5604,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/tetradrachm-1.jpg" alt="TETRADRACHM 1" loading="lazy" width="150" height="150">
+                    <img src="images/tetradrachm-2.jpg" alt="TETRADRACHM 2" loading="lazy" width="150" height="150">
+                    <img src="images/tetradrachm-3.jpg" alt="TETRADRACHM 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5627,9 +5627,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/tetrastyle-1.jpg" alt="TETRASTYLE 1" loading="lazy" width="150" height="150">
+                    <img src="images/tetrastyle-2.jpg" alt="TETRASTYLE 2" loading="lazy" width="150" height="150">
+                    <img src="images/tetrastyle-3.jpg" alt="TETRASTYLE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5650,9 +5650,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/theatre-1.jpg" alt="THEATRE 1" loading="lazy" width="150" height="150">
+                    <img src="images/theatre-2.jpg" alt="THEATRE 2" loading="lazy" width="150" height="150">
+                    <img src="images/theatre-3.jpg" alt="THEATRE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5673,9 +5673,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/theran-1.jpg" alt="THERAN 1" loading="lazy" width="150" height="150">
+                    <img src="images/theran-2.jpg" alt="THERAN 2" loading="lazy" width="150" height="150">
+                    <img src="images/theran-3.jpg" alt="THERAN 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5696,9 +5696,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/theseus-1.jpg" alt="THESEUS 1" loading="lazy" width="150" height="150">
+                    <img src="images/theseus-2.jpg" alt="THESEUS 2" loading="lazy" width="150" height="150">
+                    <img src="images/theseus-3.jpg" alt="THESEUS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5719,9 +5719,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/tholos-1.jpg" alt="THOLOS 1" loading="lazy" width="150" height="150">
+                    <img src="images/tholos-2.jpg" alt="THOLOS 2" loading="lazy" width="150" height="150">
+                    <img src="images/tholos-3.jpg" alt="THOLOS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5742,9 +5742,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/tholos-tomb-1.jpg" alt="THOLOS TOMB 1" loading="lazy" width="150" height="150">
+                    <img src="images/tholos-tomb-2.jpg" alt="THOLOS TOMB 2" loading="lazy" width="150" height="150">
+                    <img src="images/tholos-tomb-3.jpg" alt="THOLOS TOMB 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5765,9 +5765,9 @@
                     <div class="attributes">Атрибуты : Сосновая шишка наверху, плющ, виноградная лоза, стебель фенхеля</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/thyrsus-1.jpg" alt="THYRSUS 1" loading="lazy" width="150" height="150">
+                    <img src="images/thyrsus-2.jpg" alt="THYRSUS 2" loading="lazy" width="150" height="150">
+                    <img src="images/thyrsus-3.jpg" alt="THYRSUS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5788,9 +5788,9 @@
                     <div class="attributes">Атрибуты : Три острых зубца, длинная рукоять, ассоциируется с Посейдоном</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/trident-1.jpg" alt="TRIDENT 1" loading="lazy" width="150" height="150">
+                    <img src="images/trident-2.jpg" alt="TRIDENT 2" loading="lazy" width="150" height="150">
+                    <img src="images/trident-3.jpg" alt="TRIDENT 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5811,9 +5811,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/triglyph-1.jpg" alt="TRIGLYPH 1" loading="lazy" width="150" height="150">
+                    <img src="images/triglyph-2.jpg" alt="TRIGLYPH 2" loading="lazy" width="150" height="150">
+                    <img src="images/triglyph-3.jpg" alt="TRIGLYPH 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5834,9 +5834,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/trojan-war-1.jpg" alt="TROJAN WAR 1" loading="lazy" width="150" height="150">
+                    <img src="images/trojan-war-2.jpg" alt="TROJAN WAR 2" loading="lazy" width="150" height="150">
+                    <img src="images/trojan-war-3.jpg" alt="TROJAN WAR 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5859,9 +5859,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/unguentarium-1.jpg" alt="UNGUENTARIUM 1" loading="lazy" width="150" height="150">
+                    <img src="images/unguentarium-2.jpg" alt="UNGUENTARIUM 2" loading="lazy" width="150" height="150">
+                    <img src="images/unguentarium-3.jpg" alt="UNGUENTARIUM 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5882,9 +5882,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/ushabtis-1.jpg" alt="USHABTIS 1" loading="lazy" width="150" height="150">
+                    <img src="images/ushabtis-2.jpg" alt="USHABTIS 2" loading="lazy" width="150" height="150">
+                    <img src="images/ushabtis-3.jpg" alt="USHABTIS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5907,9 +5907,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/vapheio-1.jpg" alt="VAPHEIO 1" loading="lazy" width="150" height="150">
+                    <img src="images/vapheio-2.jpg" alt="VAPHEIO 2" loading="lazy" width="150" height="150">
+                    <img src="images/vapheio-3.jpg" alt="VAPHEIO 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5930,9 +5930,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/victor-1.jpg" alt="VICTOR 1" loading="lazy" width="150" height="150">
+                    <img src="images/victor-2.jpg" alt="VICTOR 2" loading="lazy" width="150" height="150">
+                    <img src="images/victor-3.jpg" alt="VICTOR 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5953,9 +5953,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/votive-1.jpg" alt="VOTIVE 1" loading="lazy" width="150" height="150">
+                    <img src="images/votive-2.jpg" alt="VOTIVE 2" loading="lazy" width="150" height="150">
+                    <img src="images/votive-3.jpg" alt="VOTIVE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -5978,9 +5978,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/wares-1.jpg" alt="WARES 1" loading="lazy" width="150" height="150">
+                    <img src="images/wares-2.jpg" alt="WARES 2" loading="lazy" width="150" height="150">
+                    <img src="images/wares-3.jpg" alt="WARES 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -6001,9 +6001,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/warp-threads-1.jpg" alt="WARP THREADS 1" loading="lazy" width="150" height="150">
+                    <img src="images/warp-threads-2.jpg" alt="WARP THREADS 2" loading="lazy" width="150" height="150">
+                    <img src="images/warp-threads-3.jpg" alt="WARP THREADS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -6024,9 +6024,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/whetstone-1.jpg" alt="WHETSTONE 1" loading="lazy" width="150" height="150">
+                    <img src="images/whetstone-2.jpg" alt="WHETSTONE 2" loading="lazy" width="150" height="150">
+                    <img src="images/whetstone-3.jpg" alt="WHETSTONE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -6047,9 +6047,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/white-painted-ware-1.jpg" alt="WHITE PAINTED WARE 1" loading="lazy" width="150" height="150">
+                    <img src="images/white-painted-ware-2.jpg" alt="WHITE PAINTED WARE 2" loading="lazy" width="150" height="150">
+                    <img src="images/white-painted-ware-3.jpg" alt="WHITE PAINTED WARE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -6070,9 +6070,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/wishbone-1.jpg" alt="WISHBONE 1" loading="lazy" width="150" height="150">
+                    <img src="images/wishbone-2.jpg" alt="WISHBONE 2" loading="lazy" width="150" height="150">
+                    <img src="images/wishbone-3.jpg" alt="WISHBONE 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -6093,9 +6093,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/wreath-1.jpg" alt="WREATH 1" loading="lazy" width="150" height="150">
+                    <img src="images/wreath-2.jpg" alt="WREATH 2" loading="lazy" width="150" height="150">
+                    <img src="images/wreath-3.jpg" alt="WREATH 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -6116,9 +6116,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/wreath-of-oak-leaves-1.jpg" alt="WREATH OF OAK LEAVES 1" loading="lazy" width="150" height="150">
+                    <img src="images/wreath-of-oak-leaves-2.jpg" alt="WREATH OF OAK LEAVES 2" loading="lazy" width="150" height="150">
+                    <img src="images/wreath-of-oak-leaves-3.jpg" alt="WREATH OF OAK LEAVES 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -6141,9 +6141,9 @@
                     
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/xoanon-1.jpg" alt="XOANON 1" loading="lazy" width="150" height="150">
+                    <img src="images/xoanon-2.jpg" alt="XOANON 2" loading="lazy" width="150" height="150">
+                    <img src="images/xoanon-3.jpg" alt="XOANON 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
@@ -6166,9 +6166,9 @@
                     <div class="attributes">Атрибуты : Молния, орёл, скипетр, дубовый венок, трон</div>
                 </div>
                 <div class="image-gallery">
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
-                    <div class="image-placeholder">Image à venir</div>
+                    <img src="images/zeus-1.jpg" alt="ZEUS 1" loading="lazy" width="150" height="150">
+                    <img src="images/zeus-2.jpg" alt="ZEUS 2" loading="lazy" width="150" height="150">
+                    <img src="images/zeus-3.jpg" alt="ZEUS 3" loading="lazy" width="150" height="150">
                 </div>
             </div>
 
