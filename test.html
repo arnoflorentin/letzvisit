@@ -41,6 +41,18 @@
         .image-gallery img:hover { transform: scale(1.05); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
         .image-gallery img[src*="placeholder"] { border: 2px dashed #ccc; }
         
+        /* Lightbox pour afficher les images en grand */
+        .lightbox { display: none; position: fixed; z-index: 9999; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.95); align-items: center; justify-content: center; }
+        .lightbox.active { display: flex; }
+        .lightbox img { max-width: 90%; max-height: 90%; object-fit: contain; border-radius: 8px; box-shadow: 0 0 50px rgba(255,255,255,0.2); }
+        .lightbox-close { position: absolute; top: 30px; right: 40px; color: white; font-size: 40px; font-weight: bold; cursor: pointer; background: rgba(0,0,0,0.5); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s; }
+        .lightbox-close:hover { background: rgba(255,255,255,0.2); transform: rotate(90deg); }
+        .lightbox-nav { position: absolute; top: 50%; transform: translateY(-50%); color: white; font-size: 60px; cursor: pointer; background: rgba(0,0,0,0.5); width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s; user-select: none; }
+        .lightbox-nav:hover { background: rgba(255,255,255,0.2); }
+        .lightbox-prev { left: 30px; }
+        .lightbox-next { right: 30px; }
+        .lightbox-caption { position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); color: white; background: rgba(0,0,0,0.7); padding: 15px 30px; border-radius: 30px; font-size: 1.1em; }
+        
         .letter-divider { font-size: 3em; font-weight: bold; color: #667eea; margin: 30px 0 30px 0; padding-bottom: 15px; border-bottom: 3px solid #667eea; text-align: center; letter-spacing: 5px; scroll-margin-top: 20px; }
         footer { background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 40px; }
         .scroll-to-top { position: fixed; bottom: 30px; right: 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 1000; border: none; }
@@ -6181,6 +6193,15 @@
 
     <button class="scroll-to-top" id="scrollToTop" title="Retour en haut">↑</button>
 
+    <!-- Lightbox pour afficher les images en grand -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <span class="lightbox-nav lightbox-prev" id="lightboxPrev">‹</span>
+        <span class="lightbox-nav lightbox-next" id="lightboxNext">›</span>
+        <img id="lightboxImg" src="" alt="">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
     <script>
         function searchEntries() {
             const filter = document.getElementById('searchInput').value.toLowerCase();
@@ -6225,6 +6246,87 @@
         const scrollToTopBtn = document.getElementById('scrollToTop');
         window.addEventListener('scroll', () => scrollToTopBtn.classList.toggle('visible', window.pageYOffset > 300));
         scrollToTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'auto' }));
+
+        // =============================================
+        // LIGHTBOX - Affichage des images en grand
+        // =============================================
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightboxImg');
+        const lightboxCaption = document.getElementById('lightboxCaption');
+        const lightboxClose = document.getElementById('lightboxClose');
+        const lightboxPrev = document.getElementById('lightboxPrev');
+        const lightboxNext = document.getElementById('lightboxNext');
+        
+        let currentImages = [];
+        let currentIndex = 0;
+
+        // Ouvrir le lightbox au clic sur une image
+        document.addEventListener('click', function(e) {
+            if (e.target.matches('.image-gallery img')) {
+                // Récupérer toutes les images de la galerie parent
+                const gallery = e.target.closest('.image-gallery');
+                currentImages = Array.from(gallery.querySelectorAll('img'));
+                currentIndex = currentImages.indexOf(e.target);
+                
+                showLightbox(currentIndex);
+            }
+        });
+
+        function showLightbox(index) {
+            if (currentImages[index]) {
+                lightboxImg.src = currentImages[index].src;
+                lightboxCaption.textContent = currentImages[index].alt;
+                lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden'; // Bloquer le scroll de la page
+            }
+        }
+
+        function closeLightbox() {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = ''; // Rétablir le scroll
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % currentImages.length;
+            showLightbox(currentIndex);
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+            showLightbox(currentIndex);
+        }
+
+        // Événements
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightboxNext.addEventListener('click', nextImage);
+        lightboxPrev.addEventListener('click', prevImage);
+        
+        // Fermer avec Échap
+        document.addEventListener('keydown', function(e) {
+            if (lightbox.classList.contains('active')) {
+                if (e.key === 'Escape') closeLightbox();
+                if (e.key === 'ArrowRight') nextImage();
+                if (e.key === 'ArrowLeft') prevImage();
+            }
+        });
+
+        // Fermer en cliquant sur le fond noir
+        lightbox.addEventListener('click', function(e) {
+            if (e.target === lightbox) closeLightbox();
+        });
+
+        // =============================================
+        // MASQUER LES IMAGES QUI N'EXISTENT PAS
+        // =============================================
+        document.addEventListener('DOMContentLoaded', function() {
+            // Pour chaque image dans les galeries
+            document.querySelectorAll('.image-gallery img').forEach(img => {
+                img.addEventListener('error', function() {
+                    // Si l'image ne charge pas, on la cache
+                    this.style.display = 'none';
+                });
+            });
+        });
     </script>
 </body>
 </html>
