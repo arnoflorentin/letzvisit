@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vocabulaire archéologique multilingue pour vos voyages culturels">
+    <meta name="theme-color" content="#667eea">
+    <title>Ancient Vocabulary - Guides Archéologiques</title>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Georgia', 'Times New Roman', serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container { max-width: 1200px; margin: 0 auto; }
+        
+        header { text-align: center; color: white; padding: 60px 20px 40px; }
+        header h1 { 
+            font-size: 3.5em; 
+            margin-bottom: 10px; 
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            letter-spacing: 2px;
+        }
+        header p { 
+            font-size: 1.4em; 
+            opacity: 0.95; 
+            margin-bottom: 10px;
+        }
+        header .subtitle {
+            font-size: 1.1em;
+            opacity: 0.85;
+            font-style: italic;
+        }
+        
+        .destinations-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+            gap: 30px; 
+            padding: 40px 0;
+        }
+        
+        .destination-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: all 0.4s ease;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .destination-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        
+        .destination-card.available {
+            border: 3px solid #4CAF50;
+        }
+        
+        .destination-card.coming-soon {
+            opacity: 0.75;
+            cursor: not-allowed;
+        }
+        
+        .card-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        
+        .card-image::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+        }
+        
+        .status-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+            text-transform: uppercase;
+            z-index: 10;
+        }
+        
+        .status-badge.available {
+            background: #4CAF50;
+            color: white;
+        }
+        
+        .status-badge.coming-soon {
+            background: rgba(255,255,255,0.9);
+            color: #666;
+        }
+        
+        .card-content {
+            padding: 25px;
+        }
+        
+        .card-title {
+            font-size: 2em;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .card-subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+        
+        .card-description {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .card-stats {
+            display: flex;
+            gap: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+        
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #667eea;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .install-prompt {
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 30px auto;
+            max-width: 600px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        
+        .install-prompt h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .install-button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+        
+        .install-button:hover {
+            background: #45a049;
+            transform: scale(1.05);
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            padding: 40px 20px 20px;
+            opacity: 0.9;
+        }
+        
+        footer p {
+            margin: 5px 0;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 { font-size: 2.5em; }
+            .destinations-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏛️ Ancient Vocabulary</h1>
+            <p>Vocabulaire Archéologique Multilingue</p>
+            <p class="subtitle">Athènes • Rome • Florence</p>
+        </header>
+
+        <div id="installPrompt" class="install-prompt" style="display: none;">
+            <h3>📱 Installer l'application</h3>
+            <p>Installez Ancient Vocabulary sur votre appareil pour un accès rapide et hors ligne !</p>
+            <button id="installButton" class="install-button">Installer maintenant</button>
+        </div>
+
+        <div class="destinations-grid">
+            
+            <!-- ATHÈNES - Disponible -->
+            <div class="destination-card available" onclick="window.location.href='greek_vocabulary.html'">
+                <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1555993539-1732b0258235?w=800');">
+                    <span class="status-badge available">✓ Disponible</span>
+                </div>
+                <div class="card-content">
+                    <div class="card-title">Athènes</div>
+                    <div class="card-subtitle">Grèce Antique • Ἀθῆναι</div>
+                    <div class="card-description">
+                        Vocabulaire complet pour explorer l'Acropole, l'Agora antique et les musées athéniens. 
+                        Découvrez les termes essentiels de l'architecture, la céramique et la mythologie grecques.
+                    </div>
+                    <div class="card-stats">
+                        <div class="stat">📚 263 termes</div>
+                        <div class="stat">🌍 EN/FR/RU</div>
+                        <div class="stat">📸 Images</div>
+                    </div>
+                    <a href="greek_vocabulary.html" class="cta-button">Explorer →</a>
+                </div>
+            </div>
+
+            <!-- ROME - À venir -->
+            <div class="destination-card coming-soon">
+                <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800');">
+                    <span class="status-badge coming-soon">Bientôt</span>
+                </div>
+                <div class="card-content">
+                    <div class="card-title">Rome</div>
+                    <div class="card-subtitle">Empire Romain • Roma</div>
+                    <div class="card-description">
+                        Forum Romain, Colisée, Panthéon... Vocabulaire spécialisé pour comprendre l'architecture 
+                        et l'urbanisme romains. Architecture impériale, sculptures et inscriptions.
+                    </div>
+                    <div class="card-stats">
+                        <div class="stat">📚 ~300 termes</div>
+                        <div class="stat">🌍 EN/FR/RU</div>
+                        <div class="stat">🔜 Prochainement</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FLORENCE - À venir -->
+            <div class="destination-card coming-soon">
+                <div class="card-image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1541462608143-67571c6738dd?w=800');">
+                    <span class="status-badge coming-soon">Bientôt</span>
+                </div>
+                <div class="card-content">
+                    <div class="card-title">Florence</div>
+                    <div class="card-subtitle">Renaissance & Art Étrusque • Firenze</div>
+                    <div class="card-description">
+                        De la civilisation étrusque à la Renaissance. Musée archéologique, Palazzo Vecchio, 
+                        et les trésors de l'Antiquité italienne conservés dans la capitale toscane.
+                    </div>
+                    <div class="card-stats">
+                        <div class="stat">📚 ~200 termes</div>
+                        <div class="stat">🌍 EN/FR/RU</div>
+                        <div class="stat">🔜 Prochainement</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <p><strong>Ancient Vocabulary</strong> • Guides archéologiques multilingues</p>
+            <p>Version 1.0 • 2026</p>
+            <p>📧 Contact • 🌐 GitHub</p>
+        </footer>
+    </div>
+
+    <script>
+        // PWA Installation
+        let deferredPrompt;
+        const installPrompt = document.getElementById('installPrompt');
+        const installButton = document.getElementById('installButton');
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            installPrompt.style.display = 'block';
+        });
+
+        installButton.addEventListener('click', async () => {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                const { outcome } = await deferredPrompt.userChoice;
+                console.log(`User response: ${outcome}`);
+                deferredPrompt = null;
+                installPrompt.style.display = 'none';
+            }
+        });
+
+        // Cache le prompt après installation
+        window.addEventListener('appinstalled', () => {
+            installPrompt.style.display = 'none';
+        });
+
+        // Register service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+                .then(reg => console.log('Service Worker registered'))
+                .catch(err => console.log('Service Worker registration failed'));
+        }
+    </script>
+</body>
+</html>
